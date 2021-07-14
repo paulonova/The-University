@@ -166,3 +166,14 @@
   <li></li>
   <li></li>
 </ul>
+
+## Roles and Permissions
+
+<ul>
+  <li>Install plugin Members by MemberPress</li>
+  <li>In mu-plugins folder set in every post_type this: <code>'capability_type' => 'post-type-name',</code></li>
+  <li>And <code>'map_meta_cap' => true,</code></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>

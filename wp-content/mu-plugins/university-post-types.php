@@ -5,6 +5,8 @@ function university_post_types(){
 
   /** Post type Caampus */
   register_post_type('campus', array(
+    'capability_type' => 'campus',
+    'map_meta_cap' => true,
     'supports' => array('title', 'editor', 'excerpt'),
     'rewrite' => array(
       'slug' => 'campuses'
@@ -24,6 +26,8 @@ function university_post_types(){
 
   /** Post type Event */
   register_post_type('event', array(
+    'capability_type' => 'event',
+    'map_meta_cap' => true,
     'supports' => array('title', 'editor', 'excerpt'),
     'rewrite' => array(
       'slug' => 'events'
@@ -44,6 +48,8 @@ function university_post_types(){
 
   /** Post type Program */
   register_post_type('program', array(
+    'capability_type' => 'program',
+    'map_meta_cap' => true,
     'supports' => array('title', 'editor'),
     'rewrite' => array(
       'slug' => 'programs'
@@ -64,6 +70,8 @@ function university_post_types(){
 
   /** Post type Professors */
   register_post_type('professor', array(
+    'capability_type' => 'professor',
+    'map_meta_cap' => true,
     'supports' => array('title', 'editor', 'thumbnail'),
     'show_in_rest' => true,
     'public' => true,
