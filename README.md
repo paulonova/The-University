@@ -192,3 +192,13 @@
 ### Styling the Login/Register page
 
 <p>Link: https://codex.wordpress.org/Customizing_the_Login_Form</p>
+
+## Creating a NOTE page with CRUD
+
+<ul>
+<li>Create a content-type NOTE</li>
+<li>A Javascript file thet set Listenner in Delete and Edit buttons</li>
+<li>Create in functions.php <code>'nonce' => wp_create_nonce('wp_rest')</code></li>
+<li>In source-code, get the nonce number: <code>universityData.nonce</code></li>
+<li></li>
+</ul>

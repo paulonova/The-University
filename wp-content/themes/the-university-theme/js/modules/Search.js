@@ -165,7 +165,6 @@ class Search {
   }
 
   keyPressDispatcher(e) {
-    console.log(e.keyCode);
     if (
       e.keyCode == 83 &&
       !this.isOverlayOpen &&
