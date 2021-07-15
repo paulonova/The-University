@@ -177,3 +177,18 @@
   <li></li>
   <li></li>
 </ul>
+
+### New Members Sign-upp
+
+<ul>
+  <li>Go to Settings and select Membership as "Anyone can register"</li>
+  <li>Open url: /wp-login.php/action=register OR </li>
+  <li>Set in header login button the <code>href= echo esc_url(site_url('/wp-signup.php'))</code></li>
+  <li>Set a condition to when user created or logged in, redirect to frontpage in functions.php and hide the admin-bar</li>
+  <li>Format the styling of the login page</li>
+  <li></li>
+</ul>
+
+### Styling the Login/Register page
+
+<p>Link: https://codex.wordpress.org/Customizing_the_Login_Form</p>

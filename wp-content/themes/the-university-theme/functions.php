@@ -1,5 +1,6 @@
 <?php
 // Separate file to create my own RestAPI Url
+require get_theme_file_path( './includes/logins.php' );
 require get_theme_file_path( './includes/search-rout.php' );
 require get_theme_file_path( './includes/custom-rest.php' );
 require get_theme_file_path( './includes/wp-links.php' );
@@ -79,5 +80,8 @@ add_action('pre_get_posts', 'university_adjust_queries'); ?>
   </div>
 
 <?php } ?>
+
+<?php 
+
 
 
