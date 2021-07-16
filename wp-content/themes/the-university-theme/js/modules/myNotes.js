@@ -6,6 +6,11 @@ class MyNotes {
   }
 
   /**
+   * // This lines means that whatever i click inside of '#my-note' <ul>
+   * if the class match with the class .delete-note, or one of the others,
+   * then it triggs the function this.deleteNote or the others. to work the Edit,
+   * Delete and Save button when created, without reload the page.
+   *
    * This way I can create notes in real time and activate the
    * Edit, Cancel and Delete button in real time.
    * $(".delete-note").on("click", this.deleteNote); will need to reload the page
@@ -37,7 +42,7 @@ class MyNotes {
         $(".new-note-title, .new-note-body").val("");
         $(`
           <li data-id="${response.id}"> <!-- Makes the ID lives in html -->
-            <a href="${response.link}"><input readonly class="note-title-field" value="${response.title.raw}"></a>
+            <input readonly class="note-title-field" value="${response.title.raw}">
             <span class="edit-note"><i class="fa fa-pencil" aria-hidden="true"></i> Edit</span>
             <span class="delete-note"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</span>
             <textarea readonly class="note-body-field">${response.content.raw}</textarea>

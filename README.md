@@ -163,8 +163,9 @@
 <ul>
   <li>esc_html() https://developer.wordpress.org/reference/functions/esc_html/</li>
   <li>esc_url()  https://developer.wordpress.org/reference/functions/esc_url/ </li>
-  <li></li>
-  <li></li>
+  <li>esc_attr()</li>
+  <li>esc_texarea()</li>
+  <li>More...</li>
 </ul>
 
 ## Roles and Permissions
