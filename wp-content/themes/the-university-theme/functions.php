@@ -5,6 +5,7 @@ require get_theme_file_path( './includes/search-rout.php' );
 require get_theme_file_path( './includes/custom-rest.php' );
 require get_theme_file_path( './includes/wp-links.php' );
 require get_theme_file_path( './includes/map-key.php' );
+require get_theme_file_path( './includes/like-route.php' );
 
 
 function university_features(){

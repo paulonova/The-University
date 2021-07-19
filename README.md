@@ -174,9 +174,6 @@
   <li>Install plugin Members by MemberPress</li>
   <li>In mu-plugins folder set in every post_type this: <code>'capability_type' => 'post-type-name',</code></li>
   <li>And <code>'map_meta_cap' => true,</code></li>
-  <li></li>
-  <li></li>
-  <li></li>
 </ul>
 
 ### New Members Sign-upp
@@ -187,7 +184,6 @@
   <li>Set in header login button the <code>href= echo esc_url(site_url('/wp-signup.php'))</code></li>
   <li>Set a condition to when user created or logged in, redirect to frontpage in functions.php and hide the admin-bar</li>
   <li>Format the styling of the login page</li>
-  <li></li>
 </ul>
 
 ### Styling the Login/Register page
@@ -201,5 +197,17 @@
 <li>A Javascript file thet set Listenner in Delete and Edit buttons</li>
 <li>Create in functions.php <code>'nonce' => wp_create_nonce('wp_rest')</code></li>
 <li>In source-code, get the nonce number: <code>universityData.nonce</code></li>
-<li></li>
 </ul>
+
+## Create LIKE to Professors
+
+<ul>
+<li>Create a new Post-type LIKE</li>
+<li>Every time some one click to LIKE, it will <strong>create</strong> a post in Likes</li>
+<li>Tu unLike the post, I need to click again and <strong>delete</strong> the post in Likes</li>
+<li>Create a Custom Field to retreave the professor Id</li>
+<li>Create a like.js and instantiate in scripts.js</li>
+<li>Create there functions to handle the like.</li>
+</ul>
+
+### Create My API ENDPOINT

@@ -1,6 +1,7 @@
 <?php 
 
 /**args
+ * **** Creating my own API Endpoint *****
  * 1- the name space: (wp is a wordpress core) I will use the 'university/v1' to be my core in version one.
  * 2- the rout: is the last name in url, ex: post, page, professor etc. (I will use 'search')
  * 3- Array  (WP_REST_SERVER::READABLE === GET)
