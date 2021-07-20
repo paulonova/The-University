@@ -12,7 +12,7 @@ import Like from "./modules/like";
 const mobileMenu = new MobileMenu();
 const heroSlider = new HeroSlider();
 const googleMap = new GoogleMap();
-const search = new Search();
+const search = new Search(); 
 const notes = new Notes();
 const like = new Like();
 

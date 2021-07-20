@@ -80,36 +80,59 @@
       </div>
     </div>
 
+    <?php
+    //Variables to Slide
+    $slideTitle1 = get_field('slide_title_1');
+    $slideTitle2 = get_field('slide_title_2');
+    $slideTitle3 = get_field('slide_title_3');
+
+    $slideSubtitle1 = get_field('slide_subtitle_1');
+    $slideSubtitle2 = get_field('slide_subtitle_2');
+    $slideSubtitle3 = get_field('slide_subtitle_3');
+
+    $slideLink1 = get_field('slide_link_1');
+    $slideLink2 = get_field('slide_link_2');
+    $slideLink3 = get_field('slide_link_3');
+
+    $slideImage1 = get_field('slide_image_1');
+    $slideImage2= get_field('slide_image_2');
+    $slideImage3 = get_field('slide_image_3');    
+    ?>
+
     <div class="hero-slider">
       <div data-glide-el="track" class="glide__track">
-        <div class="glide__slides">
-          <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bus.jpg');?>);">
+        <div class="glide__slides">      
+
+          <div class="hero-slider__slide" style="background-image: url(<?php echo esc_url($slideImage1['url']);?>);">
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">
-                <h2 class="headline headline--medium t-center">Free Transportation</h2>
-                <p class="t-center">All students have free unlimited bus fare.</p>
-                <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
+                <h2 class="headline headline--medium t-center"><?php echo sanitize_text_field($slideTitle1)?></h2>
+                <p class="t-center"><?php echo sanitize_text_field($slideSubtitle1)?></p>
+                <p class="t-center no-margin"><a href="<?php echo esc_url($slideLink1['url']) ?>" class="btn btn--blue">Learn more</a></p>
               </div>
             </div>
           </div>
-          <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/apples.jpg');?>);">
+
+          <div class="hero-slider__slide" style="background-image: url(<?php echo esc_url($slideImage2['url']);?>);">
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">
-                <h2 class="headline headline--medium t-center">Fruits every Day</h2>
-                <p class="t-center">Our dentistry program recommends eating apples.</p>
-                <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
+                <h2 class="headline headline--medium t-center"><?php echo sanitize_text_field($slideTitle2)?></h2>
+                <p class="t-center"><?php echo sanitize_text_field($slideSubtitle2)?></p>
+                <p class="t-center no-margin"><a href="<?php echo esc_url($slideLink2['url']) ?>" class="btn btn--blue">Learn more</a></p>
               </div>
             </div>
           </div>
-          <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bread.jpg');?>);">
+
+          <div class="hero-slider__slide" style="background-image: url(<?php echo esc_url($slideImage3['url']);?>);">
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">
-                <h2 class="headline headline--medium t-center">Free Food</h2>
-                <p class="t-center">Fictional University offers lunch plans for those in need.</p>
-                <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
+                <h2 class="headline headline--medium t-center"><?php echo sanitize_text_field($slideTitle3)?></h2>
+                <p class="t-center"><?php echo sanitize_text_field($slideSubtitle3)?></p>
+                <p class="t-center no-margin"><a href="<?php echo esc_url($slideLink3['url']) ?>" class="btn btn--blue">Learn more</a></p>
               </div>
             </div>
           </div>
+
         </div>
         <div class="slider__bullets glide__bullets" data-glide-el="controls[nav]"></div>
       </div>
