@@ -11,7 +11,7 @@ import Like from "./modules/like";
 // Instantiate a new object using our modules/classes
 const mobileMenu = new MobileMenu();
 const heroSlider = new HeroSlider();
-const googleMap = new GoogleMap();
+const googleMap = new GoogleMap(); 
 const search = new Search(); 
 const notes = new Notes();
 const like = new Like();
