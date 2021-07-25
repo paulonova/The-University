@@ -1,6 +1,6 @@
 # T.H.E University
 
-<h2>in theme folder, open terminal and write:  "npm run dev" or "npm run devFast" </h2>
+<h3>in theme folder, open terminal and write:  <code>npm run dev</code> or <code>npm run devFast</code> </h3>
 
 ## Automation Workflow
 
