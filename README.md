@@ -210,4 +210,23 @@
 <li>Create there functions to handle the like.</li>
 </ul>
 
-### Create My API ENDPOINT
+## CREATE BLOCK ELEMENT IN JS/REACT
+
+### Install: Inside of the plugin folder.
+<code>npm init -y</code>
+<code>npm install @wordpress/scripts --save-dev</code>
+<br>
+<a href="https://developer.wordpress.org/block-editor/reference-guides/packages/packages-element/">Block Editor Handbook</a>
+<br>
+<a href="https://www.npmjs.com/package/@wordpress/scripts">@wordpress/scripts</a>
+<br>
+
+<ul>
+  <li>Create a folder named src and inside a file named index.js</li>
+  <li>In package.json, write inside the scripts: "build": "wp-scripts build",
+    "start": "wp-scripts start" (start will watch all changings.. npm run start)</li>
+  <li></li>
+  <li></li>
+</ul>
+
+

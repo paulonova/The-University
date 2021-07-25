@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-06 08:06:58+0000\n"
+"PO-Revision-Date: 2021-07-20 22:08:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,22 +11,117 @@ msgstr ""
 "Language: sv_SE\n"
 "Project-Id-Version: Plugins - Yoast SEO - Stable (latest release)\n"
 
-#: languages/wordpress-seojs.php:221 js/dist/block-editor-1661.js:63
-#: js/dist/classic-editor-1661.js:63 js/dist/elementor-1661.js:63
+#: src/schema-templates/recipe-instructions.block.php:15
+msgid "Enter step"
+msgstr "Ange steg"
+
+#: src/schema-templates/recipe-instructions.block.php:14
+msgid "Instructions"
+msgstr "Instruktioner"
+
+#: src/schema-templates/recipe-instructions.block.php:14
+msgid "Instructions title"
+msgstr "Instruktionsrubrik"
+
+#: src/schema-templates/recipe-instructions.block.php:12
+msgid "Recipe instructions"
+msgstr "Receptinstruktioner"
+
+#: src/schema-templates/recipe-ingredients.block.php:14
+msgid "Enter an ingredient"
+msgstr "Ange en ingrediens"
+
+#: src/schema-templates/recipe-ingredients.block.php:13
+msgid "Ingredients"
+msgstr "Ingredienser"
+
+#: src/schema-templates/recipe-ingredients.block.php:13
+msgid "Ingredients title"
+msgstr "Ingrediensrubrik"
+
+#: src/schema-templates/recipe-ingredients.block.php:11
+msgid "The ingredients used in the recipe, e.g. sugar, flour or garlic."
+msgstr "Ingredienserna som används i receptet, t.ex. socker, mjöl eller vitlök."
+
+#: src/schema-templates/recipe-ingredients.block.php:11
+msgid "Recipe ingredient(s)"
+msgstr "Receptingrediens(er)"
+
+#. translators: %s: Zapier.
+#. translators: %s: Algolia.
+#: admin/views/class-yoast-integration-toggles.php:103
+#: admin/views/class-yoast-integration-toggles.php:115
+msgid "Find out more about our %s integration."
+msgstr "Ta reda på mer om vår %s-integration."
+
+#: admin/views/class-yoast-feature-toggles.php:120
+msgid "Read more about how internal linking can improve your site structure."
+msgstr "Läs mer om hur intern länkning kan förbättra din webbplatsstruktur."
+
+#: admin/views/class-yoast-feature-toggles.php:116
+msgid "Link suggestions"
+msgstr "Länkförslag"
+
+#: admin/views/class-yoast-feature-toggles.php:110
+msgid "Find out how Insights can help you improve your content."
+msgstr "Ta reda på hur insikter kan hjälpa dig att förbättra ditt innehåll."
+
+#: admin/views/class-yoast-feature-toggles.php:109
+msgid "Find relevant data about your content right in the Insights section in the Yoast SEO metabox. You’ll see what words you use most often and if they’re a match with your keywords! "
+msgstr "Hitta relevant data om ditt innehåll direkt i sektionen för insikter i Yoast SEO-metarutan. Du ser vilka ord du använder oftast och om de matchar med dina nyckelord!"
+
+#: admin/views/class-yoast-feature-toggles.php:106
+msgid "Insights"
+msgstr "Insikter"
+
+#: languages/wordpress-seojs.php:221 js/dist/block-editor-1670.js:63
+#: js/dist/classic-editor-1670.js:63 js/dist/elementor-1670.js:63
 msgid "Read more about Schema."
 msgstr "Läs mer om Schema."
 
-#: languages/wordpress-seojs.php:140 js/dist/indexation-1661.js:1
+#. Translators: %1$s expands to an opening anchor tag for a link leading to the
+#. Premium installation page, %2$s expands to a closing anchor tag.
+#: languages/wordpress-seojs.php:143
+#: src/presenters/admin/indexing-failed-notification-presenter.php:78
+#: js/dist/indexation-1670.js:1
+msgid "Oops, something has gone wrong and we couldn't complete the optimization of your SEO data. Please make sure to activate your subscription in MyYoast by completing %1$sthese steps%2$s."
+msgstr "Hoppsan, något har gått fel och vi kunde inte slutföra optimeringen av dina SEO-data. Se till att aktivera din prenumeration i MyYoast genom att slutföra %1$sdessa steg%2$s."
+
+#: languages/wordpress-seojs.php:140 js/dist/indexation-1670.js:1
 msgid " If the problem persists, please contact support."
 msgstr " Om detta problem kvarstår, kontakta supporten."
+
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/views/class-view-utils.php:136
+msgid "The social appearance settings for taxonomies require Open Graph metadata (which is currently disabled). You can enable this in the %1$s‘Social’ settings under the ‘Facebook’ tab%2$s."
+msgstr "Inställningarna för socialt utseende för taxonomier kräver Open Graph-metadata (som för närvarande är inaktiverat). Du kan aktivera detta i %1$sinställningarna för ’Social’ under fliken ‘Facebook’%2$s."
+
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/views/class-view-utils.php:124
+msgid "The social appearance settings for content types require Open Graph metadata (which is currently disabled). You can enable this in the %1$s‘Social’ settings under the ‘Facebook’ tab%2$s."
+msgstr "Inställningarna för socialt utseende för innehållstyper kräver Open Graph-metadata (som för närvarande är inaktiverat). Du kan aktivera detta i %1$sinställningarna för ’Social’ under fliken ‘Facebook’%2$s."
+
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/views/class-view-utils.php:108
+msgid "The social appearance settings for your homepage require Open Graph metadata (which is currently disabled). You can enable this in the %1$s‘Social’ settings under the ‘Facebook’ tab%2$s."
+msgstr "Inställningarna för socialt utseende för din startsida kräver Open Graph-metadata (som för närvarande är inaktiverat). Du kan aktivera detta i %1$sinställningarna för ’Social’ under fliken ‘Facebook’%2$s."
 
 #: admin/views/tabs/social/facebook.php:48
 msgid "Default image"
 msgstr "Standardbild"
 
+#. translators: 1: link open tag; 2: link close tag.
+#: admin/views/tabs/social/facebook.php:33
+msgid "The social homepage settings have been moved to the %1$s‘Search appearance’ settings under the ‘General’ tab%2$s."
+msgstr "Inställningarna för den sociala startsidan har flyttats till %1$sinställningarna för ‘Sök-utseende’ under fliken ‘Allmänt’%2$s."
+
 #: admin/views/tabs/metas/general.php:15
 msgid "Rewrite titles"
 msgstr "Skriv om rubriker"
+
+#: admin/views/tabs/metas/paper-content/front-page-content.php:31
+msgid "These are the image, title and description used when a link to your homepage is shared on social media."
+msgstr "Detta är bilden, rubriken och beskrivningen som används när en länk till din startsida delas på sociala medier."
 
 #. translators: %s is the plural version of the post type's name.
 #: admin/views/tabs/metas/paper-content/post-type-content.php:40
@@ -44,7 +139,7 @@ msgstr "Receptets tillagningstid"
 
 #: src/schema-templates/cooking-time.block.php:11
 #: src/schema-templates/cooking-time.block.php:13
-#: js/dist/externals/schemaBlocks-1661.js:13
+#: js/dist/externals/schemaBlocks-1670.js:13
 msgid "Cooking time"
 msgstr "Tillagningstid"
 
@@ -84,7 +179,7 @@ msgstr "Beskrivning för sociala nätverk"
 msgid "Social title"
 msgstr "Social rubrik"
 
-#: languages/wordpress-seojs.php:592 js/dist/settings-1661.js:6
+#: languages/wordpress-seojs.php:592 js/dist/settings-1670.js:6
 msgid "Social image"
 msgstr "Social bild"
 
@@ -132,56 +227,56 @@ msgid "Installing and activating addons"
 msgstr "Installerar och aktiverar utökningar"
 
 #. translators: %s expands to Yoast
-#: languages/wordpress-seojs.php:39 js/dist/addon-installation-1661.js:3
+#: languages/wordpress-seojs.php:39 js/dist/addon-installation-1670.js:3
 msgid "the following addons"
 msgstr "följande utökningar"
 
 #. translators: %s expands to Yoast
-#: languages/wordpress-seojs.php:36 js/dist/addon-installation-1661.js:3
+#: languages/wordpress-seojs.php:36 js/dist/addon-installation-1670.js:3
 msgid "%s SEO installation"
 msgstr "%s SEO-installation"
 
-#: languages/wordpress-seojs.php:32 js/dist/addon-installation-1661.js:5
+#: languages/wordpress-seojs.php:32 js/dist/addon-installation-1670.js:5
 msgid "Install and activate"
 msgstr "Installera och aktivera"
 
 #. translators: %s expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:26 js/dist/addon-installation-1661.js:5
+#: languages/wordpress-seojs.php:26 js/dist/addon-installation-1670.js:5
 msgid "Please confirm below that you would like to install %s on this site."
 msgstr "Bekräfta nedan att du vill installera %s på denna webbplats."
 
 #: languages/yoast-components.php:225
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "Shopping data preview:"
 msgstr "Förhandsgranskning av shoppingdata:"
 
 #: languages/yoast-components.php:216
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "Availability"
 msgstr "Tillgänglighet"
 
 #: languages/yoast-components.php:213
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "Price"
 msgstr "Pris"
 
 #. Translators: %s expands to the actual rating, e.g. 8/10.
 #: languages/yoast-components.php:210
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "Rating"
 msgstr "Betyg"
 
 #: languages/yoast-components.php:207
-#: js/dist/externals/searchMetadataPreviews-1661.js:1
+#: js/dist/externals/searchMetadataPreviews-1670.js:1
 msgid "%s reviews"
 msgstr "%s recensioner"
 
 #: languages/yoast-components.php:203
-#: js/dist/externals/searchMetadataPreviews-1661.js:1
+#: js/dist/externals/searchMetadataPreviews-1670.js:1
 msgid "Rating: %s"
 msgstr "Betyg: %s"
 
-#: languages/wordpress-seojs.php:595 js/dist/settings-1661.js:6
+#: languages/wordpress-seojs.php:595 js/dist/settings-1670.js:6
 msgid "Image"
 msgstr "Bild"
 
@@ -205,6 +300,12 @@ msgstr "%1$s-recept"
 #: src/schema-templates/recipe-name.block.php:10
 msgid "Enter a recipe name"
 msgstr "Ange ett receptnamn"
+
+#. Translators: %1$s expands to 'Yoast SEO', %2$s to an opening anchor tag for
+#. a link leading to the Plugins page, and %3$s to a closing anchor tag.
+#: src/presenters/admin/auto-update-notification-presenter.php:34
+msgid "We see that you enabled automatic updates for WordPress. We recommend that you do this for %1$s as well. This way we can guarantee that WordPress and %1$s will continue to run smoothly together. Please contact your network admin to enable auto-updates for %1$s."
+msgstr "Vi ser att du aktiverade automatiska uppdateringar för WordPress. Vi rekommenderar att du gör det för %1$s också. På detta sätt kan vi garantera att WordPress och %1$s fortsätter att fungera smidigt tillsammans. Kontakt din nätverksadminitratör för att aktivera automatiska uppdateringar för %1$s."
 
 #. translators: %s expands to Yoast SEO Premium.
 #: admin/class-admin.php:241
@@ -230,33 +331,39 @@ msgstr "Vi ser att du aktiverade automatiska uppdateringar för WordPress. Vi re
 #: languages/yoast-components.php:96
 #: src/presenters/admin/badge-presenter.php:80
 #: src/presenters/admin/badge-presenter.php:87
-#: js/dist/externals/componentsNew-1661.js:1
+#: js/dist/externals/componentsNew-1670.js:1
 msgid "New"
 msgstr "Nytt"
 
-#: languages/wordpress-seojs.php:561 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:561 js/dist/block-editor-1670.js:83
 msgid "Schema analysis:"
 msgstr "Schema-analys:"
 
-#: languages/yoast-components.php:93 js/dist/externals/componentsNew-1661.js:3
+#: languages/yoast-components.php:93 js/dist/externals/componentsNew-1670.js:3
 msgid "seconds"
 msgstr "sekunder"
 
-#: languages/yoast-components.php:84 js/dist/externals/componentsNew-1661.js:3
+#: languages/yoast-components.php:84 js/dist/externals/componentsNew-1670.js:3
 msgid "Remove image"
 msgstr "Ta bort bild"
 
-#: languages/yoast-components.php:81 js/dist/externals/componentsNew-1661.js:3
+#: languages/yoast-components.php:81 js/dist/externals/componentsNew-1670.js:3
 msgid "Select image"
 msgstr "Välj bild"
 
-#: languages/yoast-components.php:78 js/dist/externals/componentsNew-1661.js:3
+#: languages/yoast-components.php:78 js/dist/externals/componentsNew-1670.js:3
 msgid "Replace image"
 msgstr "Ersätt bild"
 
 #: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:114
 msgid "Enable Breadcrumbs for your theme"
 msgstr "Aktivera synliga sökvägar för ditt tema"
+
+#. translators: %1$s / %2$s: links to the breadcrumbs implementation page on
+#. the Yoast knowledgebase
+#: admin/views/tabs/metas/paper-content/breadcrumbs-content.php:111
+msgid "Note: You can always choose to enable / disable them for your theme below. This setting will not apply to breadcrumbs inserted through a widget, a block or a shortcode."
+msgstr "Obs: Du kan alltid välja att aktivera/inaktivera dem för ditt tema nedan. Denna inställning kommer inte tillämpas på synliga sökvägar infogade via en widget, ett block eller en kortkod."
 
 #. translators: %1$s expands to 'Yoast'.
 #: inc/health-check-curl-version.php:76
@@ -268,27 +375,27 @@ msgstr "Uppdateringar för %1$s premiumtillägg fungerar fint"
 msgid "%1$s premium plugins cannot update"
 msgstr "%1$s premiumtillägg kan inte uppdateras"
 
-#: languages/wordpress-seojs.php:546 js/dist/dynamic-blocks-1661.js:1
+#: languages/wordpress-seojs.php:546 js/dist/dynamic-blocks-1670.js:1
 msgid "site structure"
 msgstr "webbplatsstruktur"
 
-#: languages/wordpress-seojs.php:543 js/dist/dynamic-blocks-1661.js:1
+#: languages/wordpress-seojs.php:543 js/dist/dynamic-blocks-1670.js:1
 msgid "internal linking"
 msgstr "intern länkning"
 
-#: languages/wordpress-seojs.php:540 js/dist/dynamic-blocks-1661.js:1
+#: languages/wordpress-seojs.php:540 js/dist/dynamic-blocks-1670.js:1
 msgid "breadcrumbs"
 msgstr "synliga sökvägar"
 
-#: languages/wordpress-seojs.php:537 js/dist/dynamic-blocks-1661.js:1
+#: languages/wordpress-seojs.php:537 js/dist/dynamic-blocks-1670.js:1
 msgid "seo"
 msgstr "seo"
 
-#: languages/wordpress-seojs.php:534 js/dist/dynamic-blocks-1661.js:1
+#: languages/wordpress-seojs.php:534 js/dist/dynamic-blocks-1670.js:1
 msgid "Adds the Yoast SEO breadcrumbs to your template or content."
 msgstr "Lägger till synlig sökväg från Yoast SEO i din mall eller ditt innehåll."
 
-#: languages/wordpress-seojs.php:531 js/dist/dynamic-blocks-1661.js:1
+#: languages/wordpress-seojs.php:531 js/dist/dynamic-blocks-1670.js:1
 msgid "Yoast Breadcrumbs"
 msgstr "Synliga sökvägar från Yoast SEO"
 
@@ -319,27 +426,27 @@ msgstr "Vi märker att du har installerat WPML. För att se till att dina kanoni
 msgid "Because of a change in your category base setting, some of your SEO data needs to be reprocessed."
 msgstr "Eftersom dina basinställningar ändrats för kategorier behöver vissa av dina SEO-uppgifter bearbetas på nytt."
 
-#: languages/wordpress-seojs.php:555 js/dist/elementor-1661.js:83
+#: languages/wordpress-seojs.php:555 js/dist/elementor-1670.js:83
 msgid "Got it"
 msgstr "Jag förstår"
 
-#: languages/wordpress-seojs.php:552 js/dist/elementor-1661.js:83
+#: languages/wordpress-seojs.php:552 js/dist/elementor-1670.js:83
 msgid "Get started with Yoast SEO's content analysis for Elementor!"
 msgstr "Kom igång med innehållsanalys för Elementor av Yoast SEO!"
 
-#: languages/wordpress-seojs.php:549 js/dist/elementor-1661.js:83
+#: languages/wordpress-seojs.php:549 js/dist/elementor-1670.js:83
 msgid "New: Yoast SEO for Elementor"
 msgstr "Nytt: Yoast SEO för Elementor"
 
-#: admin/views/class-yoast-feature-toggles.php:160
+#: admin/views/class-yoast-feature-toggles.php:180
 msgid "Find out how a rich snippet can improve visibility and click-through-rate."
 msgstr "Ta reda på hur en rik förhandsvisningstext kan förbättra synlighet och klickfrekvens."
 
-#: admin/views/class-yoast-feature-toggles.php:159
+#: admin/views/class-yoast-feature-toggles.php:179
 msgid "This adds an author byline and reading time estimate to the article’s snippet when shared on Slack."
 msgstr "Detta lägger till en ”byline” för författaren och beräknad lästid i artikelns förhandsvisningstext vid delning på Slack."
 
-#: admin/views/class-yoast-feature-toggles.php:157
+#: admin/views/class-yoast-feature-toggles.php:177
 msgid "Enhanced Slack sharing"
 msgstr "Förbättrad Slack-delning"
 
@@ -349,18 +456,18 @@ msgid "Wait for a week or so, until %1$s automatically processes most of your co
 msgstr "Vänta i cirka en vecka tills %1$s automatiskt kommer att ha bearbetat det mesta av ditt innehåll i bakgrunden."
 
 #. translators: %s expands to the reading time number, in minutes
-#: src/presenters/slack/enhanced-data-presenter.php:46
+#: src/presenters/slack/enhanced-data-presenter.php:53
 msgid "%s minute"
 msgid_plural "%s minutes"
 msgstr[0] "%s minut"
 msgstr[1] "%s minuter"
 
 #. translators: %s expands to the reading time number, in minutes
-#: src/presenters/slack/enhanced-data-presenter.php:46
+#: src/presenters/slack/enhanced-data-presenter.php:53
 msgid "Est. reading time"
 msgstr "Beräknad lästid"
 
-#: src/presenters/slack/enhanced-data-presenter.php:41
+#: src/presenters/slack/enhanced-data-presenter.php:48
 msgid "Written by"
 msgstr "Skriven av"
 
@@ -378,7 +485,7 @@ msgid "The %s integration offers suggestions and insights for keywords related t
 msgstr "Integrationen med %s erbjuder förslag och insikter för nyckelord som är relaterade till den angivna fokusnyckelordsfrasen."
 
 #. translators: %1$s expands to Yoast SEO
-#: admin/views/tabs/dashboard/integrations.php:24
+#: admin/views/tabs/dashboard/integrations.php:26
 msgid "%1$s can integrate with third parties products. You can enable or disable these integrations below."
 msgstr "%1$s kan integreras med tredjepartsprodukter. Du kan aktivera eller inaktivera dessa integrationer nedan."
 
@@ -386,216 +493,234 @@ msgstr "%1$s kan integreras med tredjepartsprodukter. Du kan aktivera eller inak
 msgid "Activate your subscription"
 msgstr "Aktivera din prenumeration"
 
-#: languages/wordpress-seojs.php:125 js/dist/indexation-1661.js:1
+#: languages/wordpress-seojs.php:125 js/dist/indexation-1670.js:1
 msgid "Stop SEO data optimization"
 msgstr "Stoppa SEO-dataoptimering"
 
-#: languages/wordpress-seojs.php:137 js/dist/indexation-1661.js:1
+#: languages/wordpress-seojs.php:137 js/dist/indexation-1670.js:1
 msgid "Oops, something has gone wrong and we couldn't complete the optimization of your SEO data. Please click the button again to re-start the process."
 msgstr "Hoppsan, något har gått fel och vi kunde inte slutföra optimeringen av dina SEO-data. Klicka på knappen igen för att starta om processen."
 
-#: languages/wordpress-seojs.php:134 js/dist/indexation-1661.js:1
+#: languages/wordpress-seojs.php:134 js/dist/indexation-1670.js:1
 msgid "Optimizing SEO data... This may take a while."
 msgstr "Optimerar SEO-data … Detta kan ta en stund."
 
 #. Translators: %1$s expands to an opening anchor tag for a link leading to the
 #. Premium installation page,
-#: languages/wordpress-seojs.php:146 js/dist/indexation-1661.js:2
+#: languages/wordpress-seojs.php:146 js/dist/indexation-1670.js:2
 msgid "SEO data optimization complete"
 msgstr "SEO-dataoptimering klar"
 
-#: languages/wordpress-seojs.php:131 js/dist/indexation-1661.js:1
+#: languages/wordpress-seojs.php:131 js/dist/indexation-1670.js:1
 msgid "SEO data optimization is disabled for non-production environments."
 msgstr "SEO-dataoptimering är inaktiverat för alla miljöer som inte är produktionsmiljöer."
 
+#: languages/wordpress-seojs.php:122 js/dist/indexation-1670.js:1
+msgid "This feature includes and replaces the Text Link Counter and Internal Linking Analysis"
+msgstr "Denna funktion inkluderar och ersätter textlänkräknare och intern länkanalys"
+
 #. translators: %s: Expands to "Yoast SEO Premium".
-#: languages/wordpress-seojs.php:467 js/dist/block-editor-1661.js:25
-#: js/dist/classic-editor-1661.js:25 js/dist/editor-modules-1661.js:13
-#: js/dist/elementor-1661.js:25
+#: languages/wordpress-seojs.php:467 js/dist/block-editor-1670.js:25
+#: js/dist/classic-editor-1670.js:25 js/dist/editor-modules-1670.js:13
+#: js/dist/elementor-1670.js:25
 msgid "Check out %s!"
 msgstr "Kolla in %s!"
 
+#. translators: %s: Expands to "Yoast SEO".
+#: languages/wordpress-seojs.php:463 js/dist/block-editor-1670.js:23
+#: js/dist/classic-editor-1670.js:23 js/dist/editor-modules-1670.js:11
+#: js/dist/elementor-1670.js:23
+msgid "Would you like to be able to add these related keyphrases to the %s analysis so you can optimize your content even further?"
+msgstr "Vill du kunna lägga till dessa relaterade nyckelorsfraser i %s-analysen så att du kan optimera ditt innehåll ytterligare?"
+
 #. translators: %s: Expands to "Yoast SEO Premium".
-#: languages/wordpress-seojs.php:459 js/dist/block-editor-1661.js:25
-#: js/dist/classic-editor-1661.js:25 js/dist/editor-modules-1661.js:13
-#: js/dist/elementor-1661.js:25
+#: languages/wordpress-seojs.php:459 js/dist/block-editor-1670.js:25
+#: js/dist/classic-editor-1670.js:25 js/dist/editor-modules-1670.js:13
+#: js/dist/elementor-1670.js:25
 msgid "We've encountered a problem trying to get related keyphrases. Please try again later."
 msgstr "Vi stötte på ett problem med att försöka få relaterade nyckelfraser. Försök igen senare."
 
+#. translators: %s: Expands to "Yoast SEO".
+#: languages/wordpress-seojs.php:456 js/dist/block-editor-1670.js:27
+#: js/dist/classic-editor-1670.js:27 js/dist/editor-modules-1670.js:15
+#: js/dist/elementor-1670.js:27
+msgid "You've reached the maximum amount of 4 related keyphrases. You can change or remove related keyphrases in the %s metabox or sidebar."
+msgstr "Du har nått det maximala antalet på 4 relaterade nyckelordsfraser. Du kan ändra eller ta bort relaterade nyckelordsfraser i %s-metarutan eller sidopanelen."
+
 #. translators: %1$s expands to "Yoast SEO", %2$s expands to "Semrush".
-#: languages/wordpress-seojs.php:452 js/dist/block-editor-1661.js:15
-#: js/dist/classic-editor-1661.js:15 js/dist/editor-modules-1661.js:3
-#: js/dist/elementor-1661.js:15
+#: languages/wordpress-seojs.php:452 js/dist/block-editor-1670.js:15
+#: js/dist/classic-editor-1670.js:15 js/dist/editor-modules-1670.js:3
+#: js/dist/elementor-1670.js:15
 msgid "Please wait while %1$s connects to %2$s to get related keyphrases..."
 msgstr "Vänta medan %1$s ansluter till %2$s för att hämta relaterade nyckelordsfraser …"
 
 #. translators: %s : Expands to "Semrush".
-#: languages/wordpress-seojs.php:448 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:448 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Upgrade your %s plan"
 msgstr "Uppgradera ditt %s-paket"
 
 #. translators: %s : Expands to "Semrush".
-#: languages/wordpress-seojs.php:444 js/dist/block-editor-1661.js:17
-#: js/dist/classic-editor-1661.js:17 js/dist/editor-modules-1661.js:5
-#: js/dist/elementor-1661.js:17
+#: languages/wordpress-seojs.php:444 js/dist/block-editor-1670.js:17
+#: js/dist/classic-editor-1670.js:17 js/dist/editor-modules-1670.js:5
+#: js/dist/elementor-1670.js:17
 msgid "You've reached your request limit for today. Check back tomorrow or upgrade your plan over at %s."
 msgstr "Du ha nått din gräns för förfrågningar idag. Återkom imorgon eller uppgradera ditt paket på %s."
 
-#: languages/wordpress-seojs.php:440 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:440 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Last month"
 msgstr "Förra månaden"
 
-#: languages/wordpress-seojs.php:437 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:437 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Two months ago"
 msgstr "Två månader sedan"
 
-#: languages/wordpress-seojs.php:434 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:434 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Three months ago"
 msgstr "Tre månader sedan"
 
-#: languages/wordpress-seojs.php:431 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:431 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Four months ago"
 msgstr "Fyra månader sedan"
 
-#: languages/wordpress-seojs.php:428 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:428 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Five months ago"
 msgstr "Fem månader sedan"
 
-#: languages/wordpress-seojs.php:425 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:425 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Six months ago"
 msgstr "Sex månader sedan"
 
-#: languages/wordpress-seojs.php:422 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:422 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Seven months ago"
 msgstr "Sju månader sedan"
 
-#: languages/wordpress-seojs.php:419 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:419 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Eight months ago"
 msgstr "Åtta månader sedan"
 
-#: languages/wordpress-seojs.php:416 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:416 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Nine months ago"
 msgstr "Nio månader sedan"
 
-#: languages/wordpress-seojs.php:413 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:413 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Ten months ago"
 msgstr "Tio månader sedan"
 
-#: languages/wordpress-seojs.php:410 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:410 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Eleven months ago"
 msgstr "Elva månader sedan"
 
-#: languages/wordpress-seojs.php:407 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:407 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Twelve months ago"
 msgstr "Tolv månader sedan"
 
 #. translators: %s expands to Semrush
-#: languages/wordpress-seojs.php:404 js/dist/block-editor-1661.js:21
-#: js/dist/classic-editor-1661.js:21 js/dist/editor-modules-1661.js:9
-#: js/dist/elementor-1661.js:21
+#: languages/wordpress-seojs.php:404 js/dist/block-editor-1670.js:21
+#: js/dist/classic-editor-1670.js:21 js/dist/editor-modules-1670.js:9
+#: js/dist/elementor-1670.js:21
 msgid "Get more insights at %s"
 msgstr "Få mer insikter hos %s"
 
-#: languages/wordpress-seojs.php:400 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:400 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Keyphrase volume in the last 12 months on a scale from 0 to 100."
 msgstr "Nyckelordsfrasvolym under de senaste 12 månaderna på en skala från 0 till 100."
 
-#: languages/wordpress-seojs.php:397 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:397 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Learn more about the related keyphrases trend"
 msgstr "Läs mer om trenden med relaterade nyckelordsfraser"
 
-#: languages/wordpress-seojs.php:394 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:394 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Trend"
 msgstr "Trend"
 
-#: languages/wordpress-seojs.php:391 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:391 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Learn more about the related keyphrases volume"
 msgstr "Lär dig mer om relaterad nyckelordsfrasvolym"
 
-#: languages/wordpress-seojs.php:388 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:388 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Volume"
 msgstr "Volym"
 
-#: languages/wordpress-seojs.php:385 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:385 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Related keyphrase"
 msgstr "Relaterad nyckelordsfras"
 
-#: languages/wordpress-seojs.php:382 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:382 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Select country"
 msgstr "Välj land"
 
 #. translators: %s : Expands to "Semrush".
-#: languages/wordpress-seojs.php:379 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:379 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "Show results for:"
 msgstr "Visa resultat för:"
 
-#: languages/wordpress-seojs.php:274 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:274 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "Please enter a focus keyphrase first to get related keyphrases"
 msgstr "Ange en fokusnyckelfras först för att få relaterade nyckelordsfraser"
 
 #. translators: %s: Expands to "Yoast SEO".
-#: languages/wordpress-seojs.php:198 js/dist/block-editor-1661.js:27
-#: js/dist/classic-editor-1661.js:27 js/dist/editor-modules-1661.js:15
-#: js/dist/elementor-1661.js:27
+#: languages/wordpress-seojs.php:198 js/dist/block-editor-1670.js:27
+#: js/dist/classic-editor-1670.js:27 js/dist/editor-modules-1670.js:15
+#: js/dist/elementor-1670.js:27
 msgid "Sorry, there's no data available for that keyphrase/country combination."
 msgstr "Inga data finns tillgängliga för den kombinationen av nyckelordsfras och land."
 
-#: languages/wordpress-seojs.php:192 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:192 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "Get related keyphrases"
 msgstr "Hämta relaterade nyckelordsfraser"
 
-#: languages/wordpress-seojs.php:189 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:189 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "Related keyphrases"
 msgstr "Relaterade nyckelordsfraser"
 
-#: languages/wordpress-seojs.php:107 js/dist/block-editor-1661.js:19
-#: js/dist/classic-editor-1661.js:19 js/dist/editor-modules-1661.js:7
-#: js/dist/elementor-1661.js:19
+#: languages/wordpress-seojs.php:107 js/dist/block-editor-1670.js:19
+#: js/dist/classic-editor-1670.js:19 js/dist/editor-modules-1670.js:7
+#: js/dist/elementor-1670.js:19
 msgid "The number of headers and header labels don't match."
 msgstr "Antalet rubriker och rubriketiketter matchar inte."
 
@@ -609,7 +734,7 @@ msgstr "Du kan snabba upp din webbplats och få insikt i din interna länkstrukt
 
 #: languages/wordpress-seojs.php:128
 #: src/presenters/admin/indexing-notification-presenter.php:59
-#: js/dist/indexation-1661.js:1
+#: js/dist/indexation-1670.js:1
 msgid "Start SEO data optimization"
 msgstr "Starta SEO-dataoptimering"
 
@@ -648,33 +773,33 @@ msgstr "Behöver du hjälp?"
 
 #. translators: %1$s: expands to an opening anchor tag, %2$s: expands to a
 #. closing anchor tag
-#: admin/views/class-yoast-feature-toggles.php:189
+#: admin/views/class-yoast-feature-toggles.php:209
 msgid "Disabling Yoast SEO's XML sitemaps will not disable WordPress' core sitemaps. In some cases, this %1$s may result in SEO errors on your site%2$s. These may be reported in Google Search Console and other tools."
 msgstr "Inaktivera XML-webbplatskartor från Yoast SEO inaktiverar inte WordPress-kärnans webbplatskartor. I vissa fall kan%1$sdetta resultera i SEO-fel på din webbplats%2$s Dessa kan rapporteras i Google Search Console och andra verktyg."
 
 #. Translators: %s expands to the social medium name, i.e. Faceboook.
-#: languages/wordpress-seojs.php:489 js/dist/block-editor-1661.js:83
-#: js/dist/elementor-1661.js:76
+#: languages/wordpress-seojs.php:489 js/dist/block-editor-1670.js:83
+#: js/dist/elementor-1670.js:76
 msgid "Twitter preview"
 msgstr "Förhandsgranskning för Twitter"
 
 #. Translators: %s expands to the social medium name, i.e. Faceboook.
-#: languages/wordpress-seojs.php:485 js/dist/block-editor-1661.js:83
-#: js/dist/elementor-1661.js:81
+#: languages/wordpress-seojs.php:485 js/dist/block-editor-1670.js:83
+#: js/dist/elementor-1670.js:81
 msgid "Facebook preview"
 msgstr "Förhandsgranskning för Facebook"
 
 #. Translators: %s translates to the Post Label in singular form
-#: languages/wordpress-seojs.php:481 js/dist/block-editor-1661.js:9
-#: js/dist/classic-editor-1661.js:9 js/dist/editor-modules-1661.js:19
-#: js/dist/elementor-1661.js:9
+#: languages/wordpress-seojs.php:481 js/dist/block-editor-1670.js:9
+#: js/dist/classic-editor-1670.js:9 js/dist/editor-modules-1670.js:19
+#: js/dist/elementor-1670.js:9
 msgid "Return to your %s"
 msgstr "Gå tillbaka till ditt %s"
 
 #. Translators: %s translates to the Post Label in singular form
-#: languages/wordpress-seojs.php:477 js/dist/block-editor-1661.js:7
-#: js/dist/classic-editor-1661.js:7 js/dist/editor-modules-1661.js:17
-#: js/dist/elementor-1661.js:7
+#: languages/wordpress-seojs.php:477 js/dist/block-editor-1670.js:7
+#: js/dist/classic-editor-1670.js:7 js/dist/editor-modules-1670.js:17
+#: js/dist/elementor-1670.js:7
 msgid "Make sure to save your %s for changes to take effect"
 msgstr "Du måste spara denna/detta %s för att ändringarna ska ske"
 
@@ -695,74 +820,74 @@ msgid "Stop losing customers to other local businesses"
 msgstr "Tappa aldrig kunder till andra lokala företag"
 
 #. translators: 1: Yoast SEO, 2: translated version of "Off"
-#: admin/views/class-yoast-feature-toggles.php:128
+#: admin/views/class-yoast-feature-toggles.php:148
 msgid "The advanced section of the %1$s meta box allows a user to remove posts from the search results or change the canonical. The settings in the schema tab allows a user to change schema meta data for a post. These are things you might not want any author to do. That's why, by default, only editors and administrators can do this. Setting to \"%2$s\" allows all users to change these settings."
 msgstr "Den avancerade sektionen av %1$s-metarutan låter en användare ta bort inlägg från sökresultat eller ändra den kanoniska adressen. Inställningarna under schemafliken låter användaren ändra uppgifter i meta-datats schema för ett inlägg. Detta är saker som du kanske inte vill att någon författare ska göra. Därför kan endast redaktörer och administratörer göra detta som standard. Om du ställer in detta till ”%2$s” kommer alla användare kunna ändra dessa inställningar."
 
-#: admin/views/class-yoast-feature-toggles.php:124
+#: admin/views/class-yoast-feature-toggles.php:144
 msgid "Security: no advanced or schema settings for authors"
 msgstr "Säkerhet: inga avancerade eller schema-inställningar för författare"
 
 #. translators: %1$s expands to the plural name of the current post type, %2$s
 #. expands to the current site wide default.
-#: languages/wordpress-seojs.php:239 js/dist/block-editor-1661.js:61
-#: js/dist/classic-editor-1661.js:61 js/dist/elementor-1661.js:61
+#: languages/wordpress-seojs.php:239 js/dist/block-editor-1670.js:61
+#: js/dist/classic-editor-1670.js:61 js/dist/elementor-1670.js:61
 msgid "Default for %1$s (%2$s)"
 msgstr "Standard för %1$s (%2$s)"
 
-#: languages/wordpress-seojs.php:524 js/dist/block-editor-1661.js:63
-#: js/dist/classic-editor-1661.js:63 js/dist/elementor-1661.js:63
+#: languages/wordpress-seojs.php:524 js/dist/block-editor-1670.js:63
+#: js/dist/classic-editor-1670.js:63 js/dist/elementor-1670.js:63
 msgid "This helps search engines understand your website and your content. You can change some of your settings for this page below."
 msgstr "Detta hjälper sökmotorer att förstå din webbplats och ditt innehåll. Du kan ändra några av dina inställningar för den här sidan nedan."
 
-#: languages/wordpress-seojs.php:521 js/dist/block-editor-1661.js:63
-#: js/dist/classic-editor-1661.js:63 js/dist/elementor-1661.js:63
+#: languages/wordpress-seojs.php:521 js/dist/block-editor-1670.js:63
+#: js/dist/classic-editor-1670.js:63 js/dist/elementor-1670.js:63
 msgid "Yoast SEO automatically describes your pages using schema.org"
 msgstr "Yoast SEO beskriver automatiskt dina sidor med schema.org"
 
-#: languages/wordpress-seojs.php:518 js/dist/settings-1661.js:6
+#: languages/wordpress-seojs.php:518 js/dist/settings-1670.js:6
 msgid "default"
 msgstr "standard"
 
-#: languages/wordpress-seojs.php:235 js/dist/block-editor-1661.js:63
-#: js/dist/classic-editor-1661.js:63 js/dist/elementor-1661.js:63
+#: languages/wordpress-seojs.php:235 js/dist/block-editor-1670.js:63
+#: js/dist/classic-editor-1670.js:63 js/dist/elementor-1670.js:63
 msgid "Article type"
 msgstr "Artikeltyp"
 
-#: languages/wordpress-seojs.php:231 js/dist/block-editor-1661.js:63
-#: js/dist/classic-editor-1661.js:63 js/dist/elementor-1661.js:63
+#: languages/wordpress-seojs.php:231 js/dist/block-editor-1670.js:63
+#: js/dist/classic-editor-1670.js:63 js/dist/elementor-1670.js:63
 msgid "Page type"
 msgstr "Sidtyp"
 
-#: languages/wordpress-seojs.php:227 js/dist/block-editor-1661.js:63
-#: js/dist/classic-editor-1661.js:63 js/dist/elementor-1661.js:63
+#: languages/wordpress-seojs.php:227 js/dist/block-editor-1670.js:63
+#: js/dist/classic-editor-1670.js:63 js/dist/elementor-1670.js:63
 msgid "Learn more about page or content types"
 msgstr "Läs mer om sidor eller innehållstyper"
 
-#: languages/wordpress-seojs.php:224 js/dist/block-editor-1661.js:63
-#: js/dist/classic-editor-1661.js:63 js/dist/elementor-1661.js:63
+#: languages/wordpress-seojs.php:224 js/dist/block-editor-1670.js:63
+#: js/dist/classic-editor-1670.js:63 js/dist/elementor-1670.js:63
 msgid "What type of page or content is this?"
 msgstr "Vilken typ av sida eller innehåll är det här?"
 
 #. translators: %1$s expands to the plural name of the current post type, %2$s
 #. and %3$s expand to a link to the Search Appearance Settings page
-#: languages/wordpress-seojs.php:246 js/dist/block-editor-1661.js:63
-#: js/dist/classic-editor-1661.js:63 js/dist/elementor-1661.js:63
+#: languages/wordpress-seojs.php:246 js/dist/block-editor-1670.js:63
+#: js/dist/classic-editor-1670.js:63 js/dist/elementor-1670.js:63
 msgid "Learn more about structured data with Schema.org"
 msgstr "Läs mer om strukturerade data med Schema.org"
 
 #. translators: %1$s expands to the plural name of the current post type, %2$s
 #. and %3$s expand to a link to the Search Appearance Settings page
-#: languages/wordpress-seojs.php:243 js/dist/block-editor-1661.js:63
-#: js/dist/classic-editor-1661.js:63 js/dist/elementor-1661.js:63
+#: languages/wordpress-seojs.php:243 js/dist/block-editor-1670.js:63
+#: js/dist/classic-editor-1670.js:63 js/dist/elementor-1670.js:63
 msgid "You can change the default type for %1$s in your %2$sSearch Appearance Settings%3$s."
 msgstr "Du kan ändra standardtypen för %1$s i dina %2$sinställningar för sökutseende%3$s."
 
 #. translators: %1$s expands to an indexable object's name, e.g. Posts or
 #. Pages.
-#: languages/wordpress-seojs.php:218 js/dist/block-editor-1661.js:5
-#: js/dist/classic-editor-1661.js:5 js/dist/elementor-1661.js:5
-#: js/dist/settings-1661.js:10
+#: languages/wordpress-seojs.php:218 js/dist/block-editor-1670.js:5
+#: js/dist/classic-editor-1670.js:5 js/dist/elementor-1670.js:5
+#: js/dist/settings-1670.js:10
 msgid "Upon saving, this setting will apply to all of your %1$s. %1$s that are manually configured will be left untouched."
 msgid_plural "Upon saving, these settings will apply to all of your %1$s. %1$s that are manually configured will be left untouched."
 msgstr[0] "När du sparar kommer denna inställning att tillämpas för %1$s. %1$s som konfigureras manuellt påverkas inte."
@@ -770,35 +895,35 @@ msgstr[1] "När du sparar kommer denna inställning att tillämpas för alla %1$
 
 #. translators: %1$s expands to an indexable object's name, e.g. Posts or
 #. Pages.
-#: languages/wordpress-seojs.php:214 js/dist/block-editor-1661.js:3
-#: js/dist/classic-editor-1661.js:3 js/dist/elementor-1661.js:3
-#: js/dist/settings-1661.js:8
+#: languages/wordpress-seojs.php:214 js/dist/block-editor-1670.js:3
+#: js/dist/classic-editor-1670.js:3 js/dist/elementor-1670.js:3
+#: js/dist/settings-1670.js:8
 msgid "Choose how your %1$s should be described by default in your site's schema.org markup. You can change these settings for individual %1$s."
 msgstr "Välj hur du vill att %1$s som standard ska beskrivas i schema.org-kodningen för din webbplats. Du kan ändra dessa inställningar för enstaka %1$s."
 
-#: languages/wordpress-seojs.php:210 js/dist/block-editor-1661.js:1
-#: js/dist/classic-editor-1661.js:1 js/dist/elementor-1661.js:1
-#: js/dist/settings-1661.js:6
+#: languages/wordpress-seojs.php:210 js/dist/block-editor-1670.js:1
+#: js/dist/classic-editor-1670.js:1 js/dist/elementor-1670.js:1
+#: js/dist/settings-1670.js:6
 msgid "Learn more about the schema settings"
 msgstr "Läs mer om schema-inställningarna"
 
-#: languages/wordpress-seojs.php:207 js/dist/block-editor-1661.js:1
-#: js/dist/classic-editor-1661.js:1 js/dist/elementor-1661.js:1
-#: js/dist/settings-1661.js:6
+#: languages/wordpress-seojs.php:207 js/dist/block-editor-1670.js:1
+#: js/dist/classic-editor-1670.js:1 js/dist/elementor-1670.js:1
+#: js/dist/settings-1670.js:6
 msgid "Schema settings"
 msgstr "Inställningar för Schema"
 
-#: languages/wordpress-seojs.php:204 js/dist/block-editor-1661.js:5
-#: js/dist/classic-editor-1661.js:5 js/dist/elementor-1661.js:5
-#: js/dist/settings-1661.js:10
+#: languages/wordpress-seojs.php:204 js/dist/block-editor-1670.js:5
+#: js/dist/classic-editor-1670.js:5 js/dist/elementor-1670.js:5
+#: js/dist/settings-1670.js:10
 msgid "Default Article type"
 msgstr "Förvald artikeltyp"
 
 #. translators: %1$s expands to an indexable object's name, e.g. Posts or
 #. Pages.
-#: languages/wordpress-seojs.php:201 js/dist/block-editor-1661.js:5
-#: js/dist/classic-editor-1661.js:5 js/dist/elementor-1661.js:5
-#: js/dist/settings-1661.js:10
+#: languages/wordpress-seojs.php:201 js/dist/block-editor-1670.js:5
+#: js/dist/classic-editor-1670.js:5 js/dist/elementor-1670.js:5
+#: js/dist/settings-1670.js:10
 msgid "Default Page type"
 msgstr "Förvald sidtyp"
 
@@ -883,12 +1008,12 @@ msgid "Web Page"
 msgstr "Webbsida"
 
 #. translators: 1: Yoast SEO
-#: admin/views/class-yoast-feature-toggles.php:140
+#: admin/views/class-yoast-feature-toggles.php:160
 msgid "Allow us to track some data about your site to improve our plugin."
 msgstr "Tillåt att vi spårar viss data om din webbplats för att förbättra vårt tillägg."
 
-#: admin/views/class-yoast-feature-toggles.php:135
-#: admin/views/class-yoast-feature-toggles.php:136
+#: admin/views/class-yoast-feature-toggles.php:155
+#: admin/views/class-yoast-feature-toggles.php:156
 msgid "Usage tracking"
 msgstr "Användningsspårning"
 
@@ -917,15 +1042,15 @@ msgstr "Nej, jag vill inte att ni spårar data från min webbplats."
 msgid "Can we collect anonymous information about your website and its usage?"
 msgstr "Kan vi samla in anonym information om din webbplats och dess användning?"
 
-#: languages/wordpress-seojs.php:676 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:676 js/dist/structured-data-blocks-1670.js:9
 msgid "Yoast How-to"
 msgstr "Yoast-handledning"
 
-#: languages/wordpress-seojs.php:645 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:645 js/dist/structured-data-blocks-1670.js:9
 msgid "Structured Data"
 msgstr "Strukturerad data"
 
-#: languages/wordpress-seojs.php:628 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:628 js/dist/structured-data-blocks-1670.js:9
 msgid "Yoast FAQ"
 msgstr "Vanliga frågor om Yoast"
 
@@ -938,25 +1063,25 @@ msgid "Because of a change in your home URL setting, some of your SEO data needs
 msgstr "På grund av en förändring i dina inställningar för startsidans URL behöver en del av dina SEO-uppgifter bearbetas på nytt."
 
 #. Translators: %s expands to the social medium name, i.e. Faceboook.
-#: languages/wordpress-seojs.php:515 js/dist/block-editor-1661.js:75
-#: js/dist/block-editor-1661.js:80 js/dist/classic-editor-1661.js:75
-#: js/dist/classic-editor-1661.js:80 js/dist/elementor-1661.js:75
-#: js/dist/elementor-1661.js:80
+#: languages/wordpress-seojs.php:515 js/dist/block-editor-1670.js:75
+#: js/dist/block-editor-1670.js:80 js/dist/classic-editor-1670.js:75
+#: js/dist/classic-editor-1670.js:80 js/dist/elementor-1670.js:75
+#: js/dist/elementor-1670.js:80
 msgid "Modify your %s description by editing it right here..."
 msgstr "Ändra din %s-beskrivning genom att redigera den här…"
 
 #. Translators: %s expands to the social medium name, i.e. Faceboook.
-#: languages/wordpress-seojs.php:508 js/dist/block-editor-1661.js:73
-#: js/dist/block-editor-1661.js:78 js/dist/classic-editor-1661.js:73
-#: js/dist/classic-editor-1661.js:78 js/dist/elementor-1661.js:73
-#: js/dist/elementor-1661.js:78
+#: languages/wordpress-seojs.php:508 js/dist/block-editor-1670.js:73
+#: js/dist/block-editor-1670.js:78 js/dist/classic-editor-1670.js:73
+#: js/dist/classic-editor-1670.js:78 js/dist/elementor-1670.js:73
+#: js/dist/elementor-1670.js:78
 msgid "Modify your %s title by editing it right here..."
 msgstr "Ändra din %s-rubrik genom att redigera den här…"
 
 #. Translators: %s expands to the social medium name, i.e. Faceboook.
-#: languages/wordpress-seojs.php:493 js/dist/block-editor-1661.js:82
-#: js/dist/block-editor-1661.js:83 js/dist/classic-editor-1661.js:82
-#: js/dist/classic-editor-1661.js:83
+#: languages/wordpress-seojs.php:493 js/dist/block-editor-1670.js:82
+#: js/dist/block-editor-1670.js:83 js/dist/classic-editor-1670.js:82
+#: js/dist/classic-editor-1670.js:83
 msgid "%s preview"
 msgstr "Förhandsgranskning av %s"
 
@@ -973,113 +1098,113 @@ msgid "%1$sKeyphrase in title%3$s: The exact match of the focus keyphrase appear
 msgstr "%1$sNyckelordsfras i rubrik%3$s: Den exakta matchningen av fokusnyckelordsfrasen finns i SEO-rubriken, men inte i början. %2$sFlytta den till början för bästa resultat%3$s."
 
 #. Translators: %s expands to Twitter, %s expands to the 5MB size.
-#: languages/yoast-components.php:169 js/dist/externals/helpers-1661.js:13
+#: languages/yoast-components.php:169 js/dist/externals/helpers-1670.js:13
 msgid "The file size of the uploaded image is too large for %s. File size must be less than %s."
 msgstr "Filstorleken på den uppladdade bilden är för stor för %s. Filstorleken måste vara mindre än %s."
 
 #. Translators: %s expands to the jpg format, %s expands to the png format, %s
 #. expands to the gif format.
-#: languages/yoast-components.php:165 js/dist/externals/helpers-1661.js:11
+#: languages/yoast-components.php:165 js/dist/externals/helpers-1670.js:11
 msgid "The format of the uploaded image is not supported. The supported formats are: %s, %s, %s and %s."
 msgstr "Formatet på den uppladdade bilden stöds inte. Formaten som stöds är: %s, %s, %s och %s."
 
 #. Translators: %s expands to the gif format, %s expands to the gif format.
-#: languages/yoast-components.php:161 js/dist/externals/helpers-1661.js:9
+#: languages/yoast-components.php:161 js/dist/externals/helpers-1670.js:9
 msgid "You have uploaded a %s. Please note that, if it’s an animated %s, only the first frame will be used."
 msgstr "Du har laddat upp en %s. Observera att om det är en animerad %s kommer endast första rutan att användas."
 
 #. Translators: %s expands to the jpg format, %s expands to the png format, %s
 #. expands to the gif format.
-#: languages/yoast-components.php:157 js/dist/externals/helpers-1661.js:5
+#: languages/yoast-components.php:157 js/dist/externals/helpers-1670.js:5
 msgid "Your image dimensions are not suitable. The minimum dimensions are %dx%d pixels. The maximum dimensions are %dx%d pixels."
 msgstr "Dina bildmått passar inte. Minimimåtten är %d ×%d pixlar. De maximala måtten är %d ×%d pixlar."
 
 #. Translators: %s expands to the jpg format, %s expands to the png format, %s
 #. expands to the gif format.
-#: languages/yoast-components.php:153 js/dist/externals/helpers-1661.js:5
+#: languages/yoast-components.php:153 js/dist/externals/helpers-1670.js:5
 msgid "The format of the uploaded image is not supported. The supported formats are: %s, %s and %s."
 msgstr "Formatet på den uppladdade bilden stöds inte. Formaten som stöds är: %s, %s och %s."
 
 #. Translators: %d expands to the minimum width, %d expands to the minimum
 #. hight
-#: languages/yoast-components.php:149 js/dist/externals/helpers-1661.js:3
+#: languages/yoast-components.php:149 js/dist/externals/helpers-1670.js:3
 msgid "Your image dimensions are not suitable. The minimum dimensions are %dx%d pixels."
 msgstr "Dina bildmått passar inte. Minimimåtten är %d ×%d pixlar."
 
 #. translators: %1$s expands to Yoast.
-#: src/integrations/blocks/block-categories.php:45
+#: src/integrations/blocks/block-categories.php:70
 msgid "%1$s Internal Linking Blocks"
 msgstr "%1$s interna länkningsblock"
 
-#: languages/wordpress-seojs.php:625 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:625 js/dist/block-editor-1670.js:83
 msgid "Open in new tab"
 msgstr "Öppna i ny flik"
 
-#: languages/wordpress-seojs.php:622 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:622 js/dist/block-editor-1670.js:83
 msgid "This is a sponsored link or advert (mark as %1$ssponsored%2$s)%3$s"
 msgstr "Detta är en sponsrad länk eller reklam (märk som %1$ssponsrad%2$s)%3$s"
 
-#: languages/wordpress-seojs.php:619 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:619 js/dist/block-editor-1670.js:83
 msgid "Search engines should ignore this link (mark as %1$snofollow%2$s)%3$s"
 msgstr "Sökmotorer bör ignorera denna länk (märk som %1$snofollow%2$s)%3$s"
 
-#: languages/wordpress-seojs.php:616 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:616 js/dist/block-editor-1670.js:83
 msgid "Learn more about marking a link as nofollow or sponsored."
 msgstr "Lär dig mer om att markera en länk som nofollow eller sponsrad."
 
-#: languages/wordpress-seojs.php:613 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:613 js/dist/block-editor-1670.js:83
 msgid "Link inserted."
 msgstr "Länk infogad."
 
-#: languages/wordpress-seojs.php:610 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:610 js/dist/block-editor-1670.js:83
 msgid "Link edited."
 msgstr "Länk redigerad."
 
-#: languages/wordpress-seojs.php:607 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:607 js/dist/block-editor-1670.js:83
 msgid "Warning: the link has been inserted but may have errors. Please test it."
 msgstr "Varning: länken har infogats men kan innehålla fel. Testa den."
 
-#: languages/wordpress-seojs.php:604 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:604 js/dist/block-editor-1670.js:83
 msgid "Link"
 msgstr "Länk"
 
-#: languages/wordpress-seojs.php:601 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:601 js/dist/block-editor-1670.js:83
 msgid "Unlink"
 msgstr "Avlänka"
 
-#: languages/wordpress-seojs.php:598 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:598 js/dist/block-editor-1670.js:83
 msgid "Link removed."
 msgstr "Länk borttagen."
 
-#: languages/wordpress-seojs.php:579 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:579 js/dist/block-editor-1670.js:83
 msgid "Please upgrade your WordPress version or install the Gutenberg plugin to get this %1$s feature."
 msgstr "Uppgradera din WordPress-version eller installera tillägget Gutenberg för att få denna %1$s-funktion."
 
-#: languages/wordpress-seojs.php:576 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:576 js/dist/block-editor-1670.js:83
 msgid "Marking links with nofollow/sponsored has been disabled for WordPress installs < 5.4."
 msgstr "Markering av länkar med nofollow/sponsrad har inaktiverats för WordPress-installationer < 5.4."
 
-#: languages/wordpress-seojs.php:564 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:564 js/dist/block-editor-1670.js:83
 msgid "No focus keyword was entered"
 msgstr "Inget fokusnyckelord angavs"
 
-#: languages/wordpress-seojs.php:175 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:175 js/dist/block-editor-1670.js:83
 msgid "We've analyzed your post. There is still room for improvement!"
 msgstr "Vi har analyserat ditt inlägg. Det finns fortfarande rum för förbättringar!"
 
-#: languages/wordpress-seojs.php:172 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:172 js/dist/block-editor-1670.js:83
 msgid "We've analyzed your post. Everything looks good. Well done!"
 msgstr "Vi har analyserat ditt inlägg. Allt ser fint ut, bra jobbat!"
 
-#: languages/wordpress-seojs.php:160 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:160 js/dist/block-editor-1670.js:83
 msgid "Share your post!"
 msgstr "Dela ditt inlägg!"
 
-#: languages/wordpress-seojs.php:96 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:96 js/dist/block-editor-1670.js:83
 msgid "Improve your post with Yoast SEO"
 msgstr "Förbättra ditt inlägg med Yoast SEO"
 
-#: languages/wordpress-seojs.php:570 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:570 js/dist/block-editor-1670.js:83
 msgid "SEO analysis:"
 msgstr "SEO-analys:"
 
@@ -1154,48 +1279,48 @@ msgstr "Jag vill inte att den här webbplatsen ska visas i sökresultaten."
 msgid "If you want search engines to show this site in their results, you must %1$sgo to your Reading Settings%2$s and uncheck the box for Search Engine Visibility."
 msgstr "Om du vill att sökmotorer ska visa den här webbplatsen i sina resultat måste du %1$sgå till dina läsinställningar%2$s och avmarkera rutan för synlighet i sökmotorer."
 
-#: languages/wordpress-seojs.php:280 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:280 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "Your keyphrase is too long. It can be a maximum of 191 characters."
 msgstr "Din nyckelfras är för lång. Den får maximalt vara 191 tecken."
 
 #. Translators: %s translates to the Post Label in singular form
-#: languages/wordpress-seojs.php:93 js/dist/block-editor-1661.js:69
-#: js/dist/classic-editor-1661.js:69 js/dist/elementor-1661.js:69
+#: languages/wordpress-seojs.php:93 js/dist/block-editor-1670.js:69
+#: js/dist/classic-editor-1670.js:69 js/dist/elementor-1670.js:69
 msgid "Learn more about the no-index setting on our help page."
 msgstr "Läs mer om inställningen no-index på vår hjälpsida."
 
 #. Translators: %s translates to the "yes" or "no" ,%s translates to the Post
 #. Label in plural form
-#: languages/wordpress-seojs.php:86 js/dist/block-editor-1661.js:67
-#: js/dist/classic-editor-1661.js:67 js/dist/elementor-1661.js:67
+#: languages/wordpress-seojs.php:86 js/dist/block-editor-1670.js:67
+#: js/dist/classic-editor-1670.js:67 js/dist/elementor-1670.js:67
 msgid "Even though you can set the meta robots setting here, the entire site is set to noindex in the sitewide privacy settings, so these settings won't have an effect."
 msgstr "Även om du kan ändra meta-inställningarna för robotar här, så är hela webbplatsen inställd på noindex i de övergripande sekretessinställningarna, så dessa inställningar har ingen effekt."
 
-#: languages/wordpress-seojs.php:73 js/dist/block-editor-1661.js:71
-#: js/dist/classic-editor-1661.js:71 js/dist/elementor-1661.js:71
+#: languages/wordpress-seojs.php:73 js/dist/block-editor-1670.js:71
+#: js/dist/classic-editor-1670.js:71 js/dist/elementor-1670.js:71
 msgid "Learn more about canonical URLs on our help page."
 msgstr "Läs mer om kanoniska URL:er på vår hjälpsida."
 
-#: languages/wordpress-seojs.php:67 js/dist/block-editor-1661.js:71
-#: js/dist/classic-editor-1661.js:71 js/dist/elementor-1661.js:71
+#: languages/wordpress-seojs.php:67 js/dist/block-editor-1670.js:71
+#: js/dist/classic-editor-1670.js:71 js/dist/elementor-1670.js:71
 msgid "Learn more about the breadcrumbs title setting on our help page."
 msgstr "Läs mer om inställningarna för synliga sökvägar i rubriken på vår hjälpsida."
 
-#: languages/wordpress-seojs.php:61 js/dist/block-editor-1661.js:71
-#: js/dist/classic-editor-1661.js:71 js/dist/elementor-1661.js:71
+#: languages/wordpress-seojs.php:61 js/dist/block-editor-1670.js:71
+#: js/dist/classic-editor-1670.js:71 js/dist/elementor-1670.js:71
 msgid "Learn more about advanced meta robots settings on our help page."
 msgstr "Läs mer om avancerade metainställningar för robotar på vår hjälpsida."
 
 #. Translators: %s translates to the Post Label in singular form
-#: languages/wordpress-seojs.php:46 js/dist/block-editor-1661.js:71
-#: js/dist/classic-editor-1661.js:71 js/dist/elementor-1661.js:71
+#: languages/wordpress-seojs.php:46 js/dist/block-editor-1670.js:71
+#: js/dist/classic-editor-1670.js:71 js/dist/elementor-1670.js:71
 msgid "Learn more about the no-follow setting on our help page."
 msgstr "Läs mer om inställningen no-follow på vår hjälpsida."
 
 #. Translators: %s translates to the Post Label in singular form
-#: languages/wordpress-seojs.php:43 js/dist/block-editor-1661.js:71
-#: js/dist/classic-editor-1661.js:71 js/dist/elementor-1661.js:71
+#: languages/wordpress-seojs.php:43 js/dist/block-editor-1670.js:71
+#: js/dist/classic-editor-1670.js:71 js/dist/elementor-1670.js:71
 msgid "Should search engines follow links on this %s"
 msgstr "Ska sökmotorer följa länkar på denna %s"
 
@@ -1241,20 +1366,20 @@ msgstr "ett tema som har korrekt stöd för taggen ”title”, eller anpassa di
 msgid "Please read %1$sthis help article%2$s to find out how to resolve this problem."
 msgstr "Läs %1$sdenna hjälpartikel%2$s för att ta reda på hur man löser detta problem."
 
-#: inc/class-wpseo-replace-vars.php:1284
+#: inc/class-wpseo-replace-vars.php:1282
 msgid "Replaced with the term ancestors hierarchy"
 msgstr "Ersätts med hierarkin för termens högsta överordnade term"
 
-#: inc/class-wpseo-replace-vars.php:1284
+#: inc/class-wpseo-replace-vars.php:1282
 msgid "Term hierarchy"
 msgstr "Termhierarki"
 
 #. translators: 1: Yoast SEO
-#: admin/views/class-yoast-feature-toggles.php:151
+#: admin/views/class-yoast-feature-toggles.php:171
 msgid "This %1$s REST API endpoint gives you all the metadata you need for a specific URL. This will make it very easy for headless WordPress sites to use %1$s for all their SEO meta output."
 msgstr "Denna REST API-ändpunkt hos %1$s ger dig all metadata du behöver för en viss URL. Det gör det mycket enkelt för ”headless” WordPress-webbplatser att använda %1$s för presentation av alla SEO-metadata."
 
-#: admin/views/class-yoast-feature-toggles.php:147
+#: admin/views/class-yoast-feature-toggles.php:167
 msgid "REST API: Head endpoint"
 msgstr "REST API: Huvudändpunkt"
 
@@ -1415,27 +1540,27 @@ msgid "%1$sGo to the Discussion Settings page%2$s"
 msgstr "%1$sGå till sidan för diskussionsinställningar%2$s"
 
 #: languages/yoast-components.php:178
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "Mobile result"
 msgstr "Mobilt resultat"
 
 #: languages/yoast-components.php:175
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "Preview as:"
 msgstr "Förhandsgranska som:"
 
 #: languages/yoast-components.php:172
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "Desktop result"
 msgstr "Resultat för stationär dator"
 
 #: languages/wordpress-seojs.php:323 languages/yoast-seo-js.php:399
-#: js/dist/block-editor-1661.js:83 js/dist/classic-editor-1661.js:83
-#: js/dist/elementor-1661.js:71
+#: js/dist/block-editor-1670.js:83 js/dist/classic-editor-1670.js:83
+#: js/dist/elementor-1670.js:71
 msgid "Google preview"
 msgstr "Google förhandsgranskning"
 
-#: languages/wordpress-seojs.php:558 js/dist/help-scout-beacon-1661.js:1
+#: languages/wordpress-seojs.php:558 js/dist/help-scout-beacon-1670.js:1
 msgid "When you click OK we will open our HelpScout beacon where you can find answers to your questions. This beacon will load our support data and also potentially set cookies."
 msgstr "När du klickar på OK öppnar vi vår HelpScout Beacon där du hittar svar på dina frågor. Denna hjälpnavigatör laddar vår support-information och kommer eventuellt också att skapa några cookies."
 
@@ -1484,8 +1609,8 @@ msgid "Your %1$s settings:"
 msgstr "Dina %1$s-inställningar:"
 
 #: admin/metabox/class-metabox.php:420 languages/wordpress-seojs.php:334
-#: js/dist/block-editor-1661.js:83 js/dist/elementor-1661.js:81
-#: js/dist/structured-data-blocks-1661.js:9
+#: js/dist/block-editor-1670.js:83 js/dist/elementor-1670.js:81
+#: js/dist/structured-data-blocks-1670.js:9
 msgid "Schema"
 msgstr "Schema"
 
@@ -1532,7 +1657,7 @@ msgstr "Kontrollera formatet på den Instagram-URL du angav. %s"
 msgid "Please check the format of the Facebook Page URL you entered. %s"
 msgstr "Kontrollera formatet på den Facebook-URL du angav. %s"
 
-#: languages/yoast-components.php:29 js/dist/externals/componentsNew-1661.js:3
+#: languages/yoast-components.php:29 js/dist/externals/componentsNew-1670.js:3
 msgid "Dismiss this alert"
 msgstr "Avfärda denna varning"
 
@@ -1613,7 +1738,7 @@ msgid_plural "You have %d hidden notifications:"
 msgstr[0] "Du har %d dold avisering:"
 msgstr[1] "Du har %d dolda aviseringar:"
 
-#: languages/yoast-components.php:58 js/dist/externals/componentsNew-1661.js:3
+#: languages/yoast-components.php:58 js/dist/externals/componentsNew-1670.js:3
 msgid "Once you add a bit more copy, we'll give you a list of words that occur the most in the content. These give an indication of what your content focuses on."
 msgstr "När du har lagt till lite mer text ger vi dig en lista på de ord som förekommer oftast i innehållet. Dessa ger en indikation på vad ditt innehåll fokuserar på."
 
@@ -1640,7 +1765,7 @@ msgid "Activate %s for your site on MyYoast"
 msgstr "Aktivera %s för din webbplats på MyYoast"
 
 #. Translators: %d expands to number of occurrences.
-#: languages/yoast-components.php:72 js/dist/externals/componentsNew-1661.js:3
+#: languages/yoast-components.php:72 js/dist/externals/componentsNew-1670.js:3
 msgid "%d occurrences"
 msgstr "%d förekomster"
 
@@ -1649,7 +1774,7 @@ msgid "Show blog page in breadcrumbs"
 msgstr "Visa bloggsida i synliga sökvägar"
 
 #. translators: %s expands to the link value
-#: languages/yoast-components.php:106 js/dist/externals/components-1661.js:3
+#: languages/yoast-components.php:106 js/dist/externals/components-1670.js:3
 msgid "We could not find any relevant articles on your website that you could link to from your post."
 msgstr "Vi kunde inte hitta några relevanta artiklar på din webbplats som du kan länka till från ditt inlägg."
 
@@ -1686,7 +1811,7 @@ msgstr "Innehållsoptimering:"
 msgid "Posts with the SEO score: %s"
 msgstr "Inlägg med SEO-poäng: %s"
 
-#: languages/wordpress-seojs.php:589 js/dist/settings-1661.js:6
+#: languages/wordpress-seojs.php:589 js/dist/settings-1670.js:6
 msgid "Person logo / avatar"
 msgstr "Personlig logga/profilbild"
 
@@ -1723,16 +1848,16 @@ msgid "Google has discontinued its Crawl Errors API. Therefore, any possible cra
 msgstr "Google har stängt ner sitt Crawl Errors API. Därför går det inte längre att här visa eventuella fel från indexeringen av din webbplats. %1$sLäs vidare i vårt uttalande om detta%2$s."
 
 #. translators: %s expands to Local SEO
-#: languages/wordpress-seojs.php:157 js/dist/settings-1661.js:5
+#: languages/wordpress-seojs.php:157 js/dist/settings-1670.js:5
 msgid "Get the %s plugin now"
 msgstr "Skaffa tillägget %s nu"
 
 #. translators: %s expands to Local SEO
-#: languages/wordpress-seojs.php:153 js/dist/settings-1661.js:3
+#: languages/wordpress-seojs.php:153 js/dist/settings-1670.js:3
 msgid "Truly optimize your site for a local audience with our %s plugin! Optimized address details, opening hours, store locator and pickup option!"
 msgstr "Optimera din webbplats för lokala besökare med vårt tillägg %s! Optimerade adressuppgifter, öppettider, butikssökare och val för avhämtning!"
 
-#: languages/wordpress-seojs.php:149 js/dist/settings-1661.js:1
+#: languages/wordpress-seojs.php:149 js/dist/settings-1670.js:1
 msgid "Serving local customers?"
 msgstr "Betjänar du lokala kunder?"
 
@@ -1740,7 +1865,7 @@ msgstr "Betjänar du lokala kunder?"
 msgid "Personal info"
 msgstr "Personlig information"
 
-#: languages/wordpress-seojs.php:586 js/dist/settings-1661.js:6
+#: languages/wordpress-seojs.php:586 js/dist/settings-1670.js:6
 msgid "Organization logo"
 msgstr "Organisationens logga"
 
@@ -1842,22 +1967,22 @@ msgstr "Okategoriserad"
 
 #. translators: %1$s expands to the user's name, %2$s expands to an opening
 #. anchor tag, %3$s expands to a closing anchor tag.
-#: languages/wordpress-seojs.php:268 js/dist/settings-1661.js:6
+#: languages/wordpress-seojs.php:268 js/dist/settings-1670.js:6
 msgid "You have selected the user %1$s as the person this site represents. Their user profile information will now be used in search results. %2$sUpdate their profile to make sure the information is correct.%3$s"
 msgstr "Du har valt användaren %1$s som den person denna webbplats representerar. Deras användarprofilinformation kommer nu att användas i sökresultaten. %2$sUppdatera dennes profil för att säkerställa att informationen är korrekt.%3$s"
 
 #. translators: %s expands to Local SEO
-#: languages/wordpress-seojs.php:265 js/dist/settings-1661.js:5
+#: languages/wordpress-seojs.php:265 js/dist/settings-1670.js:5
 msgid "Please select a user below to make your site's meta data complete."
 msgstr "Välj en användare nedan för att göra din webbplats metadata komplett."
 
 #. translators: %1$s expands to WordPress
-#: languages/wordpress-seojs.php:259 js/dist/configuration-wizard-1661.js:3
+#: languages/wordpress-seojs.php:259 js/dist/configuration-wizard-1670.js:3
 msgid "You can edit the details shown in meta data, like the social profiles, the name and the description of this user on their %1$s profile page."
 msgstr "Du kan redigera detaljerna som visas i metadata, som social profil, namnet och beskrivningen av denna användare på dess %1$s profilsida."
 
-#: languages/wordpress-seojs.php:252 js/dist/configuration-wizard-1661.js:1
-#: js/dist/settings-1661.js:1
+#: languages/wordpress-seojs.php:252 js/dist/configuration-wizard-1670.js:1
+#: js/dist/settings-1670.js:1
 msgid "Select a user..."
 msgstr "Välj en användare…"
 
@@ -1908,11 +2033,11 @@ msgstr "Mottagna interna länkar"
 msgid "Outgoing internal links"
 msgstr "Utgående interna länkar"
 
-#: languages/wordpress-seojs.php:688 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:688 js/dist/structured-data-blocks-1670.js:1
 msgid "New step added"
 msgstr "Nytt steg tillagd"
 
-#: languages/wordpress-seojs.php:648 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:648 js/dist/structured-data-blocks-1670.js:9
 msgid "New question added"
 msgstr "Ny fråga tillagd"
 
@@ -2407,33 +2532,33 @@ msgstr "Bra jobbat!"
 msgid "%1$sFlesch Reading Ease%2$s: The copy scores %3$s in the test, which is considered %4$s to read. %5$s%6$s%7$s"
 msgstr "%1$sFlesch Reading Ease%2$s: Testet ger texten poängen %3$s, vilket anses %4$s att läsa. %5$s%6$s%7$s"
 
-#: languages/wordpress-seojs.php:284 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:27
-#: js/dist/elementor-1661.js:59 js/dist/post-edit-1661.js:1
-#: js/dist/settings-1661.js:1 js/dist/term-edit-1661.js:1
+#: languages/wordpress-seojs.php:284 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:27
+#: js/dist/elementor-1670.js:59 js/dist/post-edit-1670.js:1
+#: js/dist/settings-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Focus keyphrase"
 msgstr "Fokusnyckelordsfras"
 
-#: languages/wordpress-seojs.php:271 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:271 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "Help on choosing the perfect focus keyphrase"
 msgstr "Hjälp att välja den perfekta fokusnyckelordsfrasen"
 
 #. translators: %s expands to 'Yoast SEO Premium'.
-#: languages/wordpress-seojs.php:303 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:303 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "Would you like to add a related keyphrase?"
 msgstr "Vill du lägga till en relaterad nyckelordsfras?"
 
 #. translators: %s expands to Premium
-#: languages/wordpress-seojs.php:104 js/dist/block-editor-1661.js:31
-#: js/dist/classic-editor-1661.js:31 js/dist/elementor-1661.js:31
+#: languages/wordpress-seojs.php:104 js/dist/block-editor-1670.js:31
+#: js/dist/classic-editor-1670.js:31 js/dist/elementor-1670.js:31
 msgid "Go %s!"
 msgstr "Kör %s!"
 
 #. translators: %s expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:100 js/dist/block-editor-1661.js:29
-#: js/dist/classic-editor-1661.js:29 js/dist/elementor-1661.js:29
+#: languages/wordpress-seojs.php:100 js/dist/block-editor-1670.js:29
+#: js/dist/classic-editor-1670.js:29 js/dist/elementor-1670.js:29
 msgid "Did you know %s also analyzes the different word forms of your keyphrase, like plurals and past tenses?"
 msgstr "Visste du att %s också analyserar olika versioner av ord i din nyckelordsfras, till exempel plural och olika tempus?"
 
@@ -2459,8 +2584,8 @@ msgstr "Denna flik låter dig selektivt inaktivera funktioner i %s för alla web
 #. translators: %1$s expands to a 'Yoast SEO Premium' text linked to the
 #. yoast.com website.
 #: admin/views/sidebar.php:29 languages/wordpress-seojs.php:341
-#: js/dist/block-editor-1661.js:33 js/dist/classic-editor-1661.js:33
-#: js/dist/elementor-1661.js:33
+#: js/dist/block-editor-1670.js:33 js/dist/classic-editor-1670.js:33
+#: js/dist/elementor-1670.js:33
 msgid "Rank better with synonyms & related keyphrases"
 msgstr "Ranka högre med synonymer och relaterade nyckelordsfraser"
 
@@ -2469,7 +2594,7 @@ msgid "optimize a single post for synonyms and related keyphrases."
 msgstr "optimera ett enskilt inlägg för synonymer och relaterade nyckelordsfraser."
 
 #. translators: %s: argument name
-#: admin/views/class-yoast-feature-toggle.php:95
+#: admin/views/class-yoast-feature-toggle.php:109
 msgid "%s is a required feature toggle argument."
 msgstr "%s är ett obligatoriskt argument för funktionsväxling."
 
@@ -2477,10 +2602,10 @@ msgstr "%s är ett obligatoriskt argument för funktionsväxling."
 msgid "Synonyms & related keyphrases"
 msgstr "Synonymer och relaterade nyckelordsfraser"
 
-#: languages/wordpress-seojs.php:306 js/dist/block-editor-1661.js:55
-#: js/dist/block-editor-1661.js:59 js/dist/classic-editor-1661.js:55
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:55
-#: js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:306 js/dist/block-editor-1670.js:55
+#: js/dist/block-editor-1670.js:59 js/dist/classic-editor-1670.js:55
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:55
+#: js/dist/elementor-1670.js:59
 msgid "Add related keyphrase"
 msgstr "Lägg till relaterad nyckelordsfras"
 
@@ -2528,32 +2653,32 @@ msgstr "Ingen fokusnyckelordsfras har angetts."
 #: src/deprecated/admin/add-keyword-modal.php:47
 #: src/deprecated/admin/keyword-synonyms-modal.php:47
 #: src/deprecated/admin/multiple-keywords-modal.php:47
-#: js/dist/block-editor-1661.js:41 js/dist/block-editor-1661.js:51
-#: js/dist/block-editor-1661.js:53 js/dist/block-editor-1661.js:55
-#: js/dist/block-editor-1661.js:57 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:41 js/dist/classic-editor-1661.js:51
-#: js/dist/classic-editor-1661.js:53 js/dist/classic-editor-1661.js:55
-#: js/dist/classic-editor-1661.js:57 js/dist/classic-editor-1661.js:59
-#: js/dist/elementor-1661.js:41 js/dist/elementor-1661.js:51
-#: js/dist/elementor-1661.js:53 js/dist/elementor-1661.js:55
-#: js/dist/elementor-1661.js:57 js/dist/elementor-1661.js:59
+#: js/dist/block-editor-1670.js:41 js/dist/block-editor-1670.js:51
+#: js/dist/block-editor-1670.js:53 js/dist/block-editor-1670.js:55
+#: js/dist/block-editor-1670.js:57 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:41 js/dist/classic-editor-1670.js:51
+#: js/dist/classic-editor-1670.js:53 js/dist/classic-editor-1670.js:55
+#: js/dist/classic-editor-1670.js:57 js/dist/classic-editor-1670.js:59
+#: js/dist/elementor-1670.js:41 js/dist/elementor-1670.js:51
+#: js/dist/elementor-1670.js:53 js/dist/elementor-1670.js:55
+#: js/dist/elementor-1670.js:57 js/dist/elementor-1670.js:59
 msgid "Get %s"
 msgstr "Skaffa %s"
 
-#: languages/wordpress-seojs.php:727 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:727 js/dist/structured-data-blocks-1670.js:1
 msgid "Optional. Customize how you want to describe the duration of the instruction"
 msgstr "Valfritt. Anpassa hur du vill beskriva varaktigheten av instruktionen"
 
-#: languages/wordpress-seojs.php:724 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:724 js/dist/structured-data-blocks-1670.js:1
 msgid "Describe the duration of the instruction:"
 msgstr "Beskriv varaktigheten av instruktionen:"
 
-#: languages/wordpress-seojs.php:291 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:291 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "Learn more about the readability analysis"
 msgstr "Lär dig mer om läsbarhetsanalysen"
 
-#: languages/wordpress-seojs.php:567 js/dist/block-editor-1661.js:83
+#: languages/wordpress-seojs.php:567 js/dist/block-editor-1670.js:83
 msgid "Readability analysis:"
 msgstr "Läsbarhetsanalys:"
 
@@ -2574,129 +2699,129 @@ msgid "Both %1$s and %2$s manage the SEO of your site. Running two SEO plugins a
 msgstr "Både %1$s och %2$s hanterar SEO på din webbplats. Att köra två SEO-tillägg samtidigt är skadlig."
 
 #. translators: %s expands to a unit of time (e.g. 1 day).
-#: languages/wordpress-seojs.php:777 js/dist/structured-data-blocks-1661.js:5
-#: js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:777 js/dist/structured-data-blocks-1670.js:5
+#: js/dist/structured-data-blocks-1670.js:9
 msgid "%s, %s and %s"
 msgstr "%s, %s och %s"
 
 #. translators: %s expands to a unit of time (e.g. 1 day).
-#: languages/wordpress-seojs.php:772 js/dist/structured-data-blocks-1661.js:3
-#: js/dist/structured-data-blocks-1661.js:7
+#: languages/wordpress-seojs.php:772 js/dist/structured-data-blocks-1670.js:3
+#: js/dist/structured-data-blocks-1670.js:7
 msgid "%s and %s"
 msgstr "%s och %s"
 
-#: languages/wordpress-seojs.php:767 js/dist/structured-data-blocks-1661.js:1
-#: js/dist/structured-data-blocks-1661.js:5
+#: languages/wordpress-seojs.php:767 js/dist/structured-data-blocks-1670.js:1
+#: js/dist/structured-data-blocks-1670.js:5
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minut"
 msgstr[1] "%d minuter"
 
-#: languages/wordpress-seojs.php:763 js/dist/structured-data-blocks-1661.js:1
-#: js/dist/structured-data-blocks-1661.js:5
+#: languages/wordpress-seojs.php:763 js/dist/structured-data-blocks-1670.js:1
+#: js/dist/structured-data-blocks-1670.js:5
 msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] "%d timme"
 msgstr[1] "%d timmar"
 
 #. translators: %s expands to a unit of time (e.g. 1 day).
-#: languages/wordpress-seojs.php:759 js/dist/structured-data-blocks-1661.js:1
-#: js/dist/structured-data-blocks-1661.js:5
+#: languages/wordpress-seojs.php:759 js/dist/structured-data-blocks-1670.js:1
+#: js/dist/structured-data-blocks-1670.js:5
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d dag"
 msgstr[1] "%d dagar"
 
-#: languages/wordpress-seojs.php:752 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:752 js/dist/structured-data-blocks-1670.js:1
 msgid "Enter a step title"
 msgstr "Ange en stegrubrik"
 
-#: languages/wordpress-seojs.php:721 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:721 js/dist/structured-data-blocks-1670.js:1
 msgid "Optional. This can give you better control over the styling of the steps."
 msgstr "Valfritt. Detta kan ge dig bättre kontroll över utseendet på stegen."
 
-#: languages/wordpress-seojs.php:718 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:718 js/dist/structured-data-blocks-1670.js:1
 msgid "CSS class(es) to apply to the steps"
 msgstr "CSS-klass(er) som ska tillämpas på steget"
 
 #: languages/wordpress-seojs.php:709 languages/yoast-components.php:90
-#: js/dist/externals/componentsNew-1661.js:3
-#: js/dist/externals/schemaBlocks-1661.js:10
-#: js/dist/externals/schemaBlocks-1661.js:13
-#: js/dist/structured-data-blocks-1661.js:1
+#: js/dist/externals/componentsNew-1670.js:3
+#: js/dist/externals/schemaBlocks-1670.js:10
+#: js/dist/externals/schemaBlocks-1670.js:13
+#: js/dist/structured-data-blocks-1670.js:1
 msgid "minutes"
 msgstr "minuter"
 
 #. translators: %s: heading level e.g: "1", "2", "3"
 #: languages/wordpress-seojs.php:706 languages/yoast-components.php:87
-#: js/dist/externals/componentsNew-1661.js:3
-#: js/dist/externals/schemaBlocks-1661.js:10
-#: js/dist/structured-data-blocks-1661.js:1
+#: js/dist/externals/componentsNew-1670.js:3
+#: js/dist/externals/schemaBlocks-1670.js:10
+#: js/dist/structured-data-blocks-1670.js:1
 msgid "hours"
 msgstr "timmar"
 
-#: languages/wordpress-seojs.php:703 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:703 js/dist/structured-data-blocks-1670.js:1
 msgid "days"
 msgstr "dagar"
 
-#: languages/wordpress-seojs.php:679 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:679 js/dist/structured-data-blocks-1670.js:9
 msgid "Create a How-to guide in an SEO-friendly way. You can only use one How-to block per post."
 msgstr "Skapa en Hur-gör-man-guide på ett SEO-vänligt sätt. Du kan endast använda ett Hur-gör-man-block per inlägg."
 
-#: languages/wordpress-seojs.php:631 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:631 js/dist/structured-data-blocks-1670.js:9
 msgid "List your Frequently Asked Questions in an SEO-friendly way. You can only use one FAQ block per post."
 msgstr "Lista dina vanliga frågor på ett SEO-vänligt sätt. Du kan endast använda ett block för vanliga frågor per inlägg."
 
 #. translators: %s expands to Yoast SEO.
-#: languages/wordpress-seojs.php:182 js/dist/post-edit-1661.js:5
+#: languages/wordpress-seojs.php:182 js/dist/post-edit-1670.js:5
 msgid "Copy error"
 msgstr "Kopieringsfel"
 
 #. translators: %s expands to Yoast SEO.
-#: languages/wordpress-seojs.php:179 js/dist/post-edit-1661.js:5
+#: languages/wordpress-seojs.php:179 js/dist/post-edit-1670.js:5
 msgid "An error occurred loading the %s primary taxonomy picker."
 msgstr "Ett fel uppstod under hämtning av %s primära taxonomi-väljaren."
 
 #. translators: %1$s expands to Yoast.
-#: src/integrations/blocks/block-categories.php:37
+#: src/integrations/blocks/block-categories.php:62
 msgid "%1$s Structured Data Blocks"
 msgstr "%1$s strukturerade datablock"
 
 #. translators: %s expands to a unit of time (e.g. 1 day).
-#: languages/wordpress-seojs.php:737 js/dist/structured-data-blocks-1661.js:1
-#: js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:737 js/dist/structured-data-blocks-1670.js:1
+#: js/dist/structured-data-blocks-1670.js:9
 msgid "Time needed:"
 msgstr "Tid som behövs:"
 
-#: languages/wordpress-seojs.php:663 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:663 js/dist/structured-data-blocks-1670.js:9
 msgid "Move question down"
 msgstr "Flytta fråga ner"
 
-#: languages/wordpress-seojs.php:660 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:660 js/dist/structured-data-blocks-1670.js:9
 msgid "Move question up"
 msgstr "Flytta fråga upp"
 
-#: languages/wordpress-seojs.php:657 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:657 js/dist/structured-data-blocks-1670.js:9
 msgid "Insert question"
 msgstr "Infoga fråga"
 
-#: languages/wordpress-seojs.php:654 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:654 js/dist/structured-data-blocks-1670.js:9
 msgid "Delete question"
 msgstr "Ta bort fråga"
 
-#: languages/wordpress-seojs.php:669 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:669 js/dist/structured-data-blocks-1670.js:9
 msgid "Enter the answer to the question"
 msgstr "Ange svaret på frågan"
 
-#: languages/wordpress-seojs.php:666 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:666 js/dist/structured-data-blocks-1670.js:9
 msgid "Enter a question"
 msgstr "Ange en fråga"
 
-#: languages/wordpress-seojs.php:651 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:651 js/dist/structured-data-blocks-1670.js:9
 msgid "Add question"
 msgstr "Lägg till fråga"
 
-#: languages/wordpress-seojs.php:637 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:637 js/dist/structured-data-blocks-1670.js:9
 msgid "Frequently Asked Questions"
 msgstr "Vanliga frågor"
 
@@ -2707,18 +2832,18 @@ msgstr "Vanliga frågor"
 #: src/deprecated/admin/add-keyword-modal.php:35
 #: src/deprecated/admin/keyword-synonyms-modal.php:35
 #: src/deprecated/admin/multiple-keywords-modal.php:35
-#: js/dist/block-editor-1661.js:43 js/dist/classic-editor-1661.js:43
-#: js/dist/elementor-1661.js:43
+#: js/dist/block-editor-1670.js:43 js/dist/classic-editor-1670.js:43
+#: js/dist/elementor-1670.js:43
 msgid "Great news: you can, with %s!"
 msgstr "Bra nyheter: du kan, med %s!"
 
-#: languages/wordpress-seojs.php:195 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:195 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "(Opens in a new browser window)"
 msgstr "(Öppnas i ett nytt webbläsarfönster)"
 
 #. translators: %s expands to the taxonomy name.
-#: languages/wordpress-seojs.php:186 js/dist/post-edit-1661.js:3
+#: languages/wordpress-seojs.php:186 js/dist/post-edit-1670.js:3
 msgid "Select the primary %s"
 msgstr "Välj den primära %s"
 
@@ -2730,95 +2855,95 @@ msgstr "Kontrollera länkar till denna URL"
 msgid "Keyword research training"
 msgstr "Träning i nyckelordsforskning"
 
-#: languages/wordpress-seojs.php:277 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:277 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "Are you trying to use multiple keyphrases? You should add them separately below."
 msgstr "Försöker du använda flera nyckelordsfraser? Du borde lägga till dem separat nedan."
 
 #: languages/wordpress-seojs.php:119 languages/yoast-components.php:126
-#: js/dist/block-editor-1661.js:59 js/dist/classic-editor-1661.js:59
-#: js/dist/elementor-1661.js:59 js/dist/externals/components-1661.js:1
+#: js/dist/block-editor-1670.js:59 js/dist/classic-editor-1670.js:59
+#: js/dist/elementor-1670.js:59 js/dist/externals/components-1670.js:1
 msgid "Mark as cornerstone content"
 msgstr "Markera som grundstensinnehåll"
 
-#: languages/wordpress-seojs.php:749 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:749 js/dist/structured-data-blocks-1670.js:1
 msgid "Move step down"
 msgstr "Flytta steg ner"
 
-#: languages/wordpress-seojs.php:746 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:746 js/dist/structured-data-blocks-1670.js:1
 msgid "Move step up"
 msgstr "Flytta steg upp"
 
-#: languages/wordpress-seojs.php:743 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:743 js/dist/structured-data-blocks-1670.js:1
 msgid "Insert step"
 msgstr "Infoga steg"
 
-#: languages/wordpress-seojs.php:740 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:740 js/dist/structured-data-blocks-1670.js:1
 msgid "Delete step"
 msgstr "Ta bort steg"
 
-#: languages/wordpress-seojs.php:673 js/dist/structured-data-blocks-1661.js:1
-#: js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:673 js/dist/structured-data-blocks-1670.js:1
+#: js/dist/structured-data-blocks-1670.js:9
 msgid "Add image"
 msgstr "Lägg till bild"
 
-#: languages/wordpress-seojs.php:755 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:755 js/dist/structured-data-blocks-1670.js:1
 msgid "Enter a step description"
 msgstr "Ange en stegbeskrivning"
 
-#: languages/wordpress-seojs.php:733 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:733 js/dist/structured-data-blocks-1670.js:1
 msgid "Enter a description"
 msgstr "Ange en beskrivning"
 
-#: languages/wordpress-seojs.php:730 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:730 js/dist/structured-data-blocks-1670.js:1
 msgid "Unordered list"
 msgstr "Osorterad lista"
 
-#: languages/wordpress-seojs.php:697 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:697 js/dist/structured-data-blocks-1670.js:1
 msgid "Showing step items as an ordered list."
 msgstr "Visar stegobjekt i en sorterad lista."
 
-#: languages/wordpress-seojs.php:694 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:694 js/dist/structured-data-blocks-1670.js:1
 msgid "Showing step items as an unordered list"
 msgstr "Visar stegobjekt i en osorterad lista"
 
-#: languages/wordpress-seojs.php:691 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:691 js/dist/structured-data-blocks-1670.js:1
 msgid "Add step"
 msgstr "Lägg till steg"
 
-#: languages/wordpress-seojs.php:712 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:712 js/dist/structured-data-blocks-1670.js:1
 msgid "Delete total time"
 msgstr "Ta bort total tid"
 
-#: languages/wordpress-seojs.php:700 js/dist/structured-data-blocks-1661.js:1
+#: languages/wordpress-seojs.php:700 js/dist/structured-data-blocks-1670.js:1
 msgid "Add total time"
 msgstr "Lägg till total tid"
 
-#: languages/wordpress-seojs.php:685 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:685 js/dist/structured-data-blocks-1670.js:9
 msgid "How to"
 msgstr "Hur man gör"
 
-#: languages/wordpress-seojs.php:682 js/dist/structured-data-blocks-1661.js:9
+#: languages/wordpress-seojs.php:682 js/dist/structured-data-blocks-1670.js:9
 msgid "How-to"
 msgstr "Hur-man-gör"
 
-#: languages/wordpress-seojs.php:288 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:288 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "Analysis results"
 msgstr "Analysresultat"
 
-#: languages/wordpress-seojs.php:309 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:309 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "Enter a focus keyphrase to calculate the SEO score"
 msgstr "Ange en fokus-nyckelordsfras för att beräkna SEO-poängen"
 
-#: languages/wordpress-seojs.php:116 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:116 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "Learn more about Cornerstone Content."
 msgstr "Lär dig mer om grundstensinnehåll."
 
-#: languages/wordpress-seojs.php:113 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:113 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "Cornerstone content should be the most important and extensive articles on your site."
 msgstr "Grundstensinnehåll ska vara de viktigaste och mest omfattande artiklarna på din webbplats."
 
@@ -2869,48 +2994,48 @@ msgstr "Vill du lägga till en till nyckelordsfras?"
 msgid "image preview"
 msgstr "förhandsgranskning av bild"
 
-#: languages/yoast-components.php:120 js/dist/externals/components-1661.js:3
+#: languages/yoast-components.php:120 js/dist/externals/components-1670.js:3
 msgid "Copied!"
 msgstr "Kopierad!"
 
-#: languages/yoast-components.php:123 js/dist/externals/components-1661.js:3
+#: languages/yoast-components.php:123 js/dist/externals/components-1670.js:3
 msgid "Not supported!"
 msgstr "Stöds inte!"
 
-#: languages/yoast-components.php:110 js/dist/externals/components-1661.js:3
+#: languages/yoast-components.php:110 js/dist/externals/components-1670.js:3
 msgid "{{a}}Read our article about site structure{{/a}} to learn more about how internal linking can help improve your SEO."
 msgstr "{{a}}Läs vår artikel om webbplatsstruktur{{/a}} för att lära dig mer om hur intern länkning kan förbättra din SEO."
 
-#: languages/yoast-components.php:114 js/dist/externals/components-1661.js:3
+#: languages/yoast-components.php:114 js/dist/externals/components-1670.js:3
 msgid "Consider linking to these {{a}}cornerstone articles:{{/a}}"
 msgstr "Överväg att länka till dessa {{a}}grundstensartiklar:{{/a}}"
 
-#: languages/yoast-components.php:117 js/dist/externals/components-1661.js:3
+#: languages/yoast-components.php:117 js/dist/externals/components-1670.js:3
 msgid "Consider linking to these articles:"
 msgstr "Överväg att länka till dessa artiklar:"
 
-#: languages/yoast-components.php:99 js/dist/externals/components-1661.js:1
+#: languages/yoast-components.php:99 js/dist/externals/components-1670.js:1
 msgid "Copy link"
 msgstr "Kopiera länk"
 
 #. translators: %s expands to the link value
-#: languages/yoast-components.php:103 js/dist/externals/components-1661.js:3
+#: languages/yoast-components.php:103 js/dist/externals/components-1670.js:3
 msgid "Copy link to suggested article: %s"
 msgstr "Kopiera länk till föreslagen artikel: %s"
 
-#: languages/yoast-components.php:55 js/dist/externals/componentsNew-1661.js:3
+#: languages/yoast-components.php:55 js/dist/externals/componentsNew-1670.js:3
 msgid "Read our %1$sultimate guide to keyword research%2$s to learn more about keyword research and keyword strategy."
 msgstr "Läs vår %1$sultimata guide till nyckelordsforskning%2$s för att lära dig mer om nyckelordsforskning och nyckelordsstrategi."
 
-#: languages/yoast-components.php:61 js/dist/externals/componentsNew-1661.js:3
+#: languages/yoast-components.php:61 js/dist/externals/componentsNew-1670.js:3
 msgid "The following words occur the most in the content. These give an indication of what your content focuses on. If the words differ a lot from your topic, you might want to rewrite your content accordingly. "
 msgstr "Följande ord och ordkombinationer förekommer mest i innehållet. Dessa ger en indikation på vad ditt innehåll fokuserar på. Om orden skiljer sig mycket från ditt ämne, kanske du vill skriva om ditt innehåll i enlighet med detta. "
 
-#: languages/yoast-components.php:65 js/dist/externals/componentsNew-1661.js:3
+#: languages/yoast-components.php:65 js/dist/externals/componentsNew-1670.js:3
 msgid "Prominent words"
 msgstr "Framträdande ord"
 
-#: inc/class-wpseo-replace-vars.php:1273
+#: inc/class-wpseo-replace-vars.php:1271
 msgid "The site's tagline"
 msgstr "Webbplatsens slogan"
 
@@ -2919,16 +3044,16 @@ msgstr "Webbplatsens slogan"
 msgid "Not all required fields are given. Missing field %1$s"
 msgstr "Alla obligatoriska fält är inte ifyllda. Fältet %1$s saknas"
 
-#: languages/wordpress-seojs.php:315 js/dist/block-editor-1661.js:51
-#: js/dist/classic-editor-1661.js:51 js/dist/elementor-1661.js:51
+#: languages/wordpress-seojs.php:315 js/dist/block-editor-1670.js:51
+#: js/dist/classic-editor-1670.js:51 js/dist/elementor-1670.js:51
 msgid "Add synonyms"
 msgstr "Lägg till synonymer"
 
 #. translators: %s expands to 'Yoast SEO Premium'.
 #: languages/wordpress-seojs.php:318
 #: src/deprecated/admin/keyword-synonyms-modal.php:32
-#: js/dist/block-editor-1661.js:55 js/dist/classic-editor-1661.js:55
-#: js/dist/elementor-1661.js:55
+#: js/dist/block-editor-1670.js:55 js/dist/classic-editor-1670.js:55
+#: js/dist/elementor-1670.js:55
 msgid "Would you like to add keyphrase synonyms?"
 msgstr "Vill du lägga till nyckelordsfras-synonymer?"
 
@@ -2947,179 +3072,179 @@ msgstr "Du kan redigera dina SEO meta-data för denna anpassade typ på %1$sbuti
 msgid "You haven't set a Shop page in your WooCommerce settings. Please do this first."
 msgstr "Du har inte angivit någon sida för din butik i inställningarna för WooCommerce. Gör det först."
 
-#: languages/wordpress-seojs.php:780 js/dist/elementor-1661.js:27
-#: js/dist/post-edit-1661.js:1 js/dist/settings-1661.js:1
-#: js/dist/term-edit-1661.js:1
+#: languages/wordpress-seojs.php:780 js/dist/elementor-1670.js:27
+#: js/dist/post-edit-1670.js:1 js/dist/settings-1670.js:1
+#: js/dist/term-edit-1670.js:1
 msgid "Current year"
 msgstr "Nuvarande år"
 
-#: languages/yoast-components.php:32 js/dist/externals/componentsNew-1661.js:3
+#: languages/yoast-components.php:32 js/dist/externals/componentsNew-1670.js:3
 msgid "Something went wrong. Please reload the page."
 msgstr "Något gick fel. Ladda om sidan."
 
 #: languages/yoast-components.php:222
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "Url preview"
 msgstr "Förhandsgranskning av URL"
 
 #: languages/yoast-components.php:219
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "Please provide a meta description by editing the snippet below. If you don’t, Google will try to find a relevant part of your post to show in the search results."
 msgstr "Ange en metabeskrivning genom att ändra förhandsvisningstexten nedan. Om du inte gör detta, kommer Google att försöka hitta en relevant del av ditt inlägg för visning i sökresultaten."
 
-#: inc/class-wpseo-replace-vars.php:1273 languages/wordpress-seojs.php:795
-#: js/dist/elementor-1661.js:27 js/dist/post-edit-1661.js:1
-#: js/dist/settings-1661.js:1 js/dist/term-edit-1661.js:1
+#: inc/class-wpseo-replace-vars.php:1271 languages/wordpress-seojs.php:795
+#: js/dist/elementor-1670.js:27 js/dist/post-edit-1670.js:1
+#: js/dist/settings-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Tagline"
 msgstr "Slogan"
 
-#: languages/wordpress-seojs.php:789 js/dist/elementor-1661.js:27
-#: js/dist/post-edit-1661.js:1 js/dist/settings-1661.js:1
-#: js/dist/term-edit-1661.js:1
+#: languages/wordpress-seojs.php:789 js/dist/elementor-1670.js:27
+#: js/dist/post-edit-1670.js:1 js/dist/settings-1670.js:1
+#: js/dist/term-edit-1670.js:1
 msgid "Page"
 msgstr "Sida"
 
 #: languages/wordpress-seojs.php:249 languages/yoast-components.php:181
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
-#: js/dist/settings-1661.js:6
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
+#: js/dist/settings-1670.js:6
 msgid "Modify your meta description by editing it right here"
 msgstr "Redigera din metabeskrivning genom att ändra den här"
 
-#: inc/class-wpseo-replace-vars.php:1312
+#: inc/class-wpseo-replace-vars.php:1310
 msgid "description (custom taxonomy)"
 msgstr "beskrivning (anpassad taxonomi)"
 
-#: inc/class-wpseo-replace-vars.php:1311
+#: inc/class-wpseo-replace-vars.php:1309
 msgid "(custom taxonomy)"
 msgstr "(anpassad taxonomi)"
 
-#: inc/class-wpseo-replace-vars.php:1310
+#: inc/class-wpseo-replace-vars.php:1308
 msgid "(custom field)"
 msgstr "(anpassat fält)"
 
-#: inc/class-wpseo-replace-vars.php:1309
+#: inc/class-wpseo-replace-vars.php:1307
 msgid "Term404"
 msgstr "Term404"
 
-#: inc/class-wpseo-replace-vars.php:1307
+#: inc/class-wpseo-replace-vars.php:1305
 msgid "Caption"
 msgstr "Rubrik"
 
-#: inc/class-wpseo-replace-vars.php:1306
+#: inc/class-wpseo-replace-vars.php:1304
 msgid "Pagenumber"
 msgstr "Sidnummer"
 
-#: inc/class-wpseo-replace-vars.php:1305
+#: inc/class-wpseo-replace-vars.php:1303
 msgid "Pagetotal"
 msgstr "Sidtotal"
 
-#: inc/class-wpseo-replace-vars.php:1304
+#: inc/class-wpseo-replace-vars.php:1302
 msgid "Page number"
 msgstr "Sidnummer"
 
-#: inc/class-wpseo-replace-vars.php:1303
+#: inc/class-wpseo-replace-vars.php:1301
 msgid "User description"
 msgstr "Användarbeskrivning"
 
-#: inc/class-wpseo-replace-vars.php:1301 languages/wordpress-seojs.php:786
-#: js/dist/elementor-1661.js:27 js/dist/post-edit-1661.js:1
-#: js/dist/settings-1661.js:1 js/dist/term-edit-1661.js:1
+#: inc/class-wpseo-replace-vars.php:1299 languages/wordpress-seojs.php:786
+#: js/dist/elementor-1670.js:27 js/dist/post-edit-1670.js:1
+#: js/dist/settings-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "ID"
 msgstr "ID"
 
-#: inc/class-wpseo-replace-vars.php:1300
+#: inc/class-wpseo-replace-vars.php:1298
 msgid "Modified"
 msgstr "Ändrad"
 
-#: inc/class-wpseo-replace-vars.php:1299
+#: inc/class-wpseo-replace-vars.php:1297
 msgid "Post type (plural)"
 msgstr "Inläggstyp (plural)"
 
-#: inc/class-wpseo-replace-vars.php:1298
+#: inc/class-wpseo-replace-vars.php:1296
 msgid "Post type (singular)"
 msgstr "Inläggstyp (singular)"
 
-#: inc/class-wpseo-replace-vars.php:1285 languages/wordpress-seojs.php:816
-#: js/dist/elementor-1661.js:27 js/dist/post-edit-1661.js:1
-#: js/dist/settings-1661.js:1 js/dist/term-edit-1661.js:1
+#: inc/class-wpseo-replace-vars.php:1283 languages/wordpress-seojs.php:816
+#: js/dist/elementor-1670.js:27 js/dist/post-edit-1670.js:1
+#: js/dist/settings-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Separator"
 msgstr "Avgränsare"
 
-#: inc/class-wpseo-replace-vars.php:1283 languages/wordpress-seojs.php:792
-#: js/dist/elementor-1661.js:27 js/dist/post-edit-1661.js:1
-#: js/dist/settings-1661.js:1 js/dist/term-edit-1661.js:1
+#: inc/class-wpseo-replace-vars.php:1281 languages/wordpress-seojs.php:792
+#: js/dist/elementor-1670.js:27 js/dist/post-edit-1670.js:1
+#: js/dist/settings-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Search phrase"
 msgstr "Sökfras"
 
-#: inc/class-wpseo-replace-vars.php:1282
+#: inc/class-wpseo-replace-vars.php:1280
 msgid "Term title"
 msgstr "Termrubrik"
 
-#: inc/class-wpseo-replace-vars.php:1281 languages/wordpress-seojs.php:828
-#: js/dist/elementor-1661.js:27 js/dist/post-edit-1661.js:1
-#: js/dist/settings-1661.js:1 js/dist/term-edit-1661.js:1
+#: inc/class-wpseo-replace-vars.php:1279 languages/wordpress-seojs.php:828
+#: js/dist/elementor-1670.js:27 js/dist/post-edit-1670.js:1
+#: js/dist/settings-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Term description"
 msgstr "Termbeskrivning"
 
-#: inc/class-wpseo-replace-vars.php:1280 languages/wordpress-seojs.php:825
-#: js/dist/elementor-1661.js:27 js/dist/post-edit-1661.js:1
-#: js/dist/settings-1661.js:1 js/dist/term-edit-1661.js:1
+#: inc/class-wpseo-replace-vars.php:1278 languages/wordpress-seojs.php:825
+#: js/dist/elementor-1670.js:27 js/dist/post-edit-1670.js:1
+#: js/dist/settings-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Tag description"
 msgstr "Etikettbeskrivning"
 
-#: inc/class-wpseo-replace-vars.php:1279 languages/wordpress-seojs.php:822
-#: js/dist/elementor-1661.js:27 js/dist/post-edit-1661.js:1
-#: js/dist/settings-1661.js:1 js/dist/term-edit-1661.js:1
+#: inc/class-wpseo-replace-vars.php:1277 languages/wordpress-seojs.php:822
+#: js/dist/elementor-1670.js:27 js/dist/post-edit-1670.js:1
+#: js/dist/settings-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Category description"
 msgstr "Kategoribeskrivning"
 
-#: inc/class-wpseo-replace-vars.php:1278 languages/wordpress-seojs.php:813
-#: js/dist/elementor-1661.js:27 js/dist/post-edit-1661.js:1
-#: js/dist/settings-1661.js:1 js/dist/term-edit-1661.js:1
+#: inc/class-wpseo-replace-vars.php:1276 languages/wordpress-seojs.php:813
+#: js/dist/elementor-1670.js:27 js/dist/post-edit-1670.js:1
+#: js/dist/settings-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Primary category"
 msgstr "Huvudkategori"
 
-#: inc/class-wpseo-replace-vars.php:1277 languages/wordpress-seojs.php:801
-#: js/dist/elementor-1661.js:27 js/dist/post-edit-1661.js:1
-#: js/dist/settings-1661.js:1 js/dist/term-edit-1661.js:1
+#: inc/class-wpseo-replace-vars.php:1275 languages/wordpress-seojs.php:801
+#: js/dist/elementor-1670.js:27 js/dist/post-edit-1670.js:1
+#: js/dist/settings-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Category"
 msgstr "Kategori"
 
-#: inc/class-wpseo-replace-vars.php:1276
+#: inc/class-wpseo-replace-vars.php:1274
 msgid "Tag"
 msgstr "Etikett"
 
-#: inc/class-wpseo-replace-vars.php:1275 languages/wordpress-seojs.php:819
-#: js/dist/elementor-1661.js:27 js/dist/post-edit-1661.js:1
-#: js/dist/settings-1661.js:1 js/dist/term-edit-1661.js:1
+#: inc/class-wpseo-replace-vars.php:1273 languages/wordpress-seojs.php:819
+#: js/dist/elementor-1670.js:27 js/dist/post-edit-1670.js:1
+#: js/dist/settings-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Excerpt only"
 msgstr "Endast utdrag"
 
-#: inc/class-wpseo-replace-vars.php:1274 languages/wordpress-seojs.php:810
-#: js/dist/elementor-1661.js:27 js/dist/post-edit-1661.js:1
-#: js/dist/settings-1661.js:1 js/dist/term-edit-1661.js:1
+#: inc/class-wpseo-replace-vars.php:1272 languages/wordpress-seojs.php:810
+#: js/dist/elementor-1670.js:27 js/dist/post-edit-1670.js:1
+#: js/dist/settings-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Excerpt"
 msgstr "Utdrag"
 
-#: inc/class-wpseo-replace-vars.php:1272 languages/wordpress-seojs.php:798
-#: js/dist/elementor-1661.js:27 js/dist/post-edit-1661.js:1
-#: js/dist/settings-1661.js:1 js/dist/term-edit-1661.js:1
+#: inc/class-wpseo-replace-vars.php:1270 languages/wordpress-seojs.php:798
+#: js/dist/elementor-1670.js:27 js/dist/post-edit-1670.js:1
+#: js/dist/settings-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Site title"
 msgstr "Sidrubrik"
 
-#: inc/class-wpseo-replace-vars.php:1271
+#: inc/class-wpseo-replace-vars.php:1269
 msgid "Archive title"
 msgstr "Arkivrubrik"
 
-#: inc/class-wpseo-replace-vars.php:1270 languages/wordpress-seojs.php:807
-#: js/dist/elementor-1661.js:27 js/dist/post-edit-1661.js:1
-#: js/dist/settings-1661.js:1 js/dist/term-edit-1661.js:1
+#: inc/class-wpseo-replace-vars.php:1268 languages/wordpress-seojs.php:807
+#: js/dist/elementor-1670.js:27 js/dist/post-edit-1670.js:1
+#: js/dist/settings-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Parent title"
 msgstr "Överordnad rubrik"
 
-#: inc/class-wpseo-replace-vars.php:1268 languages/wordpress-seojs.php:783
-#: js/dist/elementor-1661.js:27 js/dist/post-edit-1661.js:1
-#: js/dist/settings-1661.js:1 js/dist/term-edit-1661.js:1
+#: inc/class-wpseo-replace-vars.php:1266 languages/wordpress-seojs.php:783
+#: js/dist/elementor-1670.js:27 js/dist/post-edit-1670.js:1
+#: js/dist/settings-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Date"
 msgstr "Datum"
 
@@ -3156,12 +3281,12 @@ msgstr "Inställningar för arkivet %s"
 msgid "The settings on this page allow you to specify what the default search appearance should be for any type of content you have. You can choose which content types appear in search results and what their default description should be."
 msgstr "Inställningarna på denna sida låter dig ange vilket sökutseende som ska användas som standard för vilken typ av innehåll du har. Du kan välja vilka inläggstyper som ska synas i sökresultat och vad deras beskrivning ska vara som standard."
 
-#: languages/yoast-components.php:46 js/dist/externals/componentsNew-1661.js:6
+#: languages/yoast-components.php:46 js/dist/externals/componentsNew-1670.js:6
 msgid "Dismiss this notice"
 msgstr "Avfärda denna notis"
 
 #. Translators: %s expands to the actual language.
-#: languages/yoast-components.php:40 js/dist/externals/componentsNew-1661.js:6
+#: languages/yoast-components.php:40 js/dist/externals/componentsNew-1670.js:6
 msgid "Your site language is set to %s. If this is not correct, contact your site administrator."
 msgstr "Språket för din webbplats är inställt till %s. Om detta inte stämmer bör du kontakta webbplatsens administratör."
 
@@ -3223,7 +3348,7 @@ msgstr "Filtrera efter innehållstyp"
 msgid "Show All Content Types"
 msgstr "Visa alla innehållstyper"
 
-#: inc/class-wpseo-replace-vars.php:1271
+#: inc/class-wpseo-replace-vars.php:1269
 msgid "Replaced with the normal title for an archive generated by WordPress"
 msgstr "Ersatt med den vanliga rubriken för ett arkiv som genereras av WordPress"
 
@@ -3316,10 +3441,10 @@ msgstr "%s data hittades inte."
 #. translators: %1$s expands to a 'strong' start tag, %2$s to a 'strong' end
 #. tag.
 #: admin/class-premium-upsell-admin-block.php:59 admin/views/sidebar.php:38
-#: languages/wordpress-seojs.php:359 js/dist/block-editor-1661.js:37
-#: js/dist/block-editor-1661.js:47 js/dist/classic-editor-1661.js:37
-#: js/dist/classic-editor-1661.js:47 js/dist/elementor-1661.js:37
-#: js/dist/elementor-1661.js:47
+#: languages/wordpress-seojs.php:359 js/dist/block-editor-1670.js:37
+#: js/dist/block-editor-1670.js:47 js/dist/classic-editor-1670.js:37
+#: js/dist/classic-editor-1670.js:47 js/dist/elementor-1670.js:37
+#: js/dist/elementor-1670.js:47
 msgid "24/7 email support"
 msgstr "E-postsupport dygnet runt"
 
@@ -3486,46 +3611,46 @@ msgid "Learn more about the Webmaster Tools verification"
 msgstr "Lär dig mer om verifiering med webbmaster-verktygen"
 
 #: admin/class-yoast-form.php:855 admin/class-yoast-form.php:895
-#: admin/views/tabs/dashboard/features.php:52
-#: admin/views/tabs/dashboard/integrations.php:54
+#: admin/views/tabs/dashboard/features.php:68
+#: admin/views/tabs/dashboard/integrations.php:71
 #: admin/views/tabs/metas/paper-content/author-archive-settings.php:13
 #: admin/views/tabs/metas/paper-content/date-archives-settings.php:13
 #: admin/views/tabs/metas/paper-content/taxonomy-content.php:19
-#: languages/yoast-components.php:49 js/dist/externals/componentsNew-1661.js:6
+#: languages/yoast-components.php:49 js/dist/externals/componentsNew-1670.js:6
 msgid "On"
 msgstr "På"
 
 #. translators: %s expands to a feature's name
 #. translators: %s expands to an integration's name
-#: admin/views/tabs/dashboard/features.php:45
-#: admin/views/tabs/dashboard/integrations.php:47
+#: admin/views/tabs/dashboard/features.php:51
+#: admin/views/tabs/dashboard/integrations.php:54
 #: admin/views/tabs/network/features.php:45
 #: admin/views/tabs/network/integrations.php:47
 msgid "Help on: %s"
 msgstr "Hjälp med: %s"
 
 #. translators: %1$s expands to Yoast SEO
-#: admin/views/tabs/dashboard/features.php:24
+#: admin/views/tabs/dashboard/features.php:26
 msgid "%1$s comes with a lot of features. You can enable / disable some of them below. Clicking the question mark gives more information about the feature."
 msgstr "%1$s kommer med många funktioner. Du kan aktivera/inaktivera några av dem nedan. Om du klickar på frågetecknet får du mer information om funktionen."
 
 #: admin/class-yoast-form.php:856 admin/class-yoast-form.php:896
-#: admin/views/class-yoast-feature-toggles.php:130
-#: admin/views/tabs/dashboard/features.php:53
-#: admin/views/tabs/dashboard/integrations.php:55
+#: admin/views/class-yoast-feature-toggles.php:150
+#: admin/views/tabs/dashboard/features.php:69
+#: admin/views/tabs/dashboard/integrations.php:72
 #: admin/views/tabs/metas/paper-content/author-archive-settings.php:14
 #: admin/views/tabs/metas/paper-content/date-archives-settings.php:14
 #: admin/views/tabs/metas/paper-content/taxonomy-content.php:19
-#: languages/yoast-components.php:52 js/dist/externals/componentsNew-1661.js:6
+#: languages/yoast-components.php:52 js/dist/externals/componentsNew-1670.js:6
 msgid "Off"
 msgstr "Av"
 
-#: admin/views/class-yoast-feature-toggles.php:110
+#: admin/views/class-yoast-feature-toggles.php:130
 msgid "Read why XML Sitemaps are important for your site."
 msgstr "Läs om varför XML-webbplatskartor är viktiga för din webbplats."
 
 #. translators: %s: Yoast SEO
-#: admin/views/class-yoast-feature-toggles.php:109
+#: admin/views/class-yoast-feature-toggles.php:129
 msgid "Enable the XML sitemaps that %s generates."
 msgstr "Aktivera XML-webbplatskartan som %s genererar."
 
@@ -3560,10 +3685,10 @@ msgstr "Att inte visa %1$s i sökresultaten betyder tekniskt sätt att dessa int
 #. in plural form
 #. Translators: %s translates to the "yes" or "no" ,%s translates to the Post
 #. Label in plural form
-#: languages/wordpress-seojs.php:83 js/dist/block-editor-1661.js:65
-#: js/dist/block-editor-1661.js:67 js/dist/classic-editor-1661.js:65
-#: js/dist/classic-editor-1661.js:67 js/dist/elementor-1661.js:65
-#: js/dist/elementor-1661.js:67
+#: languages/wordpress-seojs.php:83 js/dist/block-editor-1670.js:65
+#: js/dist/block-editor-1670.js:67 js/dist/classic-editor-1670.js:65
+#: js/dist/classic-editor-1670.js:67 js/dist/elementor-1670.js:65
+#: js/dist/elementor-1670.js:67
 msgid "%s (current default for %s)"
 msgstr "%s (nuvarande standard för %s)"
 
@@ -3588,8 +3713,8 @@ msgstr "Standard för %2$s, för närvarande: %1$s"
 #. translators: %s expands to the post type name.
 #. Translators: %s translates to the Post Label in singular form
 #: admin/metabox/class-metabox.php:176 languages/wordpress-seojs.php:90
-#: js/dist/block-editor-1661.js:69 js/dist/classic-editor-1661.js:69
-#: js/dist/elementor-1661.js:69
+#: js/dist/block-editor-1670.js:69 js/dist/classic-editor-1670.js:69
+#: js/dist/elementor-1670.js:69
 msgid "Allow search engines to show this %s in search results?"
 msgstr "Tillåt sökmotorer att visa denna/detta %s i sökresultat?"
 
@@ -3638,8 +3763,12 @@ msgstr "Läs mer om hur %s fungerar."
 
 #. translators: %s: 'Semrush'
 #. translators: %s: Ryte
+#. translators: %s: Zapier.
+#. translators: %s: Algolia.
 #: admin/views/class-yoast-integration-toggles.php:67
 #: admin/views/class-yoast-integration-toggles.php:78
+#: admin/views/class-yoast-integration-toggles.php:93
+#: admin/views/class-yoast-integration-toggles.php:110
 msgid "%s integration"
 msgstr "Integration med %s"
 
@@ -3676,8 +3805,8 @@ msgid "The SEO analysis offers suggestions to improve the SEO of your text."
 msgstr "SEO-analysen visar dig hur du kan förbättra SEO för din text."
 
 #: admin/views/class-yoast-feature-toggles.php:74
-#: languages/wordpress-seojs.php:312 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:312 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "SEO analysis"
 msgstr "SEO-analys"
 
@@ -3691,13 +3820,13 @@ msgid "Get better search results in local search"
 msgstr "Få bättre sökresultat i lokala sökningar"
 
 #: admin/formatter/class-metabox-formatter.php:192
-#: languages/yoast-components.php:20 js/dist/externals/analysisReport-1661.js:1
+#: languages/yoast-components.php:20 js/dist/externals/analysisReport-1670.js:1
 msgid "Good results"
 msgstr "Bra resultat"
 
 #. Translators: %s expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:501 js/dist/block-editor-1661.js:13
-#: js/dist/classic-editor-1661.js:13 js/dist/elementor-1661.js:13
+#: languages/wordpress-seojs.php:501 js/dist/block-editor-1670.js:13
+#: js/dist/classic-editor-1670.js:13 js/dist/elementor-1670.js:13
 msgid "Find out why you should upgrade to %s"
 msgstr "Ta reda på varför du borde uppgradera till %s"
 
@@ -3715,7 +3844,7 @@ msgid "Latest blog posts on %1$s"
 msgstr "Senaste blogginläggen på %1$s"
 
 #: admin/formatter/class-metabox-formatter.php:194
-#: languages/yoast-components.php:8 js/dist/externals/analysisReport-1661.js:1
+#: languages/yoast-components.php:8 js/dist/externals/analysisReport-1670.js:1
 msgid "Remove highlight from the text"
 msgstr "Ta bort markering från texten"
 
@@ -3730,26 +3859,26 @@ msgid "First-time SEO configuration"
 msgstr "Startkonfiguration för SEO"
 
 #. Translators: %s expands to the actual language.
-#: languages/yoast-components.php:36 js/dist/externals/componentsNew-1661.js:4
+#: languages/yoast-components.php:36 js/dist/externals/componentsNew-1670.js:4
 msgid "Your site language is set to %s. "
 msgstr "Språket på din webbplats är inställt på %s. "
 
 #: admin/formatter/class-metabox-formatter.php:193
-#: languages/yoast-components.php:11 js/dist/externals/analysisReport-1661.js:1
+#: languages/yoast-components.php:11 js/dist/externals/analysisReport-1670.js:1
 msgid "Highlight this result in the text"
 msgstr "Markera detta resultat i texten"
 
 #: admin/formatter/class-metabox-formatter.php:191
-#: languages/yoast-components.php:17 js/dist/externals/analysisReport-1661.js:1
+#: languages/yoast-components.php:17 js/dist/externals/analysisReport-1670.js:1
 msgid "Considerations"
 msgstr "Överväganden"
 
 #: admin/formatter/class-metabox-formatter.php:188
-#: languages/yoast-components.php:23 js/dist/externals/analysisReport-1661.js:1
+#: languages/yoast-components.php:23 js/dist/externals/analysisReport-1670.js:1
 msgid "Errors"
 msgstr "Fel"
 
-#: languages/yoast-components.php:43 js/dist/externals/componentsNew-1661.js:6
+#: languages/yoast-components.php:43 js/dist/externals/componentsNew-1670.js:6
 msgid "Change language"
 msgstr "Byt språk"
 
@@ -3847,8 +3976,8 @@ msgstr "Markera de viktigaste %1$s som ”grundstensinnehåll” för att förb�
 #: src/deprecated/admin/keyword-synonyms-modal.php:51
 #: src/deprecated/admin/multiple-keywords-modal.php:51
 #: src/presenters/admin/help-link-presenter.php:75
-#: js/dist/block-editor-1661.js:83 js/dist/externals/componentsNew-1661.js:1
-#: js/dist/externals/helpers-1661.js:1
+#: js/dist/block-editor-1670.js:83 js/dist/externals/componentsNew-1670.js:1
+#: js/dist/externals/helpers-1670.js:1
 msgid "(Opens in a new browser tab)"
 msgstr "(Öppnas i en ny webbläsarflik)"
 
@@ -3971,8 +4100,8 @@ msgstr "Metoden %1$s är inte giltig för begäran."
 
 #. Translators: %s expands to the social medium name, which is either Twitter
 #. or Facebook. %s expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:497 js/dist/block-editor-1661.js:11
-#: js/dist/classic-editor-1661.js:11 js/dist/elementor-1661.js:11
+#: languages/wordpress-seojs.php:497 js/dist/block-editor-1670.js:11
+#: js/dist/classic-editor-1670.js:11 js/dist/elementor-1670.js:11
 msgid "Do you want to preview what it will look like if people share this post on %s? You can, with %s."
 msgstr "Vill du förhandsgranska hur det kommer att se ut om människor delar detta inlägg på %s? Det kan du med %s."
 
@@ -3998,7 +4127,7 @@ msgid "Readability score"
 msgstr "Läsbarhetspoäng"
 
 #: languages/yoast-components.php:199 languages/yoast-seo-js.php:420
-#: js/dist/externals/searchMetadataPreviews-1661.js:1
+#: js/dist/externals/searchMetadataPreviews-1670.js:1
 msgid "Scroll to see the preview content."
 msgstr "Rulla för att se förhandsgranskning av innehållet."
 
@@ -4008,16 +4137,16 @@ msgstr "Rulla för att se förhandsgranskning av innehållet."
 #: src/deprecated/admin/add-keyword-modal.php:41
 #: src/deprecated/admin/keyword-synonyms-modal.php:41
 #: src/deprecated/admin/multiple-keywords-modal.php:41
-#: js/dist/block-editor-1661.js:39 js/dist/block-editor-1661.js:49
-#: js/dist/classic-editor-1661.js:39 js/dist/classic-editor-1661.js:49
-#: js/dist/elementor-1661.js:39 js/dist/elementor-1661.js:49
+#: js/dist/block-editor-1670.js:39 js/dist/block-editor-1670.js:49
+#: js/dist/classic-editor-1670.js:39 js/dist/classic-editor-1670.js:49
+#: js/dist/elementor-1670.js:39 js/dist/elementor-1670.js:49
 msgid "Other benefits of %s for you:"
 msgstr "Fler fördelar för dig med %s:"
 
 #: admin/filters/class-cornerstone-filter.php:87
 #: admin/views/class-yoast-feature-toggles.php:90
-#: languages/wordpress-seojs.php:110 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:110 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "Cornerstone content"
 msgstr "Grundstensinnehåll"
 
@@ -4057,17 +4186,17 @@ msgstr "Konfigurationsguiden hjälper dig att enkelt konfigurera din webbplats s
 #. translators: %1$s expands to a 'strong' start tag, %2$s to a 'strong' end
 #. tag.
 #: admin/class-premium-upsell-admin-block.php:57
-#: languages/wordpress-seojs.php:350 js/dist/block-editor-1661.js:35
-#: js/dist/block-editor-1661.js:45 js/dist/classic-editor-1661.js:35
-#: js/dist/classic-editor-1661.js:45 js/dist/elementor-1661.js:35
-#: js/dist/elementor-1661.js:45
+#: languages/wordpress-seojs.php:350 js/dist/block-editor-1670.js:35
+#: js/dist/block-editor-1670.js:45 js/dist/classic-editor-1670.js:35
+#: js/dist/classic-editor-1670.js:45 js/dist/elementor-1670.js:35
+#: js/dist/elementor-1670.js:45
 msgid "Superfast internal linking suggestions"
 msgstr "Supersnabba interna länkningsförslag"
 
 #. translators: %1$s expands to a 'Yoast SEO Premium' text linked to the
 #. yoast.com website.
-#: languages/wordpress-seojs.php:338 js/dist/block-editor-1661.js:33
-#: js/dist/classic-editor-1661.js:33 js/dist/elementor-1661.js:33
+#: languages/wordpress-seojs.php:338 js/dist/block-editor-1670.js:33
+#: js/dist/classic-editor-1670.js:33 js/dist/elementor-1670.js:33
 msgid "Great news: you can, with %1$s!"
 msgstr "Goda nyheter: du kan, med %1$s!"
 
@@ -4082,9 +4211,9 @@ msgstr "Spara ändringar"
 #: src/deprecated/admin/add-keyword-modal.php:50
 #: src/deprecated/admin/keyword-synonyms-modal.php:50
 #: src/deprecated/admin/multiple-keywords-modal.php:50
-#: js/dist/block-editor-1661.js:41 js/dist/block-editor-1661.js:51
-#: js/dist/classic-editor-1661.js:41 js/dist/classic-editor-1661.js:51
-#: js/dist/elementor-1661.js:41 js/dist/elementor-1661.js:51
+#: js/dist/block-editor-1670.js:41 js/dist/block-editor-1670.js:51
+#: js/dist/classic-editor-1670.js:41 js/dist/classic-editor-1670.js:51
+#: js/dist/elementor-1670.js:41 js/dist/elementor-1670.js:51
 msgid "1 year free support and updates included!"
 msgstr "1 års fri support och uppdateringar ingår!"
 
@@ -4097,27 +4226,27 @@ msgstr "Tillägget %2$s ändrar din webbplats output och skiljer genom det mella
 
 #. translators: %1$s expands to a 'strong' start tag, %2$s to a 'strong' end
 #. tag.
-#: languages/wordpress-seojs.php:355 js/dist/block-editor-1661.js:37
-#: js/dist/block-editor-1661.js:47 js/dist/classic-editor-1661.js:37
-#: js/dist/classic-editor-1661.js:47 js/dist/elementor-1661.js:37
-#: js/dist/elementor-1661.js:47
+#: languages/wordpress-seojs.php:355 js/dist/block-editor-1670.js:37
+#: js/dist/block-editor-1670.js:47 js/dist/classic-editor-1670.js:37
+#: js/dist/classic-editor-1670.js:47 js/dist/elementor-1670.js:37
+#: js/dist/elementor-1670.js:47
 msgid "%1$sSocial media preview%2$s: Facebook & Twitter"
 msgstr "%1$sFörhandsgranskning för sociala medier%2$s: Facebook och Twitter"
 
 #. translators: %1$s expands to a 'strong' start tag, %2$s to a 'strong' end
 #. tag.
-#: languages/wordpress-seojs.php:346 js/dist/block-editor-1661.js:35
-#: js/dist/block-editor-1661.js:45 js/dist/classic-editor-1661.js:35
-#: js/dist/classic-editor-1661.js:45 js/dist/elementor-1661.js:35
-#: js/dist/elementor-1661.js:45
+#: languages/wordpress-seojs.php:346 js/dist/block-editor-1670.js:35
+#: js/dist/block-editor-1670.js:45 js/dist/classic-editor-1670.js:35
+#: js/dist/classic-editor-1670.js:45 js/dist/elementor-1670.js:35
+#: js/dist/elementor-1670.js:45
 msgid "%1$sNo more dead links%2$s: easy redirect manager"
 msgstr "%1$sGör dig av med döda länkar%2$s: easy redirect manager"
 
 #: admin/class-premium-upsell-admin-block.php:60 admin/views/sidebar.php:39
-#: languages/wordpress-seojs.php:363 js/dist/block-editor-1661.js:37
-#: js/dist/block-editor-1661.js:47 js/dist/classic-editor-1661.js:37
-#: js/dist/classic-editor-1661.js:47 js/dist/elementor-1661.js:37
-#: js/dist/elementor-1661.js:47
+#: languages/wordpress-seojs.php:363 js/dist/block-editor-1670.js:37
+#: js/dist/block-editor-1670.js:47 js/dist/classic-editor-1670.js:37
+#: js/dist/classic-editor-1670.js:47 js/dist/elementor-1670.js:37
+#: js/dist/elementor-1670.js:47
 msgid "No ads!"
 msgstr "Ingen reklam!"
 
@@ -4184,7 +4313,7 @@ msgstr[0] "Detta är något under det rekommenderade minsta antalet på %5$d ord
 msgstr[1] "Detta är något under det rekommenderade minsta antalet på %5$d ord. %3$sLägg till lite mer text%4$s."
 
 #: languages/yoast-components.php:145
-#: js/dist/externals/configurationWizard-1661.js:1
+#: js/dist/externals/configurationWizard-1670.js:1
 msgid "Step %1$d: %2$s"
 msgstr "Steg %1$d: %2$s"
 
@@ -4218,7 +4347,7 @@ msgid "Please provide an SEO title by editing the snippet below."
 msgstr "Ange en SEO-rubrik genom att redigera förhandsvisningstexten nedan."
 
 #: languages/yoast-components.php:231 languages/yoast-seo-js.php:408
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "Meta description preview:"
 msgstr "Förhandsgranska metabeskrivning:"
 
@@ -4231,12 +4360,12 @@ msgid "SEO title preview:"
 msgstr "Förhandsvisning av SEO-rubrik:"
 
 #: languages/yoast-components.php:184 languages/yoast-seo-js.php:396
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "Close snippet editor"
 msgstr "Stäng redigeraren för förhandsvisningstexten"
 
 #: languages/yoast-components.php:193 languages/yoast-seo-js.php:390
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "Slug"
 msgstr "Slug"
 
@@ -4250,28 +4379,28 @@ msgstr "Markera detta resultat i texten"
 
 #: admin/formatter/class-metabox-formatter.php:195
 #: languages/yoast-components.php:5 languages/yoast-seo-js.php:375
-#: js/dist/externals/analysisReport-1661.js:1
+#: js/dist/externals/analysisReport-1670.js:1
 msgid "Marks are disabled in current view"
 msgstr "Markeringar är inaktiverade i nuvarande vy"
 
 #: languages/wordpress-seojs.php:18 languages/yoast-seo-js.php:41
-#: js/dist/block-editor-1661.js:1 js/dist/classic-editor-1661.js:1
-#: js/dist/editor-modules-1661.js:15 js/dist/elementor-1661.js:1
-#: js/dist/post-edit-1661.js:1 js/dist/term-edit-1661.js:1
+#: js/dist/block-editor-1670.js:1 js/dist/classic-editor-1670.js:1
+#: js/dist/editor-modules-1670.js:15 js/dist/elementor-1670.js:1
+#: js/dist/post-edit-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Good SEO score"
 msgstr "Bra SEO-poäng"
 
 #: languages/wordpress-seojs.php:12 languages/yoast-seo-js.php:34
-#: js/dist/block-editor-1661.js:1 js/dist/classic-editor-1661.js:1
-#: js/dist/editor-modules-1661.js:15 js/dist/elementor-1661.js:1
-#: js/dist/post-edit-1661.js:1 js/dist/term-edit-1661.js:1
+#: js/dist/block-editor-1670.js:1 js/dist/classic-editor-1670.js:1
+#: js/dist/editor-modules-1670.js:15 js/dist/elementor-1670.js:1
+#: js/dist/post-edit-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "OK SEO score"
 msgstr "OK SEO-poäng"
 
 #: languages/wordpress-seojs.php:5 languages/yoast-seo-js.php:22
-#: js/dist/block-editor-1661.js:1 js/dist/classic-editor-1661.js:1
-#: js/dist/editor-modules-1661.js:15 js/dist/elementor-1661.js:1
-#: js/dist/post-edit-1661.js:1 js/dist/term-edit-1661.js:1
+#: js/dist/block-editor-1670.js:1 js/dist/classic-editor-1670.js:1
+#: js/dist/editor-modules-1670.js:15 js/dist/elementor-1670.js:1
+#: js/dist/post-edit-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Feedback"
 msgstr "Feedback"
 
@@ -4295,19 +4424,19 @@ msgstr "MailChimp-registrering misslyckades:"
 msgid "Sign Up!"
 msgstr "Registrera!"
 
-#: inc/class-wpseo-replace-vars.php:1302 languages/wordpress-seojs.php:262
-#: js/dist/settings-1661.js:6
+#: inc/class-wpseo-replace-vars.php:1300 languages/wordpress-seojs.php:262
+#: js/dist/settings-1670.js:6
 msgid "Name"
 msgstr "Namn"
 
 #: languages/wordpress-seojs.php:528 languages/yoast-seo-js.php:426
-#: js/dist/block-editor-1661.js:71 js/dist/classic-editor-1661.js:71
-#: js/dist/elementor-1661.js:71
+#: js/dist/block-editor-1670.js:71 js/dist/classic-editor-1670.js:71
+#: js/dist/elementor-1670.js:71
 msgid "Please provide a meta description by editing the snippet below."
 msgstr "Ange en metabeskrivning genom att redigera förhandsvisningstexten nedan."
 
 #: languages/yoast-components.php:187 languages/yoast-seo-js.php:384
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "Edit snippet"
 msgstr "Redigera förhandsvisningstext"
 
@@ -4316,20 +4445,20 @@ msgid "You can click on each element in the preview to jump to the Snippet Edito
 msgstr "Du kan klicka på varje element i förhandsgranskningen för att gå till redigeraren för förhandsvisningstexten."
 
 #: languages/yoast-components.php:228
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "SEO title preview"
 msgstr "Förhandsgranska SEO-rubrik"
 
 #. Translators: {{link}} resolves to the link opening tag to yoa.st/bugreport,
 #. {{/link}} resolves to the link closing tag.
 #: languages/yoast-components.php:129
-#: js/dist/externals/configurationWizard-1661.js:3
+#: js/dist/externals/configurationWizard-1670.js:3
 msgid "A problem occurred when saving the current step, {{link}}please file a bug report{{/link}} describing what step you are on and which changes you want to make (if any)."
 msgstr "Ett problem uppstod när detta steg sparades, {{link}}skicka skicka en felrapport{{/link}} som beskriver vilket steg du är på och vilka ändringar du vill göra (om någon)."
 
 #: admin/config-ui/class-configuration-page.php:142
 #: languages/yoast-components.php:132
-#: js/dist/externals/configurationWizard-1661.js:3
+#: js/dist/externals/configurationWizard-1670.js:3
 msgid "Close the Wizard"
 msgstr "Stäng guiden"
 
@@ -4382,16 +4511,16 @@ msgstr "(ingen rubrik)"
 
 #. Translators: %s expands to "Yoast SEO for WordPress".
 #: languages/yoast-components.php:142
-#: js/dist/externals/configurationWizard-1661.js:5
+#: js/dist/externals/configurationWizard-1670.js:5
 msgid "%s installation wizard"
 msgstr "Installationsguide för %s"
 
 #. translators: 1: Yoast SEO
-#: admin/views/class-yoast-feature-toggles.php:120
+#: admin/views/class-yoast-feature-toggles.php:140
 msgid "The %1$s admin bar menu contains useful links to third-party tools for analyzing pages and makes it easy to see if you have new notifications."
 msgstr "Administratörsmenyn %1$s innehåller användbara länkar till tredje-parts-verktyg för att analysera sidor och gör det lätt att se om du har nya notiser."
 
-#: admin/views/class-yoast-feature-toggles.php:117
+#: admin/views/class-yoast-feature-toggles.php:137
 msgid "Admin bar menu"
 msgstr "Administratörsmeny"
 
@@ -4401,15 +4530,15 @@ msgid "%1$s will check weekly if your site is still indexable by search engines 
 msgstr "%1$s kommer kontrollera din webbplats en gång i veckan om den fortfarande är indexerbar av sökmotorer och %2$s aviserar dig när detta inte är fallet."
 
 #: admin/pages/dashboard.php:41 admin/pages/network.php:19
-#: admin/views/tabs/dashboard/features.php:19
+#: admin/views/tabs/dashboard/features.php:21
 #: admin/views/tabs/network/features.php:19
 msgid "Features"
 msgstr "Funktioner"
 
 #: admin/metabox/class-metabox.php:172 languages/yoast-components.php:190
 #: languages/yoast-seo-js.php:387
-#: js/dist/externals/replacementVariableEditor-1661.js:1
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/replacementVariableEditor-1670.js:1
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "SEO title"
 msgstr "SEO-rubrik"
 
@@ -4474,7 +4603,7 @@ msgstr "Smalt tankstreck"
 msgid "Choose the symbol to use as your title separator. This will display, for instance, between your post title and site name. Symbols are shown in the size they'll appear in the search results."
 msgstr "Välj symbolen som ska användas som din rubrikavgränsare. Detta visas t.ex. mellan din inläggsrubrik och webbplatsens namn. Symbolerna visas i den storlek som visas i sökresultaten."
 
-#: languages/wordpress-seojs.php:255 js/dist/configuration-wizard-1661.js:1
+#: languages/wordpress-seojs.php:255 js/dist/configuration-wizard-1670.js:1
 msgid "The name of the person"
 msgstr "Personens namn"
 
@@ -4482,8 +4611,8 @@ msgstr "Personens namn"
 #: admin/config-ui/fields/class-field-multiple-authors.php:24
 #: admin/metabox/class-metabox.php:183 admin/metabox/class-metabox.php:188
 #: admin/views/tabs/metas/paper-content/media-content.php:20
-#: languages/wordpress-seojs.php:76 js/dist/block-editor-1661.js:63
-#: js/dist/classic-editor-1661.js:63 js/dist/elementor-1661.js:63
+#: languages/wordpress-seojs.php:76 js/dist/block-editor-1670.js:63
+#: js/dist/classic-editor-1670.js:63 js/dist/elementor-1670.js:63
 msgid "No"
 msgstr "Nej"
 
@@ -4491,9 +4620,9 @@ msgstr "Nej"
 #: admin/config-ui/fields/class-field-multiple-authors.php:23
 #: admin/metabox/class-metabox.php:182 admin/metabox/class-metabox.php:187
 #: admin/views/tabs/metas/paper-content/media-content.php:19
-#: languages/wordpress-seojs.php:79 js/dist/block-editor-1661.js:63
-#: js/dist/classic-editor-1661.js:63 js/dist/elementor-1661.js:63
-#: js/dist/externals/schemaBlocks-1661.js:13
+#: languages/wordpress-seojs.php:79 js/dist/block-editor-1670.js:63
+#: js/dist/classic-editor-1670.js:63 js/dist/elementor-1670.js:63
+#: js/dist/externals/schemaBlocks-1670.js:13
 msgid "Yes"
 msgstr "Ja"
 
@@ -4698,7 +4827,7 @@ msgid "Make primary"
 msgstr "Gör till primär"
 
 #. translators: %s expands to Yoast SEO Premium
-#: languages/wordpress-seojs.php:29 js/dist/addon-installation-1661.js:5
+#: languages/wordpress-seojs.php:29 js/dist/addon-installation-1670.js:5
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -4718,8 +4847,8 @@ msgid "Removes the readability analysis section from the metabox and disables al
 msgstr "Tar bort sektionen läsbarhetsanalys från metarutan och inaktiverar alla läsbarhetsrelaterade förslag."
 
 #: admin/views/class-yoast-feature-toggles.php:82
-#: languages/wordpress-seojs.php:294 js/dist/block-editor-1661.js:59
-#: js/dist/classic-editor-1661.js:59 js/dist/elementor-1661.js:59
+#: languages/wordpress-seojs.php:294 js/dist/block-editor-1670.js:59
+#: js/dist/classic-editor-1670.js:59 js/dist/elementor-1670.js:59
 msgid "Readability analysis"
 msgstr "Läsbarhetsanalys"
 
@@ -4728,10 +4857,10 @@ msgstr "Läsbarhetsanalys"
 #: admin/statistics/class-statistics-service.php:217
 #: inc/class-wpseo-rank.php:140 inc/class-wpseo-rank.php:163
 #: inc/class-wpseo-rank.php:195 languages/wordpress-seojs.php:9
-#: languages/yoast-seo-js.php:30 js/dist/block-editor-1661.js:1
-#: js/dist/block-editor-1661.js:83 js/dist/classic-editor-1661.js:1
-#: js/dist/editor-modules-1661.js:15 js/dist/elementor-1661.js:1
-#: js/dist/post-edit-1661.js:1 js/dist/term-edit-1661.js:1
+#: languages/yoast-seo-js.php:30 js/dist/block-editor-1670.js:1
+#: js/dist/block-editor-1670.js:83 js/dist/classic-editor-1670.js:1
+#: js/dist/editor-modules-1670.js:15 js/dist/elementor-1670.js:1
+#: js/dist/post-edit-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Needs improvement"
 msgstr "Behöver förbättras"
 
@@ -4741,7 +4870,7 @@ msgid "Readability"
 msgstr "Läsbarhet"
 
 #: admin/formatter/class-metabox-formatter.php:190
-#: languages/yoast-components.php:14 js/dist/externals/analysisReport-1661.js:1
+#: languages/yoast-components.php:14 js/dist/externals/analysisReport-1670.js:1
 msgid "Improvements"
 msgstr "Förbättringar"
 
@@ -4759,13 +4888,13 @@ msgstr "Vi har upptäckt följande problem som påverkar SEO på din webbplats."
 
 #: admin/formatter/class-metabox-formatter.php:189
 #: admin/views/partial-notifications-errors.php:20
-#: languages/yoast-components.php:26 js/dist/externals/analysisReport-1661.js:1
+#: languages/yoast-components.php:26 js/dist/externals/analysisReport-1670.js:1
 msgid "Problems"
 msgstr "Problem"
 
 #. Translators: %1$s expands to the block name.
 #: admin/formatter/class-metabox-formatter.php:166
-#: js/dist/externals/schemaBlocks-1661.js:9
+#: js/dist/externals/schemaBlocks-1670.js:9
 msgid "Analysis"
 msgstr "Analys"
 
@@ -4782,8 +4911,8 @@ msgstr "Filtrera efter SEO-poäng"
 msgid "Meta description not set."
 msgstr "Metabeskrivning har inte angetts."
 
-#: languages/wordpress-seojs.php:470 js/dist/block-editor-1661.js:51
-#: js/dist/classic-editor-1661.js:51 js/dist/elementor-1661.js:51
+#: languages/wordpress-seojs.php:470 js/dist/block-editor-1670.js:51
+#: js/dist/classic-editor-1670.js:51 js/dist/elementor-1670.js:51
 msgid "Open"
 msgstr "Öppna"
 
@@ -4797,7 +4926,7 @@ msgstr "Adminpanel"
 msgid "You can fix this on the %1$sPermalink settings page%2$s."
 msgstr "Du kan åtgärda detta på %1$sinställningssidan för permalänkar%2$s."
 
-#: inc/class-wpseo-replace-vars.php:1278
+#: inc/class-wpseo-replace-vars.php:1276
 msgid "Replaced with the primary category of the post/page"
 msgstr "Ersatt med den primära kategorin för inlägget/sidan"
 
@@ -4881,7 +5010,7 @@ msgid "Make %1$s primary %2$s"
 msgstr "Gör %1$s primär %2$s"
 
 #: admin/pages/dashboard.php:47 admin/pages/network.php:20
-#: admin/views/tabs/dashboard/integrations.php:19
+#: admin/views/tabs/dashboard/integrations.php:21
 #: admin/views/tabs/network/integrations.php:19
 msgid "Integrations"
 msgstr "Integrationer"
@@ -4904,7 +5033,7 @@ msgid "Disabled"
 msgstr "Inaktiverad"
 
 #. translators: %s: wp_title() function.
-#: inc/class-wpseo-replace-vars.php:1260
+#: inc/class-wpseo-replace-vars.php:1258
 msgid "The separator defined in your theme's %s tag."
 msgstr "Avgränsaren definierad i ditt temas %s-tagg."
 
@@ -4933,7 +5062,7 @@ msgstr "Den första riktiga allt-i-ett SEO-lösningen för WordPress, inklusive 
 #: languages/wordpress-seojs.php:573
 #: src/integrations/third-party/elementor.php:186
 #: src/integrations/third-party/elementor.php:204
-#: js/dist/block-editor-1661.js:83
+#: js/dist/block-editor-1670.js:83
 msgid "Yoast SEO"
 msgstr "Yoast SEO"
 
@@ -5085,127 +5214,127 @@ msgstr "Fel 404: Sidan hittades inte"
 #: admin/statistics/class-statistics-service.php:227
 #: inc/class-wpseo-rank.php:142 inc/class-wpseo-rank.php:173
 #: inc/class-wpseo-rank.php:205 languages/wordpress-seojs.php:22
-#: languages/yoast-seo-js.php:44 js/dist/block-editor-1661.js:1
-#: js/dist/block-editor-1661.js:83 js/dist/classic-editor-1661.js:1
-#: js/dist/editor-modules-1661.js:15 js/dist/elementor-1661.js:1
-#: js/dist/post-edit-1661.js:1 js/dist/term-edit-1661.js:1
+#: languages/yoast-seo-js.php:44 js/dist/block-editor-1670.js:1
+#: js/dist/block-editor-1670.js:83 js/dist/classic-editor-1670.js:1
+#: js/dist/editor-modules-1670.js:15 js/dist/elementor-1670.js:1
+#: js/dist/post-edit-1670.js:1 js/dist/term-edit-1670.js:1
 msgid "Good"
 msgstr "Bra"
 
-#: inc/class-wpseo-replace-vars.php:1312
+#: inc/class-wpseo-replace-vars.php:1310
 msgid "Replaced with a custom taxonomies description"
 msgstr "Ersatt med en anpassad taxonomibeskrivning"
 
-#: inc/class-wpseo-replace-vars.php:1311
+#: inc/class-wpseo-replace-vars.php:1309
 msgid "Replaced with a posts custom taxonomies, comma separated."
 msgstr "Ersatt med ett inläggs anpassade taxonomier, kommaseparerat."
 
-#: inc/class-wpseo-replace-vars.php:1310
+#: inc/class-wpseo-replace-vars.php:1308
 msgid "Replaced with a posts custom field value"
 msgstr "Ersatt med värde i ett anpassat fält för ett inlägg"
 
-#: inc/class-wpseo-replace-vars.php:1309
+#: inc/class-wpseo-replace-vars.php:1307
 msgid "Replaced with the slug which caused the 404"
 msgstr "Ersatte med den slug som orsakade 404"
 
-#: inc/class-wpseo-replace-vars.php:1308
+#: inc/class-wpseo-replace-vars.php:1306
 msgid "Replaced with the posts focus keyphrase"
 msgstr "Ersatt med inläggens fokusnyckelordsfraser"
 
-#: inc/class-wpseo-replace-vars.php:1307
+#: inc/class-wpseo-replace-vars.php:1305
 msgid "Attachment caption"
 msgstr "Bildtext för bilaga"
 
-#: inc/class-wpseo-replace-vars.php:1306
+#: inc/class-wpseo-replace-vars.php:1304
 msgid "Replaced with the current page number"
 msgstr "Ersatt med det nuvarande sidnumret"
 
-#: inc/class-wpseo-replace-vars.php:1305
+#: inc/class-wpseo-replace-vars.php:1303
 msgid "Replaced with the current page total"
 msgstr "Ersatt med den nuvarande sidans totala"
 
-#: inc/class-wpseo-replace-vars.php:1304
+#: inc/class-wpseo-replace-vars.php:1302
 msgid "Replaced with the current page number with context (i.e. page 2 of 4)"
 msgstr "Ersatt med nuvarande sidans nummer i ordning (t ex sid 2 av 4)"
 
-#: inc/class-wpseo-replace-vars.php:1303
+#: inc/class-wpseo-replace-vars.php:1301
 msgid "Replaced with the post/page author's 'Biographical Info'"
 msgstr "Ersatt med biografin från profilen för inläggets eller sidans författare"
 
-#: inc/class-wpseo-replace-vars.php:1302
+#: inc/class-wpseo-replace-vars.php:1300
 msgid "Replaced with the post/page author's 'nicename'"
 msgstr "Ersatt med smeknamnet på inläggets/sidans författare"
 
-#: inc/class-wpseo-replace-vars.php:1301
+#: inc/class-wpseo-replace-vars.php:1299
 msgid "Replaced with the post/page ID"
 msgstr "Ersatt med inläggets/sidans ID"
 
-#: inc/class-wpseo-replace-vars.php:1300
+#: inc/class-wpseo-replace-vars.php:1298
 msgid "Replaced with the post/page modified time"
 msgstr "Ersatt med inläggets/sidans redigeringstid"
 
-#: inc/class-wpseo-replace-vars.php:1299
+#: inc/class-wpseo-replace-vars.php:1297
 msgid "Replaced with the content type plural label"
 msgstr "Ersatt med flertalsetiketten för aktuell inläggstyp"
 
-#: inc/class-wpseo-replace-vars.php:1298
+#: inc/class-wpseo-replace-vars.php:1296
 msgid "Replaced with the content type single label"
 msgstr "Ersatt med entalsetiketten för aktuell inläggstyp"
 
-#: inc/class-wpseo-replace-vars.php:1283
+#: inc/class-wpseo-replace-vars.php:1281
 msgid "Replaced with the current search phrase"
 msgstr "Ersatt med den nuvarande sökfrasen"
 
-#: inc/class-wpseo-replace-vars.php:1282
+#: inc/class-wpseo-replace-vars.php:1280
 msgid "Replaced with the term name"
 msgstr "Ersätts med termens namn"
 
-#: inc/class-wpseo-replace-vars.php:1281
+#: inc/class-wpseo-replace-vars.php:1279
 msgid "Replaced with the term description"
 msgstr "Ersätts med termens beskrivning"
 
-#: inc/class-wpseo-replace-vars.php:1280
+#: inc/class-wpseo-replace-vars.php:1278
 msgid "Replaced with the tag description"
 msgstr "Ersatt med etikettbeskrivningen"
 
-#: inc/class-wpseo-replace-vars.php:1279
+#: inc/class-wpseo-replace-vars.php:1277
 msgid "Replaced with the category description"
 msgstr "Ersatt med kategoribeskrivningen"
 
-#: inc/class-wpseo-replace-vars.php:1277
+#: inc/class-wpseo-replace-vars.php:1275
 msgid "Replaced with the post categories (comma separated)"
 msgstr "Ersätts med inläggets kategorier (kommaseparerade)"
 
-#: inc/class-wpseo-replace-vars.php:1276
+#: inc/class-wpseo-replace-vars.php:1274
 msgid "Replaced with the current tag/tags"
 msgstr "Ersatt med nuvarande etikett/etiketter"
 
-#: inc/class-wpseo-replace-vars.php:1275
+#: inc/class-wpseo-replace-vars.php:1273
 msgid "Replaced with the post/page excerpt (without auto-generation)"
 msgstr "Ersatt med inläggets/sidans utdrag (utan automatisk generering)"
 
-#: inc/class-wpseo-replace-vars.php:1274
+#: inc/class-wpseo-replace-vars.php:1272
 msgid "Replaced with the post/page excerpt (or auto-generated if it does not exist)"
 msgstr "Ersatt med inläggets/sidans utdrag (eller ett automatiskt genererat utdrag om inget finns angivet)"
 
-#: inc/class-wpseo-replace-vars.php:1272
+#: inc/class-wpseo-replace-vars.php:1270
 msgid "The site's name"
 msgstr "Webbplatsens namn"
 
-#: inc/class-wpseo-replace-vars.php:1270
+#: inc/class-wpseo-replace-vars.php:1268
 msgid "Replaced with the title of the parent page of the current page"
 msgstr "Ersatt med rubriken på den överordnade sidan för den nuvarande sidan"
 
-#: inc/class-wpseo-replace-vars.php:1269
+#: inc/class-wpseo-replace-vars.php:1267
 msgid "Replaced with the title of the post/page"
 msgstr "Ersatt med inläggets/sidans rubrik"
 
-#: inc/class-wpseo-replace-vars.php:1268
+#: inc/class-wpseo-replace-vars.php:1266
 msgid "Replaced with the date of the post/page"
 msgstr "Ersatt med inläggets/sidans datum"
 
 #. translators: 1: current page number, 2: total number of pages.
-#: inc/class-wpseo-replace-vars.php:1004
+#: inc/class-wpseo-replace-vars.php:1002
 msgid "Page %1$d of %2$d"
 msgstr "Sida %1$d av %2$d"
 
@@ -5590,10 +5719,10 @@ msgstr "Datumarkiv"
 msgid "author archives"
 msgstr "författararkiv"
 
-#: admin/views/tool-bulk-editor.php:109 inc/class-wpseo-replace-vars.php:1269
-#: languages/wordpress-seojs.php:804 js/dist/elementor-1661.js:27
-#: js/dist/post-edit-1661.js:1 js/dist/settings-1661.js:1
-#: js/dist/term-edit-1661.js:1
+#: admin/views/tool-bulk-editor.php:109 inc/class-wpseo-replace-vars.php:1267
+#: languages/wordpress-seojs.php:804 js/dist/elementor-1670.js:27
+#: js/dist/post-edit-1670.js:1 js/dist/settings-1670.js:1
+#: js/dist/term-edit-1670.js:1
 msgid "Title"
 msgstr "Rubrik"
 
@@ -5745,20 +5874,20 @@ msgid "Email"
 msgstr "E-post"
 
 #: languages/yoast-components.php:135
-#: js/dist/externals/configurationWizard-1661.js:3
+#: js/dist/externals/configurationWizard-1670.js:3
 msgid "Previous"
 msgstr "Föregående"
 
 #: languages/yoast-components.php:138
-#: js/dist/externals/configurationWizard-1661.js:3
+#: js/dist/externals/configurationWizard-1670.js:3
 msgid "Next"
 msgstr "Nästa"
 
 #: admin/google_search_console/views/gsc-redirect-nopremium.php:27
 #: languages/wordpress-seojs.php:473 languages/yoast-components.php:68
-#: js/dist/block-editor-1661.js:51 js/dist/classic-editor-1661.js:51
-#: js/dist/elementor-1661.js:51 js/dist/externals/componentsNew-1661.js:1
-#: js/dist/externals/configurationWizard-1661.js:3
+#: js/dist/block-editor-1670.js:51 js/dist/classic-editor-1670.js:51
+#: js/dist/elementor-1670.js:51 js/dist/externals/componentsNew-1670.js:1
+#: js/dist/externals/configurationWizard-1670.js:3
 msgid "Close"
 msgstr "Stäng"
 
@@ -5780,12 +5909,12 @@ msgid "Both %1$s and %2$s create Open Graph output, which might make Facebook, T
 msgstr "Både %1$s och %2$s skapar OpenGraph-innehåll, vilket kan leda till att Facebook, Twitter, Linkedin med flera sociala nätverk använder fel text och bilder när dina sidor delas."
 
 #: admin/pages/social.php:20 languages/wordpress-seojs.php:166
-#: js/dist/block-editor-1661.js:83
+#: js/dist/block-editor-1670.js:83
 msgid "Twitter"
 msgstr "Twitter"
 
 #: admin/pages/social.php:19 languages/wordpress-seojs.php:163
-#: js/dist/block-editor-1661.js:83
+#: js/dist/block-editor-1670.js:83
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -5814,10 +5943,10 @@ msgstr "ganska svårt"
 #: admin/statistics/class-statistics-service.php:222
 #: inc/class-wpseo-rank.php:141 inc/class-wpseo-rank.php:168
 #: inc/class-wpseo-rank.php:200 languages/wordpress-seojs.php:15
-#: languages/yoast-seo-js.php:37 js/dist/block-editor-1661.js:1
-#: js/dist/classic-editor-1661.js:1 js/dist/editor-modules-1661.js:15
-#: js/dist/elementor-1661.js:1 js/dist/post-edit-1661.js:1
-#: js/dist/term-edit-1661.js:1
+#: languages/yoast-seo-js.php:37 js/dist/block-editor-1670.js:1
+#: js/dist/classic-editor-1670.js:1 js/dist/editor-modules-1670.js:15
+#: js/dist/elementor-1670.js:1 js/dist/post-edit-1670.js:1
+#: js/dist/term-edit-1670.js:1
 msgid "OK"
 msgstr "OK"
 
@@ -5870,8 +5999,8 @@ msgid "The canonical URL that this page should point to. Leave empty to default 
 msgstr "Den kanoniska URL som sidan ska peka till. Lämna tomt för att använda permalänk som standard. Även %1$skanoniska adresser över flera domäner%2$s stöds."
 
 #: admin/metabox/class-metabox.php:199 languages/wordpress-seojs.php:70
-#: js/dist/block-editor-1661.js:71 js/dist/classic-editor-1661.js:71
-#: js/dist/elementor-1661.js:71
+#: js/dist/block-editor-1670.js:71 js/dist/classic-editor-1670.js:71
+#: js/dist/elementor-1670.js:71
 msgid "Canonical URL"
 msgstr "Kanonisk URL"
 
@@ -5880,26 +6009,26 @@ msgid "Title to use for this page in breadcrumb paths"
 msgstr "Rubrik som används för denna sida till sökvägen för synlig sökväg"
 
 #: admin/metabox/class-metabox.php:196 languages/wordpress-seojs.php:64
-#: js/dist/block-editor-1661.js:71 js/dist/classic-editor-1661.js:71
-#: js/dist/elementor-1661.js:71
+#: js/dist/block-editor-1670.js:71 js/dist/classic-editor-1670.js:71
+#: js/dist/elementor-1670.js:71
 msgid "Breadcrumbs Title"
 msgstr "Rubrik för synlig sökväg"
 
 #: admin/metabox/class-metabox.php:194 languages/wordpress-seojs.php:58
-#: js/dist/block-editor-1661.js:71 js/dist/classic-editor-1661.js:71
-#: js/dist/elementor-1661.js:71
+#: js/dist/block-editor-1670.js:71 js/dist/classic-editor-1670.js:71
+#: js/dist/elementor-1670.js:71
 msgid "No Snippet"
 msgstr "Ingen förhandsvisningstext"
 
 #: admin/metabox/class-metabox.php:193 languages/wordpress-seojs.php:55
-#: js/dist/block-editor-1661.js:71 js/dist/classic-editor-1661.js:71
-#: js/dist/elementor-1661.js:71
+#: js/dist/block-editor-1670.js:71 js/dist/classic-editor-1670.js:71
+#: js/dist/elementor-1670.js:71
 msgid "No Archive"
 msgstr "Inget arkiv"
 
 #: admin/metabox/class-metabox.php:192 languages/wordpress-seojs.php:52
-#: js/dist/block-editor-1661.js:71 js/dist/classic-editor-1661.js:71
-#: js/dist/elementor-1661.js:71
+#: js/dist/block-editor-1670.js:71 js/dist/classic-editor-1670.js:71
+#: js/dist/elementor-1670.js:71
 msgid "No Image Index"
 msgstr "Inget bild-index"
 
@@ -5911,8 +6040,8 @@ msgid "None"
 msgstr "Ingen"
 
 #: admin/metabox/class-metabox.php:190 languages/wordpress-seojs.php:49
-#: js/dist/block-editor-1661.js:71 js/dist/classic-editor-1661.js:71
-#: js/dist/elementor-1661.js:71
+#: js/dist/block-editor-1670.js:71 js/dist/classic-editor-1670.js:71
+#: js/dist/elementor-1670.js:71
 msgid "Meta robots advanced"
 msgstr "Meta-robotar avancerat"
 
@@ -5922,8 +6051,8 @@ msgstr "Varning: även om du kan ändra inställningarna för meta-robotar här,
 
 #: admin/metabox/class-metabox.php:173 languages/yoast-components.php:196
 #: languages/yoast-seo-js.php:393
-#: js/dist/externals/replacementVariableEditor-1661.js:1
-#: js/dist/externals/searchMetadataPreviews-1661.js:2
+#: js/dist/externals/replacementVariableEditor-1670.js:1
+#: js/dist/externals/searchMetadataPreviews-1670.js:2
 msgid "Meta description"
 msgstr "Metabeskrivning"
 
@@ -5931,7 +6060,7 @@ msgstr "Metabeskrivning"
 msgid "SEO Title"
 msgstr "SEO-rubrik"
 
-#: inc/class-wpseo-replace-vars.php:1308
+#: inc/class-wpseo-replace-vars.php:1306
 msgid "Focus keyword"
 msgstr "Fokusnyckelord"
 
@@ -6057,12 +6186,12 @@ msgid "Twitter username (without @)"
 msgstr "Användarnamn på Twitter (utan @)"
 
 #: admin/class-admin.php:231 languages/wordpress-seojs.php:634
-#: js/dist/structured-data-blocks-1661.js:9
+#: js/dist/structured-data-blocks-1670.js:9
 msgid "FAQ"
 msgstr "Vanliga frågor"
 
 #: admin/class-admin.php:226 languages/wordpress-seojs.php:715
-#: js/dist/structured-data-blocks-1661.js:1
+#: js/dist/structured-data-blocks-1670.js:1
 msgid "Settings"
 msgstr "Inställningar"
 
@@ -6096,12 +6225,12 @@ msgstr "Sökkonsol"
 msgid "Tools"
 msgstr "Verktyg"
 
-#: languages/wordpress-seojs.php:328 js/dist/block-editor-1661.js:83
-#: js/dist/classic-editor-1661.js:83 js/dist/elementor-1661.js:81
+#: languages/wordpress-seojs.php:328 js/dist/block-editor-1670.js:83
+#: js/dist/classic-editor-1670.js:83 js/dist/elementor-1670.js:81
 msgid "Advanced"
 msgstr "Avancerat"
 
-#: admin/views/class-yoast-feature-toggles.php:106
+#: admin/views/class-yoast-feature-toggles.php:126
 msgid "XML sitemaps"
 msgstr "XML-webbplatskartor"
 
@@ -6117,7 +6246,7 @@ msgstr "Sociala medier"
 #: inc/class-wpseo-admin-bar-menu.php:481 inc/health-check.php:173
 #: languages/wordpress-seojs.php:641
 #: src/presenters/meta-description-presenter.php:36
-#: js/dist/structured-data-blocks-1661.js:9
+#: js/dist/structured-data-blocks-1670.js:9
 msgid "SEO"
 msgstr "SEO"
 

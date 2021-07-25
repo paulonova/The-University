@@ -1,0 +1,2350 @@
+# Translation of Plugins - Members &#8211; Membership &amp; User Role Editor Plugin - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Members &#8211; Membership &amp; User Role Editor Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-06-24 07:55:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Members &#8211; Membership &amp; User Role Editor Plugin - Stable (latest release)\n"
+
+#: admin/class-meta-box-content-permissions.php:240
+#: admin/class-meta-box-content-permissions.php:357
+msgid "Upgrade to MemberPress"
+msgstr "Uppgradera till MemberPress"
+
+#: admin/class-meta-box-content-permissions.php:195
+#: admin/class-meta-box-content-permissions.php:310
+#: admin/class-meta-box-content-permissions.php:353
+msgid "Paid Memberships"
+msgstr "Betalt medlemskap"
+
+#: admin/class-review-prompt.php:73
+msgid "No thanks"
+msgstr "Nej tack"
+
+#: admin/class-review-prompt.php:72
+msgid "Give Feedback"
+msgstr "Ge feedback"
+
+#: admin/class-review-prompt.php:66
+msgid "I already did"
+msgstr "Jag har redan gjort det"
+
+#: admin/class-review-prompt.php:65
+msgid "Nope, maybe later"
+msgstr "Nej, kanske senare"
+
+#: admin/class-review-prompt.php:64
+msgid "Okay, you deserve it"
+msgstr "Ok, du förtjänar det"
+
+#: admin/class-review-prompt.php:57
+msgid "Are you enjoying using Members?"
+msgstr "Tycker du om att använda Members?"
+
+#: admin/class-review-prompt.php:70
+msgid "We're sorry to hear you aren't enjoying Members. We would love a chance to improve. Could you take a minute and let us know what we can do better?"
+msgstr "Vad synd att du inte gillar Members. Vi vill gärna bli bättre. Skulle du vilja ägna en minut åt att berätta för oss hur vi kan bli bättre?"
+
+#: admin/class-meta-box-content-permissions.php:115
+msgid "<svg width=\"15px\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"users-cog\" class=\"svg-inline--fa fa-users-cog fa-w-20\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 512\"><path fill=\"currentColor\" d=\"M610.5 341.3c2.6-14.1 2.6-28.5 0-42.6l25.8-14.9c3-1.7 4.3-5.2 3.3-8.5-6.7-21.6-18.2-41.2-33.2-57.4-2.3-2.5-6-3.1-9-1.4l-25.8 14.9c-10.9-9.3-23.4-16.5-36.9-21.3v-29.8c0-3.4-2.4-6.4-5.7-7.1-22.3-5-45-4.8-66.2 0-3.3.7-5.7 3.7-5.7 7.1v29.8c-13.5 4.8-26 12-36.9 21.3l-25.8-14.9c-2.9-1.7-6.7-1.1-9 1.4-15 16.2-26.5 35.8-33.2 57.4-1 3.3.4 6.8 3.3 8.5l25.8 14.9c-2.6 14.1-2.6 28.5 0 42.6l-25.8 14.9c-3 1.7-4.3 5.2-3.3 8.5 6.7 21.6 18.2 41.1 33.2 57.4 2.3 2.5 6 3.1 9 1.4l25.8-14.9c10.9 9.3 23.4 16.5 36.9 21.3v29.8c0 3.4 2.4 6.4 5.7 7.1 22.3 5 45 4.8 66.2 0 3.3-.7 5.7-3.7 5.7-7.1v-29.8c13.5-4.8 26-12 36.9-21.3l25.8 14.9c2.9 1.7 6.7 1.1 9-1.4 15-16.2 26.5-35.8 33.2-57.4 1-3.3-.4-6.8-3.3-8.5l-25.8-14.9zM496 368.5c-26.8 0-48.5-21.8-48.5-48.5s21.8-48.5 48.5-48.5 48.5 21.8 48.5 48.5-21.7 48.5-48.5 48.5zM96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm224 32c1.9 0 3.7-.5 5.6-.6 8.3-21.7 20.5-42.1 36.3-59.2 7.4-8 17.9-12.6 28.9-12.6 6.9 0 13.7 1.8 19.6 5.3l7.9 4.6c.8-.5 1.6-.9 2.4-1.4 7-14.6 11.2-30.8 11.2-48 0-61.9-50.1-112-112-112S208 82.1 208 144c0 61.9 50.1 112 112 112zm105.2 194.5c-2.3-1.2-4.6-2.6-6.8-3.9-8.2 4.8-15.3 9.8-27.5 9.8-10.9 0-21.4-4.6-28.9-12.6-18.3-19.8-32.3-43.9-40.2-69.6-10.7-34.5 24.9-49.7 25.8-50.3-.1-2.6-.1-5.2 0-7.8l-7.9-4.6c-3.8-2.2-7-5-9.8-8.1-3.3.2-6.5.6-9.8.6-24.6 0-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h255.4c-3.7-6-6.2-12.8-6.2-20.3v-9.2zM173.1 274.6C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z\"></path></svg> "
+msgstr "<svg width=\"15px\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"users-cog\" class=\"svg-inline--fa fa-users-cog fa-w-20\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 512\"><path fill=\"currentColor\" d=\"M610.5 341.3c2.6-14.1 2.6-28.5 0-42.6l25.8-14.9c3-1.7 4.3-5.2 3.3-8.5-6.7-21.6-18.2-41.2-33.2-57.4-2.3-2.5-6-3.1-9-1.4l-25.8 14.9c-10.9-9.3-23.4-16.5-36.9-21.3v-29.8c0-3.4-2.4-6.4-5.7-7.1-22.3-5-45-4.8-66.2 0-3.3.7-5.7 3.7-5.7 7.1v29.8c-13.5 4.8-26 12-36.9 21.3l-25.8-14.9c-2.9-1.7-6.7-1.1-9 1.4-15 16.2-26.5 35.8-33.2 57.4-1 3.3.4 6.8 3.3 8.5l25.8 14.9c-2.6 14.1-2.6 28.5 0 42.6l-25.8 14.9c-3 1.7-4.3 5.2-3.3 8.5 6.7 21.6 18.2 41.1 33.2 57.4 2.3 2.5 6 3.1 9 1.4l25.8-14.9c10.9 9.3 23.4 16.5 36.9 21.3v29.8c0 3.4 2.4 6.4 5.7 7.1 22.3 5 45 4.8 66.2 0 3.3-.7 5.7-3.7 5.7-7.1v-29.8c13.5-4.8 26-12 36.9-21.3l25.8 14.9c2.9 1.7 6.7 1.1 9-1.4 15-16.2 26.5-35.8 33.2-57.4 1-3.3-.4-6.8-3.3-8.5l-25.8-14.9zM496 368.5c-26.8 0-48.5-21.8-48.5-48.5s21.8-48.5 48.5-48.5 48.5 21.8 48.5 48.5-21.7 48.5-48.5 48.5zM96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm224 32c1.9 0 3.7-.5 5.6-.6 8.3-21.7 20.5-42.1 36.3-59.2 7.4-8 17.9-12.6 28.9-12.6 6.9 0 13.7 1.8 19.6 5.3l7.9 4.6c.8-.5 1.6-.9 2.4-1.4 7-14.6 11.2-30.8 11.2-48 0-61.9-50.1-112-112-112S208 82.1 208 144c0 61.9 50.1 112 112 112zm105.2 194.5c-2.3-1.2-4.6-2.6-6.8-3.9-8.2 4.8-15.3 9.8-27.5 9.8-10.9 0-21.4-4.6-28.9-12.6-18.3-19.8-32.3-43.9-40.2-69.6-10.7-34.5 24.9-49.7 25.8-50.3-.1-2.6-.1-5.2 0-7.8l-7.9-4.6c-3.8-2.2-7-5-9.8-8.1-3.3.2-6.5.6-9.8.6-24.6 0-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h255.4c-3.7-6-6.2-12.8-6.2-20.3v-9.2zM173.1 274.6C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z\"></path></svg> "
+
+#: addons/members-core-create-caps/addon.php:30
+msgid "Create Pages"
+msgstr "Skapa sidor"
+
+#: addons/members-core-create-caps/addon.php:25
+msgid "Create Posts"
+msgstr "Skapa inlägg"
+
+#: addons/members-admin-access/app/class-view-settings.php:45
+msgid "Toolbar"
+msgstr "Verktygsfält"
+
+#: addons/members-admin-access/app/class-view-settings.php:44
+msgid "Redirect"
+msgstr "Omdirigera"
+
+#: addons/members-admin-access/app/class-view-settings.php:43
+msgid "Select Roles"
+msgstr "Välj roller"
+
+#: addons/members-woocommerce-integration/src/functions-filters.php:38
+msgid "WooCommerce %s"
+msgid_plural "WooCommerce %s"
+msgstr[0] "WooCommerce %s"
+msgstr[1] "WooCommerce %s"
+
+#: addons/members-woocommerce-integration/src/functions-filters.php:37
+#: addons/members-woocommerce-integration/src/functions-filters.php:72
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: addons/members-role-hierarchy/admin/class-manage-roles.php:86
+msgid "Position"
+msgstr "Position"
+
+#: addons/members-role-hierarchy/admin/functions-settings.php:86
+msgid "Lower or equal."
+msgstr "Lägre eller lika med."
+
+#: addons/members-role-hierarchy/admin/functions-settings.php:31
+msgid "Role Hierarchy"
+msgstr "Rollhierarki"
+
+#: addons/members-admin-access/app/class-view-settings.php:152
+msgid "Redirect users without access to:"
+msgstr "Omdirigera användare utan åtkomst till:"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:238
+msgid "Coupons: Delete Private"
+msgstr "Rabattkoder: Ta bort privat"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:230
+msgid "Coupons: Delete"
+msgstr "Rabattkoder: Ta bort"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:160
+msgid "Orders: Delete Private"
+msgstr "Beställningar: Ta bort privat"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:152
+msgid "Orders: Delete"
+msgstr "Beställningar: Ta bort"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:165
+msgid "Orders: Delete Others'"
+msgstr "Beställningar: Ta bort andras"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:170
+msgid "Orders: Delete Published"
+msgstr "Beställningar: Ta bort publicerade"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:147
+msgid "Orders: Read Private"
+msgstr "Beställningar: Läs privat"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:249
+msgid "Allows users to delete published coupons."
+msgstr "Tillåter användare att ta bort publicerade rabattkoder."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:248
+msgid "Coupons: Delete Published"
+msgstr "Rabattkoder: Ta bort publicerade"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:244
+msgid "Allows users to delete other users' coupons."
+msgstr "Tillåter användare att ta bort andra användares rabattkoder."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:243
+msgid "Coupons: Delete Others'"
+msgstr "Rabattkoder: Ta bort andras"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:239
+msgid "Allows users to delete private coupons."
+msgstr "Tillåter användare att ta bort privata rabattkoder."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:225
+msgid "Coupons: Read Private"
+msgstr "Rabattkoder: Läst privat"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:221
+msgid "Allows users to publish coupons."
+msgstr "Tillåter användare att publicera rabattkoder."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:220
+msgid "Coupons: Publish"
+msgstr "Rabattkoder: Publicera"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:216
+msgid "Allows users to edit published coupons."
+msgstr "Tillåter användare att redigera publicerade rabattkoder."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:215
+msgid "Coupons: Edit Published"
+msgstr "Rabattkoder: Redigera publicerade"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:211
+msgid "Allows users to edit private coupons."
+msgstr "Tillåter användare att redigera privata rabattkoder."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:210
+msgid "Coupons: Edit Private"
+msgstr "Rabattkoder: Redigera privat"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:206
+msgid "Allows users to edit other user's coupons."
+msgstr "Tillåter användare att redigera andra användares rabattkoder."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:205
+msgid "Coupons: Edit Others'"
+msgstr "Rabattkoder: Redigera andras"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:197
+msgid "Coupons: Edit"
+msgstr "Rabattkoder: Redigera"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:171
+msgid "Allows users to delete published orders."
+msgstr "Tillåter användare att ta bort publicerade beställningar."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:166
+msgid "Allows users to delete other users' orders."
+msgstr "Tillåter användare att ta bort andra användares beställningar."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:161
+msgid "Allows users to delete private orders."
+msgstr "Tillåter användare att ta bort privata beställningar."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:148
+msgid "Allows users to read private orders."
+msgstr "Tillåter användare att läsa privata beställningar."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:143
+msgid "Allows users to publish orders."
+msgstr "Tillåter användare att publicera beställningar."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:142
+msgid "Orders: Publish"
+msgstr "Beställningar: Publicera"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:138
+msgid "Allows users to edit published orders."
+msgstr "Tillåter användare att redigera publicerade beställningar."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:137
+msgid "Orders: Edit Published"
+msgstr "Beställningar: Redigera publicerad"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:133
+msgid "Allows users to edit private orders."
+msgstr "Tillåter användare att redigera privata beställningar."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:132
+msgid "Orders: Edit Private"
+msgstr "Beställningar: Redigera privat"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:128
+msgid "Allows users to edit other user's orders."
+msgstr "Tillåter användare att redigera andra användares beställningar."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:127
+msgid "Orders: Edit Others'"
+msgstr "Beställningar: Redigera andras"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:119
+msgid "Orders: Edit"
+msgstr "Beställningar: Redigera"
+
+#: addons/members-admin-access/app/class-view-settings.php:39
+#: addons/members-admin-access/app/functions-admin.php:59
+msgid "Admin Access"
+msgstr "Adminåtkomst"
+
+#: addons/members-admin-access/app/class-view-settings.php:95
+msgid "Control admin access by user role."
+msgstr "Kontrollera administratörsåtkomst efter användarroll."
+
+#: addons/members-admin-access/app/class-view-settings.php:109
+msgid "Select which roles should have admin access."
+msgstr "Välj vilka roller som ska ha administratörsåtkomst."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:226
+msgid "Allows users to read private coupons."
+msgstr "Tillåter användare att läsa privata rabattkoder."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:108
+msgid "Products: Delete Taxonomy Terms"
+msgstr "Produkter: Ta bort taxonomitermer"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:264
+msgid "Coupons: Delete Taxonomy Terms"
+msgstr "Rabattkoder: Ta bort taxonomitermer"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:269
+msgid "Coupons: Manage Taxonomy Terms"
+msgstr "Rabattkoder: Hantera taxonomitermer"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:259
+msgid "Coupons: Edit Taxonomy Terms"
+msgstr "Rabattkoder: Redigera taxonomitermer"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:254
+msgid "Coupons: Assign Taxonomy Terms"
+msgstr "Rabattkoder: Tilldela taxonomitermer"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:191
+msgid "Orders: Manage Taxonomy Terms"
+msgstr "Beställningar: Hantera taxonomitermer"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:186
+msgid "Orders: Delete Taxonomy Terms"
+msgstr "Beställningar: Ta bort taxonomitermer"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:181
+msgid "Orders: Edit Taxonomy Terms"
+msgstr "Beställningar: Redigera taxonomitermer"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:176
+msgid "Orders: Assign Taxonomy Terms"
+msgstr "Beställningar: Tilldela taxonomitermer"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:113
+msgid "Products: Manage Taxonomy Terms"
+msgstr "Produkter: Hantera taxonomitermer"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:109
+msgid "Allows users to delete product taxonomy terms."
+msgstr "Tillåter användare att ta bort taxonomitermer för produkt."
+
+#: addons/members-role-hierarchy/admin/class-edit-role.php:97
+msgid "Role Position"
+msgstr "Rollposition"
+
+#: addons/members-role-hierarchy/admin/functions-settings.php:78
+msgid "Lower. <em>Exceptions are the following roles:</em> %s."
+msgstr "Lägre. <em>Undantag är följande roller:</em> %s."
+
+#: addons/members-role-hierarchy/admin/functions-settings.php:70
+msgid "Should users manage users/roles that are \"lower\" or \"lower or equal\" to their own role?"
+msgstr "Ska användare hantera användare/roller som är ”lägre” eller ”lägre eller lika med” sin egen roll?"
+
+#: addons/members-role-hierarchy/admin/class-edit-role.php:124
+msgid "Set the role's position in the hierarchy."
+msgstr "Ange rollens position i hierarkin."
+
+#: admin/class-role-new.php:133
+msgctxt "admin screen"
+msgid "Add New Role"
+msgstr "Lägg till roll"
+
+#: admin/class-settings.php:136 admin/views/class-view-addons.php:156
+msgid "Active"
+msgstr "Aktiv"
+
+#: admin/class-settings.php:148 admin/views/class-view-addons.php:150
+#: admin/views/class-view-addons.php:156
+msgid "Activate"
+msgstr "Aktivera"
+
+#: members.php:460 addons/members-block-permissions/src/Editor.php:87
+msgid "Permissions"
+msgstr "Behörigheter"
+
+#: admin/class-settings.php:227 admin/class-settings.php:604
+msgctxt "admin screen"
+msgid "About Us"
+msgstr "Om oss"
+
+#: admin/class-settings.php:225 admin/class-settings.php:348
+msgctxt "admin screen"
+msgid "Payments"
+msgstr "Betalningar"
+
+#: admin/class-settings.php:222
+msgctxt "admin screen"
+msgid "Settings"
+msgstr "Inställningar"
+
+#: addons/members-role-levels/admin/class-meta-box-level.php:71
+#: addons/members-role-levels/admin/class-column-level.php:83
+msgid "Level"
+msgstr "Nivå"
+
+#: addons/members-role-levels/admin/functions-helpers.php:71
+msgid "Level 10"
+msgstr "Nivå 10"
+
+#: addons/members-role-levels/admin/functions-helpers.php:70
+msgid "Level 9"
+msgstr "Nivå 9"
+
+#: addons/members-role-levels/admin/functions-helpers.php:69
+msgid "Level 8"
+msgstr "Nivå 8"
+
+#: addons/members-role-levels/admin/functions-helpers.php:68
+msgid "Level 7"
+msgstr "Nivå 7"
+
+#: addons/members-role-levels/admin/functions-helpers.php:67
+msgid "Level 6"
+msgstr "Nivå 6"
+
+#: addons/members-role-levels/admin/functions-helpers.php:66
+msgid "Level 5"
+msgstr "Nivå 5"
+
+#: addons/members-role-levels/admin/functions-helpers.php:65
+msgid "Level 4"
+msgstr "Nivå 4"
+
+#: addons/members-role-levels/admin/functions-helpers.php:64
+msgid "Level 3"
+msgstr "Nivå 3"
+
+#: addons/members-role-levels/admin/functions-helpers.php:63
+msgid "Level 2"
+msgstr "Nivå 2"
+
+#: addons/members-role-levels/admin/functions-helpers.php:62
+msgid "Level 1"
+msgstr "Nivå 1"
+
+#: addons/members-role-levels/admin/functions-helpers.php:61
+msgid "Level 0"
+msgstr "Nivå 0"
+
+#: addons/members-acf-integration/src/functions-caps.php:47
+#: addons/members-meta-box-integration/src/functions-caps.php:42
+msgid "Delete Field Groups"
+msgstr "Ta bort fältgrupper"
+
+#: addons/members-block-permissions/src/Editor.php:115
+msgid "User Role"
+msgstr "Användarroll"
+
+#: addons/members-block-permissions/src/Editor.php:114
+#: addons/members-block-permissions/src/Editor.php:123
+msgid "User Status"
+msgstr "Användarstatus"
+
+#: addons/members-block-permissions/src/Editor.php:112
+msgid "Type"
+msgstr "Typ"
+
+#: addons/members-block-permissions/src/Editor.php:126
+msgid "Logged Out"
+msgstr "Utloggad"
+
+#: addons/members-block-permissions/src/Editor.php:125
+msgid "Logged In"
+msgstr "Inloggad"
+
+#: addons/members-givewp-integration/src/functions-filters.php:37
+#: addons/members-givewp-integration/src/functions-filters.php:69
+msgid "GiveWP"
+msgstr "GiveWP"
+
+#: admin/class-settings.php:223
+msgctxt "admin screen"
+msgid "Add-Ons"
+msgstr "Utökningar"
+
+#: admin/class-settings.php:149
+msgid "Add-on deactivated"
+msgstr "Utökning inaktiverad"
+
+#: admin/class-settings.php:137
+msgid "Add-on activated"
+msgstr "Utökning aktiverad"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:74
+msgid "Products: Delete"
+msgstr "Produkter: Ta bort"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:41
+msgid "Products: Edit"
+msgstr "Produkter: Redigera"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:29
+msgid "Manage WooCommerce"
+msgstr "Hantera WooCommerce"
+
+#: addons/members-edd-integration/src/functions-caps.php:199
+msgid "Payments: Delete"
+msgstr "Betalningar: Ta bort"
+
+#: addons/members-edd-integration/src/functions-caps.php:166
+msgid "Payments: Edit"
+msgstr "Betalningar: Redigera"
+
+#: addons/members-acf-integration/src/Plugin.php:365
+msgid "Custom Fields"
+msgstr "Anpassade fält"
+
+#: addons/members-acf-integration/src/functions-caps.php:33
+#: addons/members-meta-box-integration/src/functions-caps.php:33
+msgid "Edit Field Groups"
+msgstr "Redigera fältgrupper"
+
+#: addons/members-edd-integration/src/functions-caps.php:248
+msgid "Discounts: Manage"
+msgstr "Rabatter: Hantera"
+
+#: addons/members-edd-integration/src/functions-caps.php:258
+msgid "Discounts: Import"
+msgstr "Rabatter: Importera"
+
+#: addons/members-edd-integration/src/functions-caps.php:264
+msgid "Discounts: Edit"
+msgstr "Rabatter: Redigera"
+
+#: addons/members-block-permissions/src/Editor.php:117
+msgid "Paid Membership"
+msgstr "Betalt medlemskap"
+
+#: addons/members-givewp-integration/src/functions-caps.php:84
+msgid "Forms: Delete"
+msgstr "Formulär: Ta bort"
+
+#: addons/members-givewp-integration/src/functions-caps.php:64
+msgid "Forms: Edit Private"
+msgstr "Formulär: Redigera privat"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:82
+msgid "Products: Delete Private"
+msgstr "Produkter: Ta bort privat"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:87
+msgid "Products: Delete Others'"
+msgstr "Produkter: Ta bort andras"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:92
+msgid "Products: Delete Published"
+msgstr "Produkter: Ta bort publicerade"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:69
+msgid "Products: Read Private"
+msgstr "Produkter: Läs privat"
+
+#: addons/members-edd-integration/src/functions-caps.php:297
+msgid "Discounts: Delete"
+msgstr "Rabatter: Ta bort"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:93
+msgid "Allows users to delete published products."
+msgstr "Tillåter användare att ta bort publicerade produkter."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:88
+msgid "Allows users to delete other users' products."
+msgstr "Tillåter användare att ta bort andra användares produkter."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:83
+msgid "Allows users to delete private products."
+msgstr "Tillåter användare att ta bort privata produkter."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:70
+msgid "Allows users to read private products."
+msgstr "Tillåter användare att läsa privata produkter."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:65
+msgid "Allows users to publish products."
+msgstr "Tillåter användare att publicera produkter."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:64
+msgid "Products: Publish"
+msgstr "Produkter: Publicera"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:60
+msgid "Allows users to edit published products."
+msgstr "Tillåter användare att redigera publicerade produkter."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:59
+msgid "Products: Edit Published"
+msgstr "Produkter: Redigera publicerad"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:55
+msgid "Allows users to edit private products."
+msgstr "Tillåter användare att redigera privata produkter."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:54
+msgid "Products: Edit Private"
+msgstr "Produkter: Redigera privat"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:50
+msgid "Allows users to edit other user's products."
+msgstr "Tillåter användare att redigera andra användares produkter."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:49
+msgid "Products: Edit Others'"
+msgstr "Produkter: Redigera andras"
+
+#: addons/members-edd-integration/src/functions-filters.php:70
+msgid "Downloads"
+msgstr "Nedladdningar"
+
+#: addons/members-edd-integration/src/functions-caps.php:316
+msgid "Allows users to delete published discounts."
+msgstr "Tillåter användare att ta bort publicerade rabatter."
+
+#: addons/members-edd-integration/src/functions-caps.php:315
+msgid "Discounts: Delete Published"
+msgstr "Rabatter: Ta bort publicerad"
+
+#: addons/members-edd-integration/src/functions-caps.php:311
+msgid "Allows users to delete other users' discounts."
+msgstr "Tillåter användare att ta bort andra användares rabatter."
+
+#: addons/members-edd-integration/src/functions-caps.php:310
+msgid "Discounts: Delete Others'"
+msgstr "Rabatter: Ta bort andras"
+
+#: addons/members-edd-integration/src/functions-caps.php:306
+msgid "Allows users to delete private discounts."
+msgstr "Tillåter användare att ta bort privata rabatter."
+
+#: addons/members-edd-integration/src/functions-caps.php:305
+msgid "Discounts: Delete Private"
+msgstr "Rabatter: Ta bort privat"
+
+#: addons/members-edd-integration/src/functions-caps.php:293
+msgid "Allows users to read private discounts."
+msgstr "Tillåter användare att läsa privata rabatter."
+
+#: addons/members-edd-integration/src/functions-caps.php:292
+msgid "Discounts: Read Private"
+msgstr "Rabatter: Läs privat"
+
+#: addons/members-edd-integration/src/functions-caps.php:288
+msgid "Allows users to publish discounts."
+msgstr "Tillåter användare att publicera rabatter."
+
+#: addons/members-edd-integration/src/functions-caps.php:287
+msgid "Discounts: Publish"
+msgstr "Rabatter: Publicera"
+
+#: addons/members-edd-integration/src/functions-caps.php:283
+msgid "Allows users to edit published discounts."
+msgstr "Tillåter användare att redigera publicerade rabatter."
+
+#: addons/members-edd-integration/src/functions-caps.php:282
+msgid "Discounts: Edit Published"
+msgstr "Rabatter: Redigera publicerad"
+
+#: addons/members-edd-integration/src/functions-caps.php:278
+msgid "Allows users to edit private discounts."
+msgstr "Tillåter användare att redigera privata rabatter."
+
+#: addons/members-edd-integration/src/functions-caps.php:277
+msgid "Discounts: Edit Private"
+msgstr "Rabatter: Redigera privat"
+
+#: addons/members-edd-integration/src/functions-caps.php:273
+msgid "Allows users to edit other user's discounts."
+msgstr "Tillåter användare att redigera andra användares rabatter."
+
+#: addons/members-edd-integration/src/functions-caps.php:272
+msgid "Discounts: Edit Others'"
+msgstr "Rabatter: Redigera andras"
+
+#: addons/members-edd-integration/src/functions-caps.php:259
+msgid "Allows users to import discounts into the database."
+msgstr "Tillåter användare att importera rabatter till databasen."
+
+#: addons/members-edd-integration/src/functions-caps.php:254
+msgid "Allows users to view discount stats."
+msgstr "Tillåter användare att visa rabattstatistik."
+
+#: addons/members-edd-integration/src/functions-caps.php:253
+msgid "Discounts: View Stats"
+msgstr "Rabatter: Visa statistik"
+
+#: addons/members-edd-integration/src/functions-caps.php:249
+msgid "Allows users to manage shop discounts."
+msgstr "Tillåter användare att hantera butiksrabatter."
+
+#: addons/members-edd-integration/src/functions-caps.php:218
+msgid "Allows users to delete published payments."
+msgstr "Tillåter användare att ta bort publicerade betalningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:217
+msgid "Payments: Delete Published"
+msgstr "Betalningar: Ta bort publicerad"
+
+#: addons/members-edd-integration/src/functions-caps.php:213
+msgid "Allows users to delete other users' payments."
+msgstr "Tillåter användare att ta bort andra användares betalningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:212
+msgid "Payments: Delete Others'"
+msgstr "Betalningar: Ta bort andras"
+
+#: addons/members-edd-integration/src/functions-caps.php:208
+msgid "Allows users to delete private payments."
+msgstr "Tillåter användare att ta bort privata betalningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:207
+msgid "Payments: Delete Private"
+msgstr "Betalningar: Ta bort privat"
+
+#: addons/members-edd-integration/src/functions-caps.php:195
+msgid "Allows users to read private payments."
+msgstr "Tillåter användare att läsa privata betalningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:194
+msgid "Payments: Read Private"
+msgstr "Betalningar: Läs privat"
+
+#: addons/members-edd-integration/src/functions-caps.php:190
+msgid "Allows users to publish payments."
+msgstr "Tillåter användare att publicera betalningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:189
+msgid "Payments: Publish"
+msgstr "Betalningar: Publicera"
+
+#: addons/members-edd-integration/src/functions-caps.php:185
+msgid "Allows users to edit published payments."
+msgstr "Tillåter användare att redigera publicerade betalningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:184
+msgid "Payments: Edit Published"
+msgstr "Betalningar: Redigera publicerad"
+
+#: addons/members-edd-integration/src/functions-caps.php:180
+msgid "Allows users to edit private payments."
+msgstr "Tillåter användare att redigera privata betalningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:179
+msgid "Payments: Edit Private"
+msgstr "Betalningar: Redigera privat"
+
+#: addons/members-edd-integration/src/functions-caps.php:175
+msgid "Allows users to edit other user's payments."
+msgstr "Tillåter användare att redigera andra användares betalningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:174
+msgid "Payments: Edit Others'"
+msgstr "Betalningar: Redigera andras"
+
+#: addons/members-edd-integration/src/functions-caps.php:161
+msgid "Allows users to import payments into the database."
+msgstr "Tillåter användare att importera betalningar till databasen."
+
+#: addons/members-edd-integration/src/functions-caps.php:160
+msgid "Payments: Import"
+msgstr "Betalningar: Importera"
+
+#: addons/members-edd-integration/src/functions-caps.php:156
+msgid "Allows users to view payment stats."
+msgstr "Tillåter användare att se betalningsstatistik."
+
+#: addons/members-edd-integration/src/functions-caps.php:155
+msgid "Payments: View Stats"
+msgstr "Betalningar: Visa statistik"
+
+#: addons/members-edd-integration/src/functions-caps.php:125
+msgid "Allows users to delete published downloads."
+msgstr "Tillåter användare att ta bort publicerade nedladdningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:124
+msgid "Downloads: Delete Published"
+msgstr "Nedladdningar: Ta bort publicerad"
+
+#: addons/members-edd-integration/src/functions-caps.php:120
+msgid "Allows users to delete other users' downloads."
+msgstr "Tillåter användare att ta bort andra användares nedladdningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:119
+msgid "Downloads: Delete Others'"
+msgstr "Nedladdningar: Ta bort andras"
+
+#: addons/members-edd-integration/src/functions-caps.php:115
+msgid "Allows users to delete private downloads."
+msgstr "Tillåter användare att ta bort privata nedladdningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:114
+msgid "Downloads: Delete Private"
+msgstr "Nedladdningar: Ta bort privat"
+
+#: addons/members-edd-integration/src/functions-caps.php:106
+msgid "Downloads: Delete"
+msgstr "Nedladdningar: Ta bort"
+
+#: addons/members-edd-integration/src/functions-caps.php:102
+msgid "Allows users to read private downloads."
+msgstr "Tillåter användare att läsa privata nedladdningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:101
+msgid "Downloads: Read Private"
+msgstr "Nedladdningar: Läs privat"
+
+#: addons/members-edd-integration/src/functions-caps.php:97
+msgid "Allows users to publish downloads."
+msgstr "Tillåter användare att publicera nedladdningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:96
+msgid "Downloads: Publish"
+msgstr "Nedladdningar: Publicera"
+
+#: addons/members-edd-integration/src/functions-caps.php:92
+msgid "Allows users to edit published downloads."
+msgstr "Tillåter användare att redigera publicerade nedladdningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:91
+msgid "Downloads: Edit Published"
+msgstr "Nedladdningar: Redigera publicerad"
+
+#: addons/members-edd-integration/src/functions-caps.php:87
+msgid "Allows users to edit private downloads."
+msgstr "Tillåter användare att redigera privata nedladdningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:86
+msgid "Downloads: Edit Private"
+msgstr "Nedladdningar: Redigera privat"
+
+#: addons/members-edd-integration/src/functions-caps.php:82
+msgid "Allows users to edit other user's downloads."
+msgstr "Tillåter användare att redigera andra användares nedladdningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:81
+msgid "Downloads: Edit Others'"
+msgstr "Nedladdningar: Redigera andras"
+
+#: addons/members-edd-integration/src/functions-caps.php:73
+msgid "Downloads: Edit"
+msgstr "Nedladdningar: Redigera"
+
+#: addons/members-edd-integration/src/functions-caps.php:68
+msgid "Allows users to import downloads into the database."
+msgstr "Tillåter användare att importera nedladdningar till databasen."
+
+#: addons/members-edd-integration/src/functions-caps.php:67
+msgid "Downloads: Import"
+msgstr "Nedladdningar: Importera"
+
+#: addons/members-edd-integration/src/functions-caps.php:63
+msgid "Allows users to view download stats."
+msgstr "Tillåter användare att se nedladdningsstatistik."
+
+#: addons/members-edd-integration/src/functions-caps.php:62
+msgid "Downloads: View Stats"
+msgstr "Nedladdningar: Visa statistik"
+
+#: addons/members-edd-integration/src/functions-caps.php:53
+msgid "Allows users to export shop reports data."
+msgstr "Tillåter användare att exportera data om butiksrapporter."
+
+#: addons/members-edd-integration/src/functions-caps.php:48
+msgid "Allows users to view shop reports."
+msgstr "Tillåter användare att se butiksrapporter."
+
+#: addons/members-edd-integration/src/functions-caps.php:39
+msgid "Allows access to sensitive user data."
+msgstr "Tillåter åtkomst till känslig användardata."
+
+#: addons/members-edd-integration/src/functions-caps.php:38
+msgid "Shop: View Sensitive Data"
+msgstr "Butik: Visa känsliga data"
+
+#: addons/members-edd-integration/src/functions-caps.php:34
+msgid "Allows management of the shop settings."
+msgstr "Tillåter hantering av butiksinställningarna."
+
+#: addons/members-edd-integration/src/functions-caps.php:33
+msgid "Shop: Manage Settings"
+msgstr "Butik: Hantera inställningar"
+
+#: addons/members-acf-integration/src/functions-caps.php:57
+msgid "Allows users to delete other user's field groups."
+msgstr "Tillåter användare att ta bort andra användares fältgrupper."
+
+#: addons/members-acf-integration/src/functions-caps.php:56
+msgid "Delete Others' Field Groups"
+msgstr "Ta bort andras fältgrupper"
+
+#: addons/members-acf-integration/src/functions-caps.php:43
+msgid "Allows users to edit others user's field groups."
+msgstr "Tillåter användare att redigera andra användares fältgrupper."
+
+#: addons/members-acf-integration/src/functions-caps.php:42
+msgid "Edit Others' Field Groups"
+msgstr "Redigera andras fältgrupper"
+
+#: addons/members-acf-integration/src/functions-caps.php:28
+msgid "Manage Advanced Custom Fields"
+msgstr "Hantera avancerade anpassade fält"
+
+#: addons/members-privacy-caps/addon.php:51
+msgid "Manage Privacy Options"
+msgstr "Hantera integritetsalternativ"
+
+#: addons/members-meta-box-integration/src/functions-caps.php:28
+msgid "Create Field Groups"
+msgstr "Skapa fältgrupper"
+
+#: addons/members-block-permissions/src/Integration.php:50
+msgid "Allows users to assign block permissions inside of the block editor."
+msgstr "Tillåter användare att tilldela blockbehörigheter i blockredigeraren."
+
+#: addons/members-block-permissions/src/Integration.php:49
+msgid "Assign Block Permissions"
+msgstr "Tilldela blockbehörigheter"
+
+#: addons/members-block-permissions/src/Editor.php:130
+msgid "Your user account does not have access to assign permissions to this block."
+msgstr "Ditt användarkonto har inte åtkomst att tilldela behörigheter till detta block."
+
+#: addons/members-block-permissions/src/Editor.php:118
+msgid "Content Protection Rule"
+msgstr "Regel för innehållsskydd"
+
+#: addons/members-block-permissions/src/Editor.php:104
+msgid "Optionally display an error message for users who cannot see this block."
+msgstr "Visa valfritt ett felmeddelande för användare som inte kan se detta block."
+
+#: addons/members-block-permissions/src/Editor.php:98
+msgid "Hide block from selected"
+msgstr "Dölj block från valda"
+
+#: addons/members-block-permissions/src/Editor.php:97
+msgid "Show block to selected"
+msgstr "Visa block till valda"
+
+#: addons/members-block-permissions/src/Editor.php:96
+msgid "Show block to everyone"
+msgstr "Visa block för alla"
+
+#: addons/members-givewp-integration/src/functions-caps.php:205
+msgid "Donations: View Stats"
+msgstr "Donationer: Visa statistik"
+
+#: addons/members-givewp-integration/src/functions-caps.php:200
+msgid "Donations: View"
+msgstr "Donationer: Visa"
+
+#: addons/members-givewp-integration/src/functions-caps.php:201
+msgid "Allows users to view donations."
+msgstr "Tillåter användare att visa donationer."
+
+#: addons/members-givewp-integration/src/functions-caps.php:206
+msgid "Allows users to view donation stats."
+msgstr "Tillåter användare att visa donationsstatistik."
+
+#: addons/members-givewp-integration/src/functions-caps.php:196
+msgid "Allows users to import donations."
+msgstr "Tillåter användare att importera donationer."
+
+#: addons/members-givewp-integration/src/functions-caps.php:195
+msgid "Donations: Import"
+msgstr "Donationer: Importera"
+
+#: addons/members-givewp-integration/src/functions-caps.php:191
+msgid "Allows users to delete published donations."
+msgstr "Tillåter användare att ta bort publicerade donationer."
+
+#: addons/members-givewp-integration/src/functions-caps.php:190
+msgid "Donations: Delete Published"
+msgstr "Donationer: Ta bort publicerad"
+
+#: addons/members-givewp-integration/src/functions-caps.php:186
+msgid "Allows users to delete other users' donations."
+msgstr "Tillåter användare att ta bort andra användares donationer."
+
+#: addons/members-givewp-integration/src/functions-caps.php:185
+msgid "Donations: Delete Others'"
+msgstr "Donationer: Ta bort andras"
+
+#: addons/members-givewp-integration/src/functions-caps.php:181
+msgid "Allows users to delete private donations."
+msgstr "Tillåter användare att ta bort privata donationer."
+
+#: addons/members-givewp-integration/src/functions-caps.php:180
+msgid "Donations: Delete Private"
+msgstr "Donationer: Ta bort privat"
+
+#: addons/members-givewp-integration/src/functions-caps.php:172
+msgid "Donations: Delete"
+msgstr "Donationer: Ta bort"
+
+#: addons/members-givewp-integration/src/functions-caps.php:168
+msgid "Allows users to read private donations."
+msgstr "Tillåter användare att läsa privata donationer."
+
+#: addons/members-givewp-integration/src/functions-caps.php:167
+msgid "Donations: Read Private"
+msgstr "Donationer: Läst privat"
+
+#: addons/members-givewp-integration/src/functions-caps.php:163
+msgid "Allows users to publish donations."
+msgstr "Tillåter användare att publicera donationer."
+
+#: addons/members-givewp-integration/src/functions-caps.php:162
+msgid "Donations: Publish"
+msgstr "Donationer: Publicera"
+
+#: addons/members-givewp-integration/src/functions-caps.php:158
+msgid "Allows users to edit published donations."
+msgstr "Tillåter användare att redigera publicerade donationer."
+
+#: addons/members-givewp-integration/src/functions-caps.php:157
+msgid "Donations: Edit Published"
+msgstr "Donationer: Redigera publicerad"
+
+#: addons/members-givewp-integration/src/functions-caps.php:153
+msgid "Allows users to edit private donations."
+msgstr "Tillåter användare att redigera privata donationer."
+
+#: addons/members-givewp-integration/src/functions-caps.php:152
+msgid "Donations: Edit Private"
+msgstr "Donationer: Redigera privat"
+
+#: addons/members-givewp-integration/src/functions-caps.php:148
+msgid "Allows users to edit other user's donations."
+msgstr "Tillåter användare att redigera andra användares donationer."
+
+#: addons/members-givewp-integration/src/functions-caps.php:147
+msgid "Donations: Edit Others'"
+msgstr "Donationer: Redigera andras"
+
+#: addons/members-givewp-integration/src/functions-caps.php:139
+msgid "Donations: Edit"
+msgstr "Donationer: Redigera"
+
+#: addons/members-givewp-integration/src/functions-caps.php:113
+msgid "Allows users to view donation form stats."
+msgstr "Tillåter användare att visa statistik över donationsformulär."
+
+#: addons/members-givewp-integration/src/functions-caps.php:112
+msgid "Forms: View Stats"
+msgstr "Formulär: Visa statistik"
+
+#: addons/members-givewp-integration/src/functions-caps.php:108
+msgid "Allows users to import donation forms."
+msgstr "Tillåter användare att importera donationsformulär."
+
+#: addons/members-givewp-integration/src/functions-caps.php:107
+msgid "Forms: Import"
+msgstr "Formulär: Importera"
+
+#: addons/members-givewp-integration/src/functions-caps.php:103
+msgid "Allows users to delete published donation forms."
+msgstr "Tillåter användare att ta bort publicerade donationsformulär."
+
+#: addons/members-givewp-integration/src/functions-caps.php:102
+msgid "Forms: Delete Published"
+msgstr "Formulär: Ta bort publicerade"
+
+#: addons/members-givewp-integration/src/functions-caps.php:98
+msgid "Allows users to delete other users' donation forms."
+msgstr "Tillåter användare att ta bort andra användares donationsformulär."
+
+#: addons/members-givewp-integration/src/functions-caps.php:97
+msgid "Forms: Delete Others'"
+msgstr "Formulär: Ta bort andras"
+
+#: addons/members-givewp-integration/src/functions-caps.php:93
+msgid "Allows users to delete private donation forms."
+msgstr "Tillåter användare att ta bort privata donationsformulär."
+
+#: addons/members-givewp-integration/src/functions-caps.php:92
+msgid "Forms: Delete Private"
+msgstr "Formulär: Ta bort privat"
+
+#: addons/members-givewp-integration/src/functions-caps.php:80
+msgid "Allows users to read private donation forms."
+msgstr "Tillåter användare att läsa privata donationsformulär."
+
+#: addons/members-givewp-integration/src/functions-caps.php:79
+msgid "Forms: Read Private"
+msgstr "Formulär: Läs privat"
+
+#: addons/members-givewp-integration/src/functions-caps.php:75
+msgid "Allows users to publish donation forms."
+msgstr "Tillåter användare att publicera donationsformulär."
+
+#: addons/members-givewp-integration/src/functions-caps.php:74
+msgid "Forms: Publish"
+msgstr "Formulär: Publicera"
+
+#: addons/members-givewp-integration/src/functions-caps.php:70
+msgid "Allows users to edit published donation forms."
+msgstr "Tillåter användare att redigera publicerade donationsformulär."
+
+#: addons/members-givewp-integration/src/functions-caps.php:69
+msgid "Forms: Edit Published"
+msgstr "Formulär: Redigera publicerad"
+
+#: addons/members-givewp-integration/src/functions-caps.php:65
+msgid "Allows users to edit private donation forms."
+msgstr "Tillåter användare att redigera privata donationsformulär."
+
+#: addons/members-givewp-integration/src/functions-caps.php:60
+msgid "Allows users to edit other user's donation forms."
+msgstr "Tillåter användare att redigera andra användares donationsformulär."
+
+#: addons/members-givewp-integration/src/functions-caps.php:59
+msgid "Forms: Edit Others'"
+msgstr "Formulär: Redigera andras"
+
+#: addons/members-givewp-integration/src/functions-caps.php:51
+msgid "Forms: Edit"
+msgstr "Formulär: Redigera"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:36
+#: addons/members-givewp-integration/src/functions-caps.php:46
+msgid "Allows access to view reports."
+msgstr "Tillåter åtkomst att visa rapporter."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:35
+#: addons/members-edd-integration/src/functions-caps.php:47
+#: addons/members-givewp-integration/src/functions-caps.php:45
+msgid "Reports: View"
+msgstr "Rapporter: Visa"
+
+#: addons/members-givewp-integration/src/functions-caps.php:41
+msgid "Allows access to export reports."
+msgstr "Tillåter åtkomst att exportera rapporter."
+
+#: addons/members-edd-integration/src/functions-caps.php:52
+#: addons/members-givewp-integration/src/functions-caps.php:40
+msgid "Reports: Export"
+msgstr "Rapporter: Exportera"
+
+#: addons/members-givewp-integration/src/functions-caps.php:35
+msgid "Allows access to view sensitive user data."
+msgstr "Tillåter åtkomst att visa känslig användardata."
+
+#: addons/members-givewp-integration/src/functions-caps.php:34
+msgid "GiveWP: View Sensitive Data"
+msgstr "GiveWP: Visa känslig data"
+
+#: addons/members-givewp-integration/src/functions-caps.php:29
+msgid "GiveWP: Manage Settings"
+msgstr "GiveWP: Hantera inställningar"
+
+#: admin/class-settings.php:223
+msgctxt "admin screen"
+msgid "<span style=\"color: #8CBD5A;\">Add-Ons</span>"
+msgstr "<span style=\"color: #8CBD5A;\">Utökningar</span>"
+
+#: admin/class-settings.php:125
+msgid "No add-on provided."
+msgstr "Ingen utökning angiven."
+
+#: addons/members-meta-box-integration/src/functions-caps.php:29
+msgid "Allows users to create new field groups."
+msgstr "Tillåter användare att skapa nya fältgrupper."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:103
+msgid "Products: Edit Taxonomy Terms"
+msgstr "Produkter: Redigera taxonomitermer"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:98
+msgid "Products: Assign Taxonomy Terms"
+msgstr "Produkter: Tilldela taxonomitermer"
+
+#: addons/members-edd-integration/src/functions-caps.php:336
+msgid "Discounts: Manage Taxonomy Terms"
+msgstr "Rabatter: Hantera taxonomitermer"
+
+#: addons/members-edd-integration/src/functions-caps.php:331
+msgid "Discounts: Delete Taxonomy Terms"
+msgstr "Rabatter: Ta bort taxonomitermer"
+
+#: addons/members-edd-integration/src/functions-caps.php:326
+msgid "Discounts: Edit Taxonomy Terms"
+msgstr "Rabatter: Redigera taxonomitermer"
+
+#: addons/members-edd-integration/src/functions-caps.php:321
+msgid "Discounts: Assign Taxonomy Terms"
+msgstr "Rabatter: Tilldela taxonomitermer"
+
+#: addons/members-edd-integration/src/functions-caps.php:238
+msgid "Payments: Manage Taxonomy Terms"
+msgstr "Betalningar: Hantera taxonomitermer"
+
+#: addons/members-edd-integration/src/functions-caps.php:233
+msgid "Payments: Delete Taxonomy Terms"
+msgstr "Betalningar: Ta bort taxonomitermer"
+
+#: addons/members-edd-integration/src/functions-caps.php:228
+msgid "Payments: Edit Taxonomy Terms"
+msgstr "Betalningar: Redigera taxonomitermer"
+
+#: addons/members-edd-integration/src/functions-caps.php:223
+msgid "Payments: Assign Taxonomy Terms"
+msgstr "Betalningar: Tilldela taxonomitermer"
+
+#: addons/members-edd-integration/src/functions-caps.php:145
+msgid "Downloads: Manage Taxonomy Terms"
+msgstr "Nedladdningar: Hantera taxonomitermer"
+
+#: addons/members-edd-integration/src/functions-caps.php:140
+msgid "Downloads: Delete Taxonomy Terms"
+msgstr "Nedladdningar: Ta bort taxonomitermer"
+
+#: addons/members-edd-integration/src/functions-caps.php:135
+msgid "Downloads: Edit Taxonomy Terms"
+msgstr "Nedladdningar: Redigera taxonomitermer"
+
+#: addons/members-edd-integration/src/functions-caps.php:130
+msgid "Downloads: Assign Taxonomy Terms"
+msgstr "Nedladdningar: Tilldela taxonomitermer"
+
+#: addons/members-edd-integration/src/functions-caps.php:224
+msgid "Allows users to assign taxonomy terms to payments."
+msgstr "Tillåter användare att tilldela taxonomitermer till betalningar."
+
+#: addons/members-edd-integration/src/functions-caps.php:131
+msgid "Allows users to assign taxonomy terms to downloads."
+msgstr "Tillåter användare att tilldela taxonomitermer till nedladdningar."
+
+#: addons/members-givewp-integration/src/functions-caps.php:211
+msgid "Donations: Assign Taxonomy Terms"
+msgstr "Donationer: Tilldela taxonomitermer"
+
+#: addons/members-givewp-integration/src/functions-caps.php:216
+msgid "Donations: Edit Taxonomy Terms"
+msgstr "Donationer: Redigera taxonomitermer"
+
+#: addons/members-givewp-integration/src/functions-caps.php:221
+msgid "Donations: Delete Taxonomy Terms"
+msgstr "Donationer: Ta bort taxonomitermer"
+
+#: addons/members-givewp-integration/src/functions-caps.php:226
+msgid "Donations: Manage Taxonomy Terms"
+msgstr "Donationer: Hantera taxonomitermer"
+
+#: addons/members-givewp-integration/src/functions-caps.php:133
+msgid "Forms: Manage Taxonomy Terms"
+msgstr "Formulär: Hantera taxonomitermer"
+
+#: addons/members-givewp-integration/src/functions-caps.php:128
+msgid "Forms: Delete Taxonomy Terms"
+msgstr "Formulär: Ta bort taxonomitermer"
+
+#: addons/members-givewp-integration/src/functions-caps.php:123
+msgid "Forms: Edit Taxonomy Terms"
+msgstr "Formulär: Redigera taxonomitermer"
+
+#: addons/members-givewp-integration/src/functions-caps.php:118
+msgid "Forms: Assign Taxonomy Terms"
+msgstr "Formulär: Tilldela taxonomitermer"
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:104
+msgid "Allows users to edit product taxonomy terms."
+msgstr "Tillåter användare att redigera taxonomitermer för produkt."
+
+#: addons/members-woocommerce-integration/src/functions-caps.php:99
+msgid "Allows users to assign taxonomy terms to products."
+msgstr "Tillåter användare att tilldela taxonomitermer till produkter."
+
+#: addons/members-edd-integration/src/functions-caps.php:332
+msgid "Allows users to delete discount taxonomy terms."
+msgstr "Tillåter användare att ta bort taxonomitermer för rabatt."
+
+#: addons/members-edd-integration/src/functions-caps.php:327
+msgid "Allows users to edit discount taxonomy terms."
+msgstr "Tillåter användare att redigera taxonomitermer för rabatt."
+
+#: addons/members-edd-integration/src/functions-caps.php:322
+msgid "Allows users to assign taxonomy terms to discounts."
+msgstr "Tillåter användare att tilldela taxonomitermer till rabatter."
+
+#: addons/members-edd-integration/src/functions-caps.php:141
+msgid "Allows users to delete download taxonomy terms."
+msgstr "Tillåter användare att ta bort taxonomitermer för nedladdning."
+
+#: addons/members-edd-integration/src/functions-caps.php:136
+msgid "Allows users to edit download taxonomy terms."
+msgstr "Tillåter användare att redigera taxonomitermer för nedladdning."
+
+#: addons/members-givewp-integration/src/functions-caps.php:222
+msgid "Allows users to delete donation taxonomy terms."
+msgstr "Tillåter användare att ta bort taxonomitermer för donation."
+
+#: addons/members-givewp-integration/src/functions-caps.php:217
+msgid "Allows users to edit donation taxonomy terms."
+msgstr "Tillåter användare att redigera taxonomitermer för donation."
+
+#: addons/members-givewp-integration/src/functions-caps.php:212
+msgid "Allows users to assign taxonomy terms to donations."
+msgstr "Tillåter användare att tilldela taxonomitermer till donationer."
+
+#: addons/members-givewp-integration/src/functions-caps.php:129
+msgid "Allows users to delete donation form taxonomy terms."
+msgstr "Tillåter användare att ta bort taxonomitermer för donationsformulär."
+
+#: addons/members-givewp-integration/src/functions-caps.php:124
+msgid "Allows users to edit donation form taxonomy terms."
+msgstr "Tillåter användare att redigera taxonomitermer för donationsformulär."
+
+#: addons/members-givewp-integration/src/functions-caps.php:119
+msgid "Allows users to assign taxonomy terms to donation forms."
+msgstr "Tillåter användare att tilldela taxonomitermer till donationsformulär."
+
+#: addons/members-edd-integration/src/functions-caps.php:229
+msgid "Allows users to edit payment taxonomy terms."
+msgstr "Tillåter användare att redigera taxonomitermer för betalning."
+
+#: addons/members-edd-integration/src/functions-caps.php:234
+msgid "Allows users to delete payment taxonomy terms."
+msgstr "Tillåter användare att ta bort taxonomitermer för betalning."
+
+#: addons/members-block-permissions/src/Editor.php:94
+msgid "Condition"
+msgstr "Villkor"
+
+#: addons/members-meta-box-integration/src/Plugin.php:121
+#: addons/members-meta-box-integration/src/Plugin.php:146
+msgid "Meta Box"
+msgstr "Meta-ruta"
+
+#. Author URI of the plugin
+msgid "https://memberpress.com"
+msgstr "https://memberpress.com"
+
+#. Author of the plugin
+msgid "MemberPress"
+msgstr "MemberPress"
+
+#. Plugin URI of the plugin
+msgid "https://memberpress.com/plugins/members"
+msgstr "https://memberpress.com/plugins/members"
+
+#: admin/class-meta-box-publish-role.php:104
+msgid "%s User"
+msgid_plural "%s Users"
+msgstr[0] "%s användare"
+msgstr[1] "%s användare"
+
+#: inc/functions-private-site.php:167
+msgid "You are not currently logged in."
+msgstr "Du är inte inloggad just nu."
+
+#: inc/functions-capabilities.php:142
+msgid "Edit Categories"
+msgstr "Redigera kategorier"
+
+#: inc/functions-capabilities.php:123
+msgid "Remove Users"
+msgstr "Ta bort användare"
+
+#: inc/functions-capabilities.php:117
+msgid "Delete Users"
+msgstr "Ta bort användare"
+
+#: inc/functions-capabilities.php:119
+msgid "Edit Users"
+msgstr "Redigera användare"
+
+#: inc/functions-capabilities.php:118
+msgid "Edit Roles"
+msgstr "Redigera roller"
+
+#: inc/functions-capabilities.php:120
+msgid "List Roles"
+msgstr "Lista roller"
+
+#: inc/functions-capabilities.php:116
+msgid "Delete Roles"
+msgstr "Ta bort roller"
+
+#: inc/functions-capabilities.php:115
+msgid "Create Users"
+msgstr "Skapa användare"
+
+#: inc/functions-capabilities.php:114
+msgid "Create Roles"
+msgstr "Skapa roller"
+
+#: inc/functions-capabilities.php:111
+msgid "Update Plugins"
+msgstr "Uppdatera tillägg"
+
+#: inc/functions-capabilities.php:110
+msgid "Install Plugins"
+msgstr "Installera tillägg"
+
+#: inc/functions-capabilities.php:109
+msgid "Edit Plugins"
+msgstr "Redigera tillägg"
+
+#: inc/functions-capabilities.php:108
+msgid "Delete Plugins"
+msgstr "Ta bort tillägg"
+
+#: inc/functions-capabilities.php:103
+msgid "Switch Themes"
+msgstr "Byt tema"
+
+#: inc/functions-capabilities.php:107
+msgid "Activate Plugins"
+msgstr "Aktivera tillägg"
+
+#: inc/functions-capabilities.php:102
+msgid "Install Themes"
+msgstr "Installera tema"
+
+#: inc/functions-capabilities.php:101
+msgid "Edit Themes"
+msgstr "Redigera tema"
+
+#: inc/functions-capabilities.php:100
+msgid "Edit Theme Options"
+msgstr "Redigera temainställningar"
+
+#: inc/functions-capabilities.php:99
+msgid "Delete Themes"
+msgstr "Ta bort teman"
+
+#: inc/functions-capabilities.php:96
+msgid "Manage Categories"
+msgstr "Hantera kategoier"
+
+#: inc/functions-capabilities.php:93
+msgid "Upload Files"
+msgstr "Ladda upp filer"
+
+#: inc/functions-capabilities.php:89
+msgid "Publish Pages"
+msgstr "Publicera sidor"
+
+#: inc/functions-capabilities.php:90
+msgid "Read Private Pages"
+msgstr "Läsa privata sidor"
+
+#: inc/functions-capabilities.php:88
+msgid "Edit Published Pages"
+msgstr "Redigera publicerade sidor"
+
+#: inc/functions-capabilities.php:87
+msgid "Edit Private Pages"
+msgstr "Redigera privata sidor"
+
+#: inc/functions-capabilities.php:86
+msgid "Edit Pages"
+msgstr "Redigera sidor"
+
+#: inc/functions-capabilities.php:85
+msgid "Edit Others' Pages"
+msgstr "Redigera andra sidor"
+
+#: inc/functions-capabilities.php:84
+msgid "Delete Published Pages"
+msgstr "Ta bort publicerade sidor"
+
+#: inc/functions-capabilities.php:83
+msgid "Delete Private Pages"
+msgstr "Ta bort privata sidor"
+
+#: inc/functions-capabilities.php:82
+msgid "Delete Pages"
+msgstr "Ta bort sidor"
+
+#: inc/functions-capabilities.php:81
+msgid "Delete Others' Pages"
+msgstr "Ta bort andras sidor"
+
+#: inc/functions-capabilities.php:78
+msgid "Read Private Posts"
+msgstr "Läsa privata inlägg"
+
+#: inc/functions-capabilities.php:77
+msgid "Publish Posts"
+msgstr "Publicera inlägg"
+
+#: inc/functions-capabilities.php:76
+msgid "Edit Published Posts"
+msgstr "Redigera publicerade inlägg"
+
+#: inc/functions-capabilities.php:75
+msgid "Edit Private Posts"
+msgstr "Redigera privata inlägg"
+
+#: inc/functions-capabilities.php:74
+msgid "Edit Posts"
+msgstr "Redigera inlägg"
+
+#: inc/functions-capabilities.php:73
+msgid "Edit Others' Posts"
+msgstr "Redigera andras inlägg"
+
+#: inc/functions-capabilities.php:72
+msgid "Delete Published Posts"
+msgstr "Ta bort publicerade inlägg"
+
+#: inc/functions-capabilities.php:71
+msgid "Delete Private Posts"
+msgstr "Ta bort privata inlägg"
+
+#: inc/functions-capabilities.php:70
+msgid "Delete Posts"
+msgstr "Ta bort inlägg"
+
+#: inc/functions-capabilities.php:69
+msgid "Delete Others' Posts"
+msgstr "Ta bort andras inlägg"
+
+#: inc/functions-capabilities.php:65
+msgid "Unfiltered HTML"
+msgstr "Ofiltrerad HTML"
+
+#: inc/functions-capabilities.php:64
+msgid "Read"
+msgstr "Läsa"
+
+#: inc/functions-capabilities.php:63
+msgid "Moderate Comments"
+msgstr "Granska kommentarer"
+
+#: inc/functions-capabilities.php:62
+msgid "Manage Options"
+msgstr "Hantera inställningar"
+
+#: inc/functions-capabilities.php:66
+msgid "Update Core"
+msgstr "Uppdatera WordPress-installationen"
+
+#: inc/functions-capabilities.php:104
+msgid "Update Themes"
+msgstr "Uppdatera teman"
+
+#: inc/functions-capabilities.php:121
+msgid "List Users"
+msgstr "Lista användare"
+
+#: inc/functions-capabilities.php:58
+msgid "Edit Files"
+msgstr "Redigera filer"
+
+#: inc/functions-capabilities.php:59
+msgid "Export"
+msgstr "Exportera"
+
+#: inc/functions-capabilities.php:60
+msgid "Import"
+msgstr "Importera"
+
+#: inc/functions-capabilities.php:61
+msgid "Manage Links"
+msgstr "Hantera länkar"
+
+#: admin/views/class-view-general.php:79
+msgid "REST API"
+msgstr "REST API"
+
+#: admin/views/class-view-addons.php:192
+msgid "Download"
+msgstr "Ladda ner"
+
+#: admin/views/class-view-addons.php:201
+msgid "Purchase"
+msgstr "Köp"
+
+#: admin/class-role-edit.php:301 admin/class-roles.php:173
+msgctxt "role"
+msgid "Add New"
+msgstr "Lägg till ny"
+
+#: admin/class-meta-box-custom-cap.php:90
+msgctxt "capability"
+msgid "Add New"
+msgstr "Lägg till ny"
+
+#: admin/class-manage-users.php:345
+msgid "Remove"
+msgstr "Ta bort"
+
+#: admin/class-manage-users.php:337 admin/class-manage-users.php:341
+msgid "Remove role&hellip;"
+msgstr "Ta bort roll&hellip;"
+
+#: admin/class-manage-users.php:334
+msgid "Add"
+msgstr "Lägg till"
+
+#: admin/class-manage-users.php:326 admin/class-manage-users.php:330
+msgid "Add role&hellip;"
+msgstr "Lägg till roll&hellip;"
+
+#: admin/class-manage-users.php:102
+msgid "Role removed from selected users."
+msgstr "Rollen har tagits bort från de valda användarna."
+
+#: admin/class-manage-users.php:97
+msgid "Role added to selected users."
+msgstr "Rollen har lagts till för de valda användarna."
+
+#: admin/class-manage-users.php:162 admin/class-manage-users.php:237
+msgid "One of the selected users is not a member of this site."
+msgstr "En av de valda användarna är inte medlem på denna webbplats."
+
+#: admin/class-manage-users.php:107
+msgid "Role removed from other selected users."
+msgstr "Roll borttagen från andra valda användare."
+
+#: inc/functions-capabilities.php:143
+msgid "Delete Categories"
+msgstr "Ta bort kategorier"
+
+#: inc/functions-capabilities.php:57
+msgid "Edit Dashboard"
+msgstr "Redigera adminpanel"
+
+#: inc/functions-private-site.php:198
+msgid "If you reached this page by accident and meant to visit one of your own sites, try one of the following links."
+msgstr "Om du råkade komma till denna sida när du försökte nå en av dina egna webbplatser, försök med en av följande länkar."
+
+#: inc/functions-capabilities.php:147
+msgid "Manage Post Tags"
+msgstr "Hantera inläggsetiketter"
+
+#: inc/functions-capabilities.php:146
+msgid "Delete Post Tags"
+msgstr "Ta bort inläggsetiketter"
+
+#: inc/functions-capabilities.php:145
+msgid "Edit Post Tags"
+msgstr "Redigera inläggsetiketter"
+
+#: admin/views/class-view-general.php:247
+msgid "Require authentication for access to the REST API."
+msgstr "Kräv autentisering för att kunna använda REST API."
+
+#: inc/functions-capabilities.php:122
+msgid "Promote Users"
+msgstr "Befordra användare"
+
+#: inc/functions-capabilities.php:126
+msgid "Restrict Content"
+msgstr "Begränsa innehåll"
+
+#: inc/functions-capabilities.php:141
+msgid "Assign Categories"
+msgstr "Tilldela kategorier"
+
+#: members.php:345
+msgid "Members requires PHP version %1$s. You are running version %2$s. Please upgrade and try again."
+msgstr "Members kräver PHP version %1$s. Du använder nu version %2$s. Vänligen uppgradera och försök igen."
+
+#: admin/views/class-view-general.php:164
+msgid "Show human-readable capabilities when possible."
+msgstr "Visa läsbara behörigheter när det är möjligt."
+
+#: admin/functions-help.php:114
+msgid "Visit the %s page in the WordPress Codex to see a complete list of roles, capabilities, and their definitions."
+msgstr "Besök sidan %s på WordPress Codex för att se en komplett lista på roller, behörigheter och dess definitioner."
+
+#: admin/class-role-edit.php:234
+msgid "The %s role is typically the most important role on the site. Please take extreme caution that you do not inadvertently remove necessary capabilities."
+msgstr "Rollen %s är normalt den viktigaste rollen på webbplatsen. Var extremt försiktig så att du inte råkar ta bort viktiga behörigheter."
+
+#: admin/views/class-view-addons.php:79
+msgid "There are currently no add-ons to show. Please try again later."
+msgstr "Just nu finns det inga tillägg att visa. Vänligen försök igen senare."
+
+#: inc/functions-capabilities.php:144
+msgid "Assign Post Tags"
+msgstr "Tilldela inläggsetiketter"
+
+#: inc/functions-private-site.php:191
+msgid "You do not currently have access to the \"%s\" site. If you believe you should have access, please contact your network administrator."
+msgstr "Du har inte behörighet till webbplatsen ”%s”. Om du tror att du borde ha tillgång till webbplatsen, vänligen kontakta din nätverksadministratör."
+
+#: admin/views/class-view-addons.php:248
+msgid "Some add-ons may require purchase before downloading them. Clicking the purchase button will take you off-site to view the add-on in more detail."
+msgstr "Vissa tillägg måste köpas innan de kan laddas ner. När du klickar på köp-knappen vidarebefordras du till en extern sida med mer detaljerad information om tillägget."
+
+#: admin/views/class-view-addons.php:234
+msgid "Some plugins may be available for direct download. In such cases, you can click the download button to get a ZIP file of the plugin."
+msgstr "Vissa tillägg kan vara tillgängliga för direktnedladdning. I sådana fall kan du klicka på nedladdnings-knappen för att ladda ner en ZIP-fil som innehåller tillägget."
+
+#: admin/views/class-view-addons.php:220
+msgid "The Add-Ons screen allows you to view available add-ons for the Members plugin. You can download some plugins directly. Others may be available to purchase."
+msgstr "På tilläggssidan kan du se vilka tillägg som är tillgängliga för Members. Du kan ladda ner vissa tillägg direkt. Andra måste köpas först."
+
+#: admin/class-manage-users.php:106
+msgid "The current user&#8217;s role must have user editing capabilities."
+msgstr "Den nuvarande användarens roll måste ha redigeringsbehörigheter."
+
+#: admin/functions-settings.php:46
+msgid "Add-Ons"
+msgstr "Utökningar"
+
+#. Plugin Name of the plugin
+msgid "Members"
+msgstr "Medlemmar"
+
+#: inc/class-widget-users.php:253
+msgid "Exclude:"
+msgstr "Exkludera:"
+
+#: inc/class-widget-users.php:197
+msgid "Login"
+msgstr "Logga in"
+
+#: members.php:151
+msgid "Method does not exist."
+msgstr "Metoden existerar inte."
+
+#: inc/class-widget-users.php:249
+msgid "Include:"
+msgstr "Inkludera:"
+
+#: inc/class-widget-users.php:257
+msgid "Search:"
+msgstr "Sök:"
+
+#: inc/class-widget-users.php:237
+msgid "Limit:"
+msgstr "Begränsning:"
+
+#: inc/class-widget-users.php:220
+msgid "Order:"
+msgstr "Ordning:"
+
+#: inc/functions-options.php:132
+msgid "Sorry, but you do not have permission to view this content."
+msgstr "Tyvärr, men du har inte behörighet att se det här innehållet."
+
+#: inc/class-widget-users.php:195
+msgid "Registered"
+msgstr "Registrerad"
+
+#: inc/class-widget-users.php:212
+msgid "Order By:"
+msgstr "Sortera efter:"
+
+#: inc/class-widget-users.php:194
+msgid "Post Count"
+msgstr "Antal inlägg"
+
+#: inc/class-widget-users.php:269
+msgid "Meta Value:"
+msgstr "Metavärde:"
+
+#: inc/class-widget-users.php:261
+msgid "Meta Key:"
+msgstr "Metanyckel:"
+
+#: inc/class-widget-users.php:241
+msgid "Offset:"
+msgstr "Förskjutning:"
+
+#: inc/functions-options.php:133
+msgid "You must be logged into the site to view this content."
+msgstr "Du måste vara inloggad på webbplatsen för att visa detta innehåll."
+
+#: inc/class-widget-users.php:196
+msgid "URL"
+msgstr "URL"
+
+#: admin/class-manage-users.php:382
+msgid "None"
+msgstr "Ingen"
+
+#: inc/class-widget-users.php:191
+msgid "Email"
+msgstr "E-post"
+
+#: inc/class-widget-users.php:192
+msgid "ID"
+msgstr "ID"
+
+#: admin/functions-admin.php:47
+msgid "OK"
+msgstr "OK"
+
+#: admin/functions-help.php:46 admin/class-roles.php:210
+#: admin/views/class-view-addons.php:183
+msgid "Overview"
+msgstr "Översikt"
+
+#: admin/functions-help.php:29
+msgid "For more information:"
+msgstr "För mer information:"
+
+#: admin/class-role-new.php:352 admin/class-role-list-table.php:355
+#: admin/functions-admin.php:46
+msgid "Edit"
+msgstr "Redigera"
+
+#: admin/functions-settings.php:35 inc/functions-cap-groups.php:42
+msgid "General"
+msgstr "Allmänt"
+
+#: admin/class-role-list-table.php:365
+msgid "View"
+msgstr "Visa"
+
+#: inc/class-widget-login.php:61
+msgid "Password"
+msgstr "Lösenord"
+
+#: admin/class-meta-box-publish-role.php:141
+msgid "Update"
+msgstr "Uppdatera"
+
+#: admin/tmpl/cap-section.php:21 admin/tmpl/cap-section.php:29
+msgid "Deny"
+msgstr "Neka"
+
+#: admin/functions-help.php:23
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: inc/functions-cap-groups.php:103
+msgid "Appearance"
+msgstr "Utseende"
+
+#: admin/class-cap-tabs.php:165
+msgid "All"
+msgstr "Alla"
+
+#: inc/class-widget-login.php:59 inc/class-widget-login.php:62
+msgid "Log In"
+msgstr "Logga in"
+
+#: admin/class-roles.php:68 admin/class-meta-box-publish-role.php:67
+#: inc/functions-admin-bar.php:35
+msgid "Role"
+msgstr "Roll"
+
+#: admin/class-meta-box-publish-role.php:141
+msgid "Add Role"
+msgstr "Lägg till roll"
+
+#: admin/class-role-new.php:350 admin/class-role-edit.php:326
+#: inc/class-widget-users.php:228
+msgid "Role:"
+msgstr "Roll:"
+
+#: admin/class-meta-box-publish-role.php:134
+msgctxt "delete role"
+msgid "Delete"
+msgstr "Ta bort"
+
+#: admin/class-role-list-table.php:423
+msgid "Mine %s"
+msgid_plural "Mine %s"
+msgstr[0] "Min %s"
+msgstr[1] "Mina %s"
+
+#: admin/class-user-edit.php:93 admin/class-manage-users.php:360
+#: admin/class-manage-roles.php:87 admin/class-manage-roles.php:93
+#: admin/class-meta-box-content-permissions.php:189
+#: admin/class-meta-box-content-permissions.php:304
+#: admin/class-meta-box-content-permissions.php:324 admin/class-roles.php:170
+msgid "Roles"
+msgstr "Roller"
+
+#: admin/class-manage-roles.php:90 admin/class-role-edit.php:298
+msgid "Edit Role"
+msgstr "Redigera roll"
+
+#: admin/class-role-list-table.php:370
+msgid "Clone"
+msgstr "Klona"
+
+#: admin/class-settings.php:325
+msgctxt "admin screen"
+msgid "Members"
+msgstr "Medlemmar"
+
+#: admin/class-role-list-table.php:433
+msgid "No Users %s"
+msgid_plural "No Users %s"
+msgstr[0] "Ingen användare %s"
+msgstr[1] "Inga användare %s"
+
+#: admin/class-meta-box-publish-role.php:110
+msgid "Users:"
+msgstr "Användare:"
+
+#: inc/class-widget-users.php:55
+msgid "Members: Users"
+msgstr "Medlemmar: Användare"
+
+#: admin/class-role-list-table.php:418
+msgid "All %s"
+msgid_plural "All %s"
+msgstr[0] "Alla %s"
+msgstr[1] "Alla %s"
+
+#: inc/class-widget-login.php:63
+msgid "Remember Me"
+msgstr "Kom ihåg mig"
+
+#: admin/class-role-new.php:327
+msgid "Add New Role"
+msgstr "Lägg till ny roll"
+
+#: inc/class-widget-login.php:55
+msgid "Members: Login Form"
+msgstr "Medlemmar: Inloggningsformulär"
+
+#: admin/class-role-new.php:243 admin/class-role-edit.php:238
+msgid "The %s role has been created."
+msgstr "%s rollen har skapats."
+
+#: admin/functions-help.php:78
+msgid "Edit Capabilities"
+msgstr "Redigera behörigheter"
+
+#: addons/members-admin-access/app/class-view-settings.php:189
+#: admin/views/class-view-general.php:298
+msgid "Update Settings"
+msgstr "Uppdatera inställningarna"
+
+#: admin/functions-help.php:115 admin/views/class-view-general.php:62
+msgid "Roles and Capabilities"
+msgstr "Roller och behörigheter"
+
+#: admin/class-role-list-table.php:438
+msgid "Editable %s"
+msgid_plural "Editable %s"
+msgstr[0] "Redigerbar %s"
+msgstr[1] "Redigerbara %s"
+
+#: inc/functions-role-groups.php:42
+msgid "WordPress"
+msgstr "WordPress"
+
+#: admin/class-role-list-table.php:378 admin/class-roles.php:69
+#: inc/functions-cap-groups.php:121 inc/class-widget-users.php:59
+msgid "Users"
+msgstr "Användare"
+
+#: admin/class-role-list-table.php:236
+msgid "Your Role"
+msgstr "Din roll"
+
+#: admin/class-role-new.php:327
+msgid "Clone Role"
+msgstr "Klona roll"
+
+#: addons/members-block-permissions/src/Editor.php:103
+#: admin/class-meta-box-content-permissions.php:201
+#: admin/class-meta-box-content-permissions.php:316
+#: admin/class-meta-box-content-permissions.php:363
+#: admin/views/class-view-general.php:75
+msgid "Error Message"
+msgstr "Felmeddelande"
+
+#: addons/members-block-permissions/src/Editor.php:108
+#: admin/class-user-edit.php:98 admin/class-user-new.php:109
+msgid "User Roles"
+msgstr "Användarroller"
+
+#: inc/functions-cap-groups.php:112
+msgid "Plugins"
+msgstr "Tillägg"
+
+#: inc/functions-cap-groups.php:92
+msgid "Taxonomies"
+msgstr "Taxonomier"
+
+#: admin/class-cap-tabs.php:194
+msgid "Edit Capabilities: %s"
+msgstr "Redigera behörigheter: %s"
+
+#: admin/class-meta-box-publish-role.php:123
+msgid "Denied:"
+msgstr "Nekade:"
+
+#: admin/class-meta-box-publish-role.php:117
+msgid "Granted:"
+msgstr "Beviljade:"
+
+#: admin/class-role-edit.php:226
+msgid "%s role updated."
+msgstr "%s roll uppdaterad."
+
+#: admin/class-role-edit.php:230
+msgid "The %s role is not editable. This means that it is most likely added via another plugin for a special use or that you do not have permission to edit it."
+msgstr "Rollen %s är inte redigeringsbar. Det beror troligtvis på att rollen lagts till genom ett annat tillägg eller att du inte har rättigheter att redigera den."
+
+#: admin/class-cap-control.php:119 admin/functions-admin.php:49
+msgid "Deny %s capability"
+msgstr "Neka %s behörighet"
+
+#: admin/functions-help.php:62 admin/class-role-new.php:344
+#: admin/class-role-edit.php:320 admin/class-roles.php:67
+msgid "Role Name"
+msgstr "Rollnamn"
+
+#: admin/class-role-new.php:256
+msgid "The %s role already exists."
+msgstr "Rollen %s existerar redan."
+
+#: admin/class-roles.php:70
+msgid "Granted"
+msgstr "Beviljad"
+
+#: admin/class-roles.php:71
+msgid "Denied"
+msgstr "Nekad"
+
+#: admin/class-roles.php:112
+msgid "Selected roles deleted."
+msgstr "Valda roller borttagna."
+
+#: admin/functions-admin.php:50
+msgid "Are you sure you want to delete this role? This is a permanent action and cannot be undone."
+msgstr "Är du säker på att du vill radera denna roll? Det är permanent och kan inte göras ogjort."
+
+#: inc/functions-role-groups.php:43
+msgid "WordPress %s"
+msgid_plural "WordPress %s"
+msgstr[0] "WordPress %s"
+msgstr[1] "WordPress %s"
+
+#: admin/tmpl/cap-section.php:20 admin/tmpl/cap-section.php:28
+msgid "Grant"
+msgstr "Bevilja"
+
+#: inc/class-widget-login.php:60
+msgid "Username"
+msgstr "Användarnamn"
+
+#: admin/class-role-list-table.php:374
+msgid "Change Default"
+msgstr "Ändra standard"
+
+#: admin/functions-help.php:94 admin/class-meta-box-custom-cap.php:73
+msgid "Custom Capability"
+msgstr "Anpassad behörighet"
+
+#: admin/class-role-new.php:252
+msgid "You must enter a valid role."
+msgstr "Du måste ange en giltig roll."
+
+#: admin/class-role-new.php:260
+msgid "You must enter a valid role name."
+msgstr "Du måste ange ett giltigt rollnamn."
+
+#: inc/class-widget-users.php:186
+msgid "Descending"
+msgstr "Fallande"
+
+#: inc/class-widget-users.php:185
+msgid "Ascending"
+msgstr "Stigande"
+
+#: inc/class-widget-login.php:213
+msgid "Username Label:"
+msgstr "Användarnamnsetikett:"
+
+#: admin/views/class-view-general.php:74
+msgid "Enable Permissions"
+msgstr "Aktivera rättigheter"
+
+#: inc/class-widget-login.php:74
+msgid "You are currently logged in."
+msgstr "Du är just nu inloggad."
+
+#: inc/class-widget-login.php:272
+msgid "Display avatar?"
+msgstr "Visa profilbild?"
+
+#: admin/class-role-edit.php:99
+msgid "The requested role to edit does not exist."
+msgstr "Den valda rollen att redigera existerar ej."
+
+#: inc/class-widget-users.php:193
+msgid "Nice Name"
+msgstr "Fint namn"
+
+#: inc/class-widget-login.php:217
+msgid "Password Label:"
+msgstr "Lösenordsetikett:"
+
+#: inc/class-widget-users.php:190
+msgid "Display Name"
+msgstr "Visningsnamn"
+
+#: admin/views/class-view-general.php:70
+msgid "Multiple User Roles"
+msgstr "Flera användarroller"
+
+#: admin/class-roles.php:237
+msgid "Bulk Actions"
+msgstr "Massåtgärder"
+
+#: admin/class-role-list-table.php:232
+msgid "Default Role"
+msgstr "Standardroll"
+
+#: inc/class-widget-login.php:281
+msgid "Logged in text:"
+msgstr "Text för inloggade:"
+
+#: inc/class-widget-login.php:276
+msgid "Logged out text:"
+msgstr "Text för utloggade:"
+
+#: inc/class-widget-login.php:245
+msgid "Password Field ID:"
+msgstr "Fält-ID för lösenord:"
+
+#: inc/class-widget-login.php:241
+msgid "Remember Me Field ID:"
+msgstr "Fält-ID för ”Kom ihåg mig”:"
+
+#: inc/class-widget-login.php:73
+msgid "Please log into the site."
+msgstr "Vänligen logga in på webbplatsen."
+
+#: admin/views/class-view-general.php:64 admin/views/class-view-general.php:346
+msgid "Private Site"
+msgstr "Privat webbplats"
+
+#: admin/class-role-list-table.php:428
+msgid "Has Users %s"
+msgid_plural "Has Users %s"
+msgstr[0] "Har användare %s"
+msgstr[1] "Har användare %s"
+
+#: admin/views/class-view-general.php:71
+msgid "Capabilities"
+msgstr "Behörigheter"
+
+#: addons/members-block-permissions/src/Editor.php:90
+#: addons/members-block-permissions/src/Editor.php:116
+#: admin/tmpl/cap-section.php:19 admin/tmpl/cap-section.php:27
+msgid "Capability"
+msgstr "Behörighet"
+
+#: admin/views/class-view-general.php:319
+msgid "Role and Capabilities"
+msgstr "Roll och behörigheter"
+
+#: admin/class-cap-control.php:118 admin/functions-admin.php:48
+msgid "Grant %s capability"
+msgstr "Bevilja behörighet för %s"
+
+#: admin/class-meta-box-content-permissions.php:115
+#: admin/views/class-view-general.php:63 admin/views/class-view-general.php:328
+msgid "Content Permissions"
+msgstr "Behörighet för innehåll"
+
+#: admin/views/class-view-general.php:337
+msgid "Sidebar Widgets"
+msgstr "Widgetar för sidopanel"
+
+#: admin/class-role-new.php:345
+msgid "%s Clone"
+msgstr "%s-klon"
+
+#: inc/class-widget-login.php:44
+msgid "A widget that allows users to log into your site."
+msgstr "En widget som låter användare logga in på din webbplats."
+
+#: admin/views/class-view-general.php:78
+msgid "Enable Private Site"
+msgstr "Aktivera privat webbplats"
+
+#: admin/class-role-list-table.php:443
+msgid "Uneditable %s"
+msgid_plural "Uneditable %s"
+msgstr[0] "Inte redigerbar %s"
+msgstr[1] "Inte redigerbara %s"
+
+#: admin/views/class-view-general.php:139
+msgid "Enable the role manager."
+msgstr "Aktivera rollhanteraren."
+
+#: admin/views/class-view-general.php:182
+msgid "Allow users to be assigned more than a single role."
+msgstr "Låter användare tilldelas mer än en enskild roll."
+
+#: admin/views/class-view-general.php:69
+msgid "Role Manager"
+msgstr "Rollhanterare"
+
+#: admin/views/class-view-general.php:197
+msgid "Enable the content permissions feature."
+msgstr "Aktivera funktionen för innehållsbehörigheter."
+
+#: admin/functions-help.php:24
+msgid "Support Forums"
+msgstr "Supportforum"
+
+#: admin/class-roles.php:296
+msgid "<strong>Users</strong> takes you to the users screen and lists the users that have that role."
+msgstr "<strong>Användare</strong> tar dig till användarsidan och listar de användare som har den rollen."
+
+#: admin/views/class-view-general.php:81
+msgid "Feed Error Message"
+msgstr "Felmeddelande för webbflöde"
+
+#: admin/views/class-view-general.php:262
+msgid "Show error message for feed items."
+msgstr "Visa felmeddelanden för webbflöden."
+
+#: admin/class-role-new.php:345
+msgid "Enter role name"
+msgstr "Ange ett rollnamn"
+
+#: admin/class-roles.php:131
+msgid "%s role deleted."
+msgstr "%s roll borttagen."
+
+#: admin/views/class-view-general.php:80
+msgid "Disable Feed"
+msgstr "Inaktivera flöde"
+
+#: admin/class-roles.php:270
+msgid "You can customize the display of this screen&#8216;s contents in a number of ways:"
+msgstr "Du kan anpassa hur innehållet för denna sida visas på ett antal olika sätt:"
+
+#: inc/class-widget-login.php:237
+msgid "Username Field ID:"
+msgstr "ID för användarnamnsfältet:"
+
+#: inc/class-widget-login.php:233
+msgid "Username Value:"
+msgstr "Värde i användarnamnsfältet:"
+
+#: members.php:129 members.php:140 admin/class-manage-users.php:161
+#: admin/class-manage-users.php:236 admin/class-role-edit.php:92
+msgid "Whoah, partner!"
+msgstr "Hallå där!"
+
+#: inc/class-widget-users.php:44
+msgid "Provides the ability to list the users of the site."
+msgstr "Ger behörighet att lista webbplatsens användare."
+
+#: admin/views/class-view-general.php:365
+msgid "The role manager allows you to manage roles on your site by giving you the ability to create, edit, and delete any role. Note that changes to roles do not change settings for the Members plugin. You are literally changing data in your WordPress database. This plugin feature merely provides an interface for you to make these changes."
+msgstr "Rollhanteraren låter dig hantera roller på din webbplats genom att den ger dig möjlighet att skapa, redigera och ta bort roller. Notera att ändringar gällande rollerna inte innebär att du ändrar inställningarna i Members-tillägget. Du ändrar bokstavligen din WordPressdatabas. Tilläggets funktioner är bara ett gränssnitt för att du ska kunna genomföra dessa ändringar."
+
+#: admin/class-roles.php:295
+msgid "<strong>Clone</strong> copies the role and takes you to the new role screen to further edit it."
+msgstr "<strong>Klona</strong> skapar en kopia av rollen och tar dig till sidan för din nya roll för fortsatt redigering."
+
+#: admin/class-roles.php:289
+msgid "Hovering over a row in the roles list will display action links that allow you to manage your role. You can perform the following actions:"
+msgstr "När du för muspekaren över en rad i listan på roller visas länkar som låter dig hantera din roll. Du kan göra följande:"
+
+#: admin/class-roles.php:294
+msgid "<strong>Delete</strong> removes your role from this list and permanently deletes it."
+msgstr "<strong>Ta bort</strong> tar bort rollen från listan permanent."
+
+#: inc/class-widget-login.php:249
+msgid "Submit Button ID:"
+msgstr "ID för skicka-knappen:"
+
+#: admin/functions-help.php:153
+msgid "<strong>Deny</strong> allows you to explicitly deny the role a capability."
+msgstr "<strong>Neka</strong> låter dig neka rollen en specifik behörighet."
+
+#: admin/functions-help.php:152
+msgid "<strong>Grant</strong> allows you to grant the role a capability."
+msgstr "<strong>Bevilja</strong> låter dig ge rollen en behörighet."
+
+#: inc/class-widget-login.php:260
+msgid "\"Remember me\" checkbox?"
+msgstr "Kryssruta för ”Kom ihåg mig”?"
+
+#: inc/class-widget-login.php:221
+msgid "Log In Label:"
+msgstr "Etikett för inloggningsfältet:"
+
+#: inc/class-widget-login.php:266
+msgid "Check \"remember me\"?"
+msgstr "Kryssa i ”Kom ihåg mig”?"
+
+#: inc/class-widget-login.php:225
+msgid "Remember Me Label:"
+msgstr "Etikett för ”Kom ihåg mig”:"
+
+#: admin/views/class-view-general.php:405
+msgid "The sidebar widgets feature adds additional widgets for use in your theme's sidebars."
+msgstr "Funktionen för sidopanel-widgetar lägger till ytterligare widgetar som du kan använda i ditt temas sidopaneler."
+
+#: admin/views/class-view-general.php:232
+msgid "Redirect all logged-out users to the login page before allowing them to view the site."
+msgstr "Omdirigera alla utloggade användare till inloggningssidan innan de tillåts att se webbplatsen."
+
+#: admin/views/class-view-general.php:157
+msgid "Denied capabilities should always overrule granted capabilities."
+msgstr "Nekade behörigheter ska alltid upphäva beviljade behörigheter."
+
+#: admin/class-roles.php:293
+msgid "<strong>Edit</strong> takes you to the editing screen for that role. You can also reach that screen by clicking on the role name."
+msgstr "<strong>Redigera</strong> tar dig till en sida där du kan redigera rollen. Du kan också nå sidan genom att klicka på rollnamnet."
+
+#: admin/class-roles.php:275
+msgid "You can filter the list of roles by types using the text links in the upper left. The default view is to show all roles."
+msgstr "Du kan filtrera listan av roller efter typ genom att använda textlänkarna längst upp till vänster. Som standard visas alla roller."
+
+#: admin/views/class-view-general.php:124
+msgid "Your roles and capabilities will not revert back to their previous settings after deactivating or uninstalling this plugin, so use this feature wisely."
+msgstr "Dina roller och behörigheter återgår inte till sina tidigare inställningar när du inaktiverar och avinstallerar tillägget, så använd denna funktionen med försiktighet."
+
+#: admin/functions-help.php:154
+msgid "You may also opt to neither grant nor deny the role a capability."
+msgstr "Du kan också välja att varken bevilja eller neka rollen en behörighet."
+
+#: admin/views/class-view-general.php:369
+msgid "The multiple user roles feature allows you to assign more than one role to each user from the edit user screen."
+msgstr "Funktionen för flera användarroller låter dig tilldela mer än en roll till varje användare via sidan för redigering av användare."
+
+#: admin/class-roles.php:310
+msgid "You can permanently delete multiple roles at once. Select the roles you want to act on using the checkboxes, then select the action you want to take from the Bulk Actions menu and click Apply."
+msgstr "Du kan ta bort flera roller permanent på en gång. Välj de roller du vill ta bort genom att använda kryssrutorna. Välj sedan en åtgärd från menyn massåtgärder och klicka på verkställ."
+
+#: admin/class-meta-box-content-permissions.php:211
+#: admin/class-meta-box-content-permissions.php:327
+msgid "Limit access to the content to users of the selected roles."
+msgstr "Begränsa åtkomst till innehållet till användare med de valda rollerna."
+
+#: admin/functions-help.php:109
+msgid "This screen allows you to edit an individual role and its capabilities."
+msgstr "På denna sida kan du redigera en enskild roll och dess behörigheter."
+
+#: admin/functions-help.php:130
+msgid "The role name field allows you to enter a human-readable name for your role."
+msgstr "I fältet för rollnamn kan du ange ett läsbart namn på din roll."
+
+#: admin/class-roles.php:228
+msgid "Available Actions"
+msgstr "Tillgängliga åtgärder"
+
+#: admin/class-roles.php:274
+msgid "You can hide/display columns based on your needs and decide how many roles to list per screen using the Screen Options tab."
+msgstr "Du kan gömma/visa kolumner efter behov genom att välja hur många roller du vill visa per sida under fliken Panelinställningar."
+
+#: admin/views/class-view-general.php:419
+msgid "The private site feature redirects all users who are not logged into the site to the login page, creating an entirely private site. You may also replace your feed content with a custom error message."
+msgstr "Funktionen Privata sidor omdirigerar alla utloggade användare till inloggningssidan och skapar en helt privat webbplats. Du kan också ersätta innehållet i ditt webbflöde med ett anpassat felmeddelande."
+
+#: admin/functions-help.php:134
+msgid "The machine-readable version of the role appears below the name field, which you can edit. This can only have lowercase letters, numbers, or underscores."
+msgstr "En redigerbar, maskinläsbar version av rollens namn visas nedanför namnfältet. Det maskinläsbara namnet kan bara innehålla små bokstäver, siffror eller understreck."
+
+#: admin/functions-help.php:148
+msgid "The capabilities edit box is made up of tabs that separate capabilities into groups. You may take the following actions for each capability:"
+msgstr "Sidan där du kan redigera behörigheter består av flikar där behörigheterna är indelade i grupper. Du kan genomföra följande åtgärder för varje behörighet:"
+
+#: admin/class-meta-box-content-permissions.php:231
+#: admin/class-meta-box-content-permissions.php:347
+msgid "If no roles are selected, everyone can view the content. The author, any users who can edit the content, and users with the %s capability can view the content regardless of role."
+msgstr "Om du inte väljer någon roll så kan alla se innehållet. Författaren, alla användare som kan redigera innehållet och användare med behörigheten %s kan se innehållet oavsett roll."
+
+#: admin/class-roles.php:256
+msgid "This screen provides access to all of your user roles. Roles are a method of grouping users. They are made up of capabilities (caps), which give permission to users to perform specific actions on the site."
+msgstr "Denna sida ger dig åtkomst till alla dina användarroller. Roller är ett sätt att gruppera användare. De består av behörigheter, som ger användarna behörighet att genomföra specifika åtgärder på webbplatsen."
+
+#: admin/views/class-view-general.php:373
+msgid "Tick the checkbox for denied capabilities to always take precedence over granted capabilities when there is a conflict. This is only relevant when using multiple roles per user."
+msgstr "Markera kryssrutan för nekade behörigheter för att alltid ha företräde över tillåtna behörigheter när konflikter uppstår. Detta är endast relevant när du använder flera roller per användare."
+
+#: admin/views/class-view-general.php:391
+msgid "The content permissions features adds a meta box to the edit post screen that allows you to grant permissions for who can read the post content based on the user's role. Only users of roles with the %s capability will be able to use this component."
+msgstr "Funktionerna för innehållsbehörighet lägger till en metaruta på redigeringsskärmen som tillåter dig att bevilja behörigheter för vem som kan läsa inläggets innehåll baserat på användarens roll. Endast användare av roller med %s kapacitet kommer att kunna använda denna komponent."
+
+#: inc/class-widget-login.php:209 inc/class-widget-users.php:208
+msgid "Title:"
+msgstr "Rubrik:"
+
+#: inc/functions-cap-groups.php:130
+msgid "Custom"
+msgstr "Anpassad"
+
+#: admin/class-roles.php:219
+msgid "Screen Content"
+msgstr "Skärminnehåll"
+
+#: admin/class-role-list-table.php:359 admin/class-role-list-table.php:508
+msgid "Delete"
+msgstr "Ta bort"
