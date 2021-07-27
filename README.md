@@ -225,8 +225,10 @@
   <li>Create a folder named src and inside a file named index.js</li>
   <li>In package.json, write inside the scripts: "build": "wp-scripts build",
     "start": "wp-scripts start" (start will watch all changings.. npm run start)</li>
-  <li></li>
-  <li></li>
 </ul>
 
 
+### In console I can write this
+
+<code>wp.data.select("core/block-editor").getBlocks()</code>
+<p>And wordpress will give all blocks information</p>
